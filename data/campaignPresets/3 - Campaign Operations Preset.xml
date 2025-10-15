@@ -474,7 +474,7 @@
         <payForUnits>true</payForUnits>
         <payForSalaries>true</payForSalaries>
         <payForOverhead>false</payForOverhead>
-        <payForMaintain>true</payForMaintain>
+        <payForMaintain>false</payForMaintain>
         <payForTransport>true</payForTransport>
         <sellUnits>true</sellUnits>
         <sellParts>true</sellParts>
