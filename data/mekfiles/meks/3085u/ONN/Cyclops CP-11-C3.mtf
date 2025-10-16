@@ -22,7 +22,7 @@ mul id:777
 Config:Biped
 TechBase:Inner Sphere
 Era:3077
-source:TRO: 3085
+source:TR:3085
 Rules Level:4
 role:Brawler
 
