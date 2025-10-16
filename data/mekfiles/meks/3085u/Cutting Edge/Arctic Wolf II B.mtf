@@ -22,7 +22,7 @@ mul id:105
 Config:Biped Omnimech
 TechBase:Clan
 Era:3085
-source:TRO: 3085
+source:TR:3085
 Rules Level:2
 role:Striker
 

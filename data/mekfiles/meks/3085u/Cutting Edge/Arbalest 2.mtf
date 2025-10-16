@@ -22,7 +22,7 @@ mul id:60
 Config:Biped
 TechBase:Clan
 Era:3079
-source:TRO: 3085
+source:TR:3085
 Rules Level:2
 role:Missile Boat
 
