@@ -22,7 +22,7 @@ mul id:65
 Config:Biped Omnimech
 techbase:Inner Sphere
 era:3069
-source:TRO: 3075
+source:TR:3075
 rules level:2
 role:Sniper
 
