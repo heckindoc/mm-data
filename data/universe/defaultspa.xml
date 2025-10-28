@@ -22,6 +22,7 @@
     <ability>
         <lookupName>env_specialist</lookupName>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq>
             <skill>Gunnery/Mek::Regular</skill>
@@ -44,6 +45,7 @@
     <ability>
         <lookupName>animal_mimic</lookupName>
         <xpCost>50</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq>
             <skill>Gunnery/ProtoMek::Regular</skill>
@@ -53,6 +55,7 @@
     <ability>
         <lookupName>dodge_maneuver</lookupName>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq>
             <skill>Gunnery/ProtoMek::Regular</skill>
@@ -62,6 +65,7 @@
     <ability>
         <lookupName>hot_dog</lookupName>
         <xpCost>50</xpCost>
+        <originOnly>false</originOnly>
         <weight>2</weight>
         <skillPrereq>
             <skill>Piloting/Aerospace::Regular</skill>
@@ -71,6 +75,7 @@
     <ability>
         <lookupName>hopping_jack</lookupName>
         <xpCost>50</xpCost>
+        <originOnly>false</originOnly>
         <weight>3</weight>
         <invalidAbilities>jumping_jack</invalidAbilities>
         <skillPrereq>
@@ -81,6 +86,7 @@
     <ability>
         <lookupName>jumping_jack</lookupName>
         <xpCost>150</xpCost>
+        <originOnly>false</originOnly>
         <!-- the extra weight on this one helps increase its likelihood if hopping jack was already selected -->
         <weight>6</weight>
         <skillPrereq>
@@ -91,6 +97,7 @@
     <ability>
         <lookupName>maneuvering_ace</lookupName>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>3</weight>
         <skillPrereq>
             <skill>Piloting/Aerospace::Regular</skill>
@@ -106,6 +113,7 @@
     <ability>
         <lookupName>melee_specialist</lookupName>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>3</weight>
         <skillPrereq>
             <skill>Gunnery/ProtoMek::Regular</skill>
@@ -115,6 +123,7 @@
     <ability>
         <lookupName>melee_master</lookupName>
         <xpCost>150</xpCost>
+        <originOnly>false</originOnly>
         <weight>6</weight>
         <prereqAbilities>melee_specialist</prereqAbilities>
         <invalidAbilities>zweihander</invalidAbilities>
@@ -126,6 +135,7 @@
     <ability>
         <lookupName>zweihander</lookupName>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>6</weight>
         <prereqAbilities>melee_specialist</prereqAbilities>
         <invalidAbilities>melee_master</invalidAbilities>
@@ -136,6 +146,7 @@
     <ability>
         <lookupName>shaky_stick</lookupName>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>3</weight>
         <skillPrereq>
             <skill>Piloting/Aerospace::Regular</skill>
@@ -148,6 +159,7 @@
     <ability>
         <lookupName>tm_forest_ranger</lookupName>
         <xpCost>150</xpCost>
+        <originOnly>false</originOnly>
         <weight>3</weight>
         <skillPrereq>
             <skill>Anti-Mek::Veteran</skill>
@@ -159,6 +171,7 @@
     <ability>
         <lookupName>tm_frogman</lookupName>
         <xpCost>150</xpCost>
+        <originOnly>false</originOnly>
         <weight>3</weight>
         <skillPrereq>
             <skill>Gunnery/ProtoMek::Veteran</skill>
@@ -168,6 +181,7 @@
     <ability>
         <lookupName>tm_mountaineer</lookupName>
         <xpCost>150</xpCost>
+        <originOnly>false</originOnly>
         <weight>3</weight>
         <skillPrereq>
             <skill>Anti-Mek::Veteran</skill>
@@ -179,6 +193,7 @@
     <ability>
         <lookupName>tm_swamp_beast</lookupName>
         <xpCost>150</xpCost>
+        <originOnly>false</originOnly>
         <weight>3</weight>
         <skillPrereq>
             <skill>Anti-Mek::Veteran</skill>
@@ -190,6 +205,7 @@
     <ability>
         <lookupName>tm_nightwalker</lookupName>
         <xpCost>150</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq>
             <skill>Anti-Mek::Veteran</skill>
@@ -201,6 +217,7 @@
     <ability>
         <lookupName>cross_country</lookupName>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq>
             <skill>Piloting/Ground Vehicle::Regular</skill>
@@ -209,6 +226,7 @@
     <ability>
         <lookupName>aptitude_piloting</lookupName>
         <xpCost>500</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq>
             <skill>Piloting/Aerospace::Veteran</skill>
@@ -226,6 +244,7 @@
     <!--     <ability> -->
     <!--         <lookupName>gunnery_ballistic</lookupName> -->
     <!--         <xpCost>100</xpCost> -->
+    <!--         <originOnly>false</originOnly> -->
     <!--         <weight>1</weight> -->
     <!--         <invalidAbilities>weapon_specialist::specialist</invalidAbilities> -->
     <!--         <skillPrereq> -->
@@ -241,6 +260,7 @@
     <!--     <ability> -->
     <!--         <lookupName>gunnery_missile</lookupName> -->
     <!--         <xpCost>100</xpCost> -->
+    <!--         <originOnly>false</originOnly> -->
     <!--         <weight>1</weight> -->
     <!--         <invalidAbilities>weapon_specialist::specialist</invalidAbilities> -->
     <!--         <skillPrereq> -->
@@ -256,6 +276,7 @@
     <!--     <ability> -->
     <!--         <lookupName>gunnery_laser</lookupName> -->
     <!--         <xpCost>100</xpCost> -->
+    <!--         <originOnly>false</originOnly> -->
     <!--         <weight>1</weight> -->
     <!--         <invalidAbilities>weapon_specialist::specialist</invalidAbilities> -->
     <!--         <skillPrereq> -->
@@ -271,6 +292,7 @@
     <ability>
         <lookupName>cluster_hitter</lookupName>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>3</weight>
         <invalidAbilities>oblique_attacker::sandblaster</invalidAbilities>
         <skillPrereq>
@@ -286,6 +308,7 @@
     <ability>
         <lookupName>cluster_master</lookupName>
         <xpCost>50</xpCost>
+        <originOnly>false</originOnly>
         <weight>6</weight>
         <prereqAbilities>cluster_hitter</prereqAbilities>
         <removeAbilities>cluster_hitter</removeAbilities>
@@ -302,6 +325,7 @@
     <ability>
         <lookupName>golden_goose</lookupName>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>3</weight>
         <skillPrereq>
             <skill>Piloting/Aerospace::Veteran</skill>
@@ -313,6 +337,7 @@
     <ability>
         <lookupName>multi_tasker</lookupName>
         <xpCost>50</xpCost>
+        <originOnly>false</originOnly>
         <weight>2</weight>
         <skillPrereq>
             <skill>Gunnery/Mek::Regular</skill>
@@ -327,6 +352,7 @@
     <ability>
         <lookupName>oblique_attacker</lookupName>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>3</weight>
         <invalidAbilities>oblique_attacker::sandblaster</invalidAbilities>
         <skillPrereq>
@@ -342,6 +368,7 @@
     <ability>
         <lookupName>oblique_artillery</lookupName>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>2</weight>
         <skillPrereq>
             <skill>Gunnery/Mek::Regular</skill>
@@ -357,6 +384,7 @@
     <ability>
         <lookupName>range_master</lookupName>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>3</weight>
         <skillPrereq>
             <skill>Gunnery/Mek::Regular</skill>
@@ -371,6 +399,7 @@
     <ability>
         <lookupName>sniper</lookupName>
         <xpCost>150</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq>
             <skill>Gunnery/Mek::Veteran</skill>
@@ -385,6 +414,7 @@
     <ability>
         <lookupName>sandblaster</lookupName>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>3</weight>
         <invalidAbilities>cluster_hitter::cluster_master</invalidAbilities>
         <skillPrereq>
@@ -400,6 +430,7 @@
     <ability>
         <lookupName>specialist</lookupName>
         <xpCost>50</xpCost>
+        <originOnly>false</originOnly>
         <weight>4</weight>
         <invalidAbilities>weapon_specialist</invalidAbilities>
         <skillPrereq>
@@ -415,6 +446,7 @@
     <ability>
         <lookupName>weapon_specialist</lookupName>
         <xpCost>50</xpCost>
+        <originOnly>false</originOnly>
         <weight>4</weight>
         <skillPrereq>
             <skill>Gunnery/Mek::Green</skill>
@@ -429,6 +461,7 @@
     <ability>
         <lookupName>aptitude_gunnery</lookupName>
         <xpCost>500</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq>
             <skill>Gunnery/Mek::Veteran</skill>
@@ -443,6 +476,7 @@
     <ability>
         <lookupName>some_like_it_hot</lookupName>
         <xpCost>50</xpCost>
+        <originOnly>false</originOnly>
         <weight>2</weight>
         <skillPrereq>
             <skill>Gunnery/Mek::Regular</skill>
@@ -452,6 +486,7 @@
     <ability>
         <lookupName>weapon_specialist</lookupName>
         <xpCost>150</xpCost>
+        <originOnly>false</originOnly>
         <weight>2</weight>
         <invalidAbilities>specialist</invalidAbilities>
         <skillPrereq>
@@ -467,6 +502,7 @@
     <ability>
         <lookupName>blood_stalker</lookupName>
         <xpCost>120</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq>
             <skill>Gunnery/Mek::Regular</skill>
@@ -485,6 +521,7 @@
         <displayName>Houdini (Unofficial)</displayName>
         <desc><![CDATA[Decreases the Target Number for all Escape Artist checks by 2.]]></desc>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
     </ability>
     <ability>
@@ -492,6 +529,7 @@
         <displayName>Master Impersonator (Unofficial)</displayName>
         <desc><![CDATA[Decreases the Target Number for all Disguise checks by 2.]]></desc>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
     </ability>
     <ability>
@@ -499,6 +537,7 @@
         <displayName>Counterfeiter (Unofficial)</displayName>
         <desc><![CDATA[Decreases the Target Number for all Forgery checks by 2.]]></desc>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
     </ability>
     <ability>
@@ -506,6 +545,7 @@
         <displayName>Pick Pocket (Unofficial)</displayName>
         <desc><![CDATA[Decreases the Target Number for all Sleight of Hand checks by 2.]]></desc>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
     </ability>
     <ability>
@@ -513,6 +553,7 @@
         <displayName>Natural Thespian (Unofficial)</displayName>
         <desc><![CDATA[Decreases the Target Number for all Acting checks by 2.]]></desc>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
     </ability>
     <ability>
@@ -520,6 +561,7 @@
         <displayName>In For Life (ATOW)</displayName>
         <desc><![CDATA[Roleplay only (for now)]]></desc>
         <xpCost>-300</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
     </ability>
     <ability>
@@ -527,6 +569,7 @@
         <displayName>G-Tolerance (ATOW)</displayName>
         <desc><![CDATA[Roleplay only (for now)]]></desc>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
     </ability>
     <ability>
@@ -536,6 +579,7 @@
 
 If this character is the senior-most Admin/Transport character, the cost of interstellar travel is reduced by 15%]]></desc>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq>
             <skill>Administration::Veteran</skill>
@@ -548,6 +592,7 @@ If this character is the senior-most Admin/Transport character, the cost of inte
 
 If this character is the senior-most Admin/Command character, the number of contracts offered each month is increased by 1 (may still be 0).]]></desc>
         <xpCost>400</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq>
             <skill>Administration::Elite</skill>
@@ -560,6 +605,7 @@ If this character is the senior-most Admin/Command character, the number of cont
 
 The campaign's cargo capacity is increased by 5% per character with this SPA.]]></desc>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq>
             <skill>Administration::Regular</skill>
@@ -572,6 +618,7 @@ The campaign's cargo capacity is increased by 5% per character with this SPA.]]>
 
 If this character is the senior Admin/Command character, the reinforcement target number is reduced by 1.]]></desc>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq>
             <skill>Administration::Veteran</skill>
@@ -584,6 +631,7 @@ If this character is the senior Admin/Command character, the reinforcement targe
 
 Parts procured by this character have their delivery time reduced by 10%]]></desc>
         <xpCost>50</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq>
             <skill>Administration::Veteran</skill>
@@ -596,6 +644,7 @@ Parts procured by this character have their delivery time reduced by 10%]]></des
 
 This character's Administration skill is increased by 1 when calculating the campaign's Admin Capacity.]]></desc>
         <xpCost>50</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq>
             <skill>Administration::Regular</skill>
@@ -608,6 +657,7 @@ This character's Administration skill is increased by 1 when calculating the cam
 
 They can make one additional procurement attempt per day.]]></desc>
         <xpCost>200</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq>
             <skill>Administration::Elite</skill>
@@ -622,6 +672,7 @@ This SPA reduces the penalty from low Reputation by 2 and reduces the chance of 
 
 While this SPA does exist in ATOW (and that's where you'll find its description), these effects are unique to MekHQ.]]></desc>
         <xpCost>200</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -634,6 +685,7 @@ Increases Connections by 1.
 
 While this SPA does exist in ATOW, the Connections modifier is unique to MekHQ. We use that to abstract the kinds of bonuses this SPA would incur in a tabletop game.]]></desc>
         <xpCost>200</xpCost>
+        <originOnly>true</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -642,6 +694,7 @@ While this SPA does exist in ATOW, the Connections modifier is unique to MekHQ. 
         <displayName>Animal Antipathy (ATOW)</displayName>
         <desc><![CDATA[Increases the Target Number for all Animal Handling checks by 2.]]></desc>
         <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
         <removeAbilities>atow_animal_empathy</removeAbilities>
@@ -651,6 +704,7 @@ While this SPA does exist in ATOW, the Connections modifier is unique to MekHQ. 
         <displayName>Animal Empathy (ATOW)</displayName>
         <desc><![CDATA[Decreases the Target Number for all Animal Handling checks by 2.]]></desc>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
         <removeAbilities>flaw_animal_antipathy</removeAbilities>
@@ -660,6 +714,7 @@ While this SPA does exist in ATOW, the Connections modifier is unique to MekHQ. 
         <displayName>Ambidextrous (ATOW)</displayName>
         <desc><![CDATA[Removes the penalties from a single missing arm or hand (Advanced Medical only).]]></desc>
         <xpCost>200</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -668,6 +723,7 @@ While this SPA does exist in ATOW, the Connections modifier is unique to MekHQ. 
         <displayName>Unattractive (ATOW)</displayName>
         <desc><![CDATA[Increases the target number of all Charisma-based skills by 2.]]></desc>
         <xpCost>-200</xpCost>
+        <originOnly>true</originOnly>
         <weight>1</weight>
         <skillPrereq />
         <removeAbilities>atow_attractive</removeAbilities>
@@ -677,6 +733,7 @@ While this SPA does exist in ATOW, the Connections modifier is unique to MekHQ. 
         <displayName>Attractive (ATOW)</displayName>
         <desc><![CDATA[Decreases the target number of all Charisma-based skills by 2.]]></desc>
         <xpCost>200</xpCost>
+        <originOnly>true</originOnly>
         <weight>1</weight>
         <skillPrereq />
         <removeAbilities>flaw_unattractive</removeAbilities>
@@ -686,6 +743,7 @@ While this SPA does exist in ATOW, the Connections modifier is unique to MekHQ. 
         <displayName>Unfit (Unofficial)</displayName>
         <desc><![CDATA[Doubles all Fatigue gain.]]></desc>
         <xpCost>-200</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
         <removeAbilities>atow_fit</removeAbilities>
@@ -695,6 +753,7 @@ While this SPA does exist in ATOW, the Connections modifier is unique to MekHQ. 
         <displayName>Fit (ATOW)</displayName>
         <desc><![CDATA[Half all Fatigue gained (rounding down).]]></desc>
         <xpCost>200</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
         <removeAbilities>flaw_unfit</removeAbilities>
@@ -704,6 +763,7 @@ While this SPA does exist in ATOW, the Connections modifier is unique to MekHQ. 
         <displayName>Poor Hearing (ATOW)</displayName>
         <desc><![CDATA[The Target Number of all Perception checks is increased by 1.]]></desc>
         <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
         <removeAbilities>atow_good_hearing</removeAbilities>
@@ -713,6 +773,7 @@ While this SPA does exist in ATOW, the Connections modifier is unique to MekHQ. 
         <displayName>Good Hearing (ATOW)</displayName>
         <desc><![CDATA[The Target Number of all Perception checks is decreased by 1.]]></desc>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
         <removeAbilities>flaw_poor_hearing</removeAbilities>
@@ -722,6 +783,7 @@ While this SPA does exist in ATOW, the Connections modifier is unique to MekHQ. 
         <displayName>Poor Vision (ATOW)</displayName>
         <desc><![CDATA[The Target Number of all Perception checks is increased by 1.]]></desc>
         <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
         <removeAbilities>atow_good_vision</removeAbilities>
@@ -731,6 +793,7 @@ While this SPA does exist in ATOW, the Connections modifier is unique to MekHQ. 
         <displayName>Good Vision (ATOW)</displayName>
         <desc><![CDATA[The Target Number of all Perception checks is decreased by 1.]]></desc>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
         <removeAbilities>flaw_poor_vision</removeAbilities>
@@ -740,6 +803,7 @@ While this SPA does exist in ATOW, the Connections modifier is unique to MekHQ. 
         <displayName>Introvert (ATOW)</displayName>
         <desc><![CDATA[The Target Number of all Acting and Negotiation checks are increased by 1.]]></desc>
         <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
         <removeAbilities>atow_gregarious</removeAbilities>
@@ -749,6 +813,7 @@ While this SPA does exist in ATOW, the Connections modifier is unique to MekHQ. 
         <displayName>Gregarious (ATOW)</displayName>
         <desc><![CDATA[The Target Number of all Acting and Negotiation checks are decreased by 1.]]></desc>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
         <removeAbilities>flaw_introvert</removeAbilities>
@@ -758,6 +823,7 @@ While this SPA does exist in ATOW, the Connections modifier is unique to MekHQ. 
         <displayName>Impatient (ATOW)</displayName>
         <desc><![CDATA[The Target Number of Art/Any, Cryptography, Demolitions, Investigation, Protocols, Security Systems/Any, Strategy, Tactics and Training checks is increased by 1.]]></desc>
         <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
         <removeAbilities>atow_patient</removeAbilities>
@@ -767,6 +833,7 @@ While this SPA does exist in ATOW, the Connections modifier is unique to MekHQ. 
         <displayName>Patient (ATOW:Companion)</displayName>
         <desc><![CDATA[The Target Number of Art/Any, Cryptography, Demolitions, Investigation, Protocols, Security Systems/Any, Strategy, Tactics and Training checks is decreased by 1.]]></desc>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
         <removeAbilities>flaw_impatient</removeAbilities>
@@ -780,6 +847,7 @@ They increase the Target Number of Piloting and Gunnery checks by 1 for 48 hours
 
 They also gain Fatigue based on the campaign options fatigue rate (default 1).]]></desc>
         <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -790,6 +858,7 @@ They also gain Fatigue based on the campaign options fatigue rate (default 1).]]
 
 Increases the target number of all Charisma-based skills by 2 due to inhumanly shaped bulk.]]></desc>
         <xpCost>300</xpCost>
+        <originOnly>true</originOnly>
         <weight>1</weight>
         <skillPrereq />
         <invalidAbilities>flaw_unattractive</invalidAbilities>
@@ -799,6 +868,7 @@ Increases the target number of all Charisma-based skills by 2 due to inhumanly s
         <displayName>Exceptional Immune System (ATOW:Companion)</displayName>
         <desc><![CDATA[Recover from injuries at twice the normal rate (Advanced Medical only).]]></desc>
         <xpCost>200</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -807,6 +877,7 @@ Increases the target number of all Charisma-based skills by 2 due to inhumanly s
         <displayName>Exotic Yet Pleasing Appearance (ATOW:Companion)</displayName>
         <desc><![CDATA[Increases Charisma Attribute by 1 (may not take it above 10).]]></desc>
         <xpCost>100</xpCost>
+        <originOnly>true</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -815,6 +886,7 @@ Increases the target number of all Charisma-based skills by 2 due to inhumanly s
         <displayName>Extremely Excess Facial Hair (ATOW:Companion)</displayName>
         <desc><![CDATA[Decreases Charisma Attribute by 1 (may not take it below 1).]]></desc>
         <xpCost>-100</xpCost>
+        <originOnly>true</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -823,6 +895,7 @@ Increases the target number of all Charisma-based skills by 2 due to inhumanly s
         <displayName>Serious Disfigurement (ATOW:Companion)</displayName>
         <desc><![CDATA[Decreases Charisma Attribute by 3 (may not take it below 1).]]></desc>
         <xpCost>-400</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -833,6 +906,7 @@ Increases the target number of all Charisma-based skills by 2 due to inhumanly s
 
 The Target Number of all Perception checks decreased by 1 due to improved hearing.]]></desc>
         <xpCost>-300</xpCost>
+        <originOnly>true</originOnly>
         <weight>1</weight>
         <skillPrereq />
         <invalidAbilities>mutation_cat_girl_unofficial</invalidAbilities>
@@ -844,6 +918,7 @@ The Target Number of all Perception checks decreased by 1 due to improved hearin
 
 The Target Number of all Perception checks decreased by 1 due to improved hearing.]]></desc>
         <xpCost>200</xpCost>
+        <originOnly>true</originOnly>
         <weight>1</weight>
         <skillPrereq />
         <invalidAbilities>mutation_cat_girl</invalidAbilities>
@@ -855,6 +930,7 @@ The Target Number of all Perception checks decreased by 1 due to improved hearin
 
 Furthermore, the Target Number of checks made with such skills is increased by 1.]]></desc>
         <xpCost>-300</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
         <removeAbilities>atow_tech_empathy</removeAbilities>
@@ -866,6 +942,7 @@ Furthermore, the Target Number of checks made with such skills is increased by 1
 
 Furthermore, the Target Number of checks made with such skills is decreased by 1.]]></desc>
         <xpCost>300</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
         <removeAbilities>flaw_gremlins</removeAbilities>
@@ -877,6 +954,7 @@ Furthermore, the Target Number of checks made with such skills is decreased by 1
 
 Mechanically, this offers few benefits; however, the character will be completely immune to the Fatigue gain from the 'Poisoning' Prisoner Event.]]></desc>
         <xpCost>200</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -885,6 +963,7 @@ Mechanically, this offers few benefits; however, the character will be completel
         <displayName>Sixth Sense (ATOW)</displayName>
         <desc><![CDATA[The Target Number of all Perception checks are decreased by 3.]]></desc>
         <xpCost>400</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -893,6 +972,7 @@ Mechanically, this offers few benefits; however, the character will be completel
         <displayName>Glass Jaw (ATOW)</displayName>
         <desc><![CDATA[All injuries suffered and fatigue gained is doubled. Fatigue gain from sustaining injuries is not doubled.]]></desc>
         <xpCost>-300</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
         <removeAbilities>atow_toughness</removeAbilities>
@@ -902,6 +982,7 @@ Mechanically, this offers few benefits; however, the character will be completel
         <displayName>Toughness (ATOW)</displayName>
         <desc><![CDATA[All injuries suffered are reduced by 25% and Fatigue gain is halved. Fatigue gain from sustaining injuries is not halved.]]></desc>
         <xpCost>300</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
         <removeAbilities>flaw_glass_jaw</removeAbilities>
@@ -913,6 +994,7 @@ Mechanically, this offers few benefits; however, the character will be completel
 
 If XP adjustments from a high or low Reasoning are enabled, those adjustments are additive. So a 20% increase from this SPA and a 5% decrease from Reasoning would equal a 15% increase.]]></desc>
         <xpCost>-300</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
         <removeAbilities>atow_fast_learner</removeAbilities>
@@ -924,6 +1006,7 @@ If XP adjustments from a high or low Reasoning are enabled, those adjustments ar
 
 If XP adjustments from a high or low Reasoning are enabled, those adjustments are additive. So a 20% decrease from this SPA and a 5% increase from Reasoning would equal a 15% decrease.]]></desc>
         <xpCost>300</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
         <removeAbilities>flaw_slow_learner</removeAbilities>
@@ -935,6 +1018,7 @@ If XP adjustments from a high or low Reasoning are enabled, those adjustments ar
 
 This SPA increases that maximum by 1, but does not increase the Attribute itself.]]></desc>
         <xpCost>200</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -945,6 +1029,7 @@ This SPA increases that maximum by 1, but does not increase the Attribute itself
 
 This SPA increases that maximum by 1, but does not increase the Attribute itself.]]></desc>
         <xpCost>200</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -955,6 +1040,7 @@ This SPA increases that maximum by 1, but does not increase the Attribute itself
 
 This SPA increases that maximum by 1, but does not increase the Attribute itself.]]></desc>
         <xpCost>200</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -965,6 +1051,7 @@ This SPA increases that maximum by 1, but does not increase the Attribute itself
 
 This SPA increases that maximum by 1, but does not increase the Attribute itself.]]></desc>
         <xpCost>200</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -975,6 +1062,7 @@ This SPA increases that maximum by 1, but does not increase the Attribute itself
 
 This SPA increases that maximum by 1, but does not increase the Attribute itself.]]></desc>
         <xpCost>200</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -985,6 +1073,7 @@ This SPA increases that maximum by 1, but does not increase the Attribute itself
 
 This SPA increases that maximum by 1, but does not increase the Attribute itself.]]></desc>
         <xpCost>200</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -995,6 +1084,7 @@ This SPA increases that maximum by 1, but does not increase the Attribute itself
 
 This SPA increases that maximum by 1, but does not increase the Attribute itself.]]></desc>
         <xpCost>200</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -1003,12 +1093,14 @@ This SPA increases that maximum by 1, but does not increase the Attribute itself
         <displayName>Exceptional Attribute - Edge (ATOW)</displayName>
         <desc><![CDATA[Roleplay only (for now)]]></desc>
         <xpCost>200</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
     <ability>
         <lookupName>eagle_eyes</lookupName>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>2</weight>
         <skillPrereq>
             <skill>Gunnery/Mek::Regular</skill>
@@ -1031,6 +1123,7 @@ This SPA increases that maximum by 1, but does not increase the Attribute itself
     <ability>
         <lookupName>forward_observer</lookupName>
         <xpCost>150</xpCost>
+        <originOnly>false</originOnly>
         <weight>3</weight>
         <skillPrereq>
             <skill>Gunnery/Mek::Regular</skill>
@@ -1053,6 +1146,7 @@ This SPA increases that maximum by 1, but does not increase the Attribute itself
     <ability>
         <lookupName>human_tro</lookupName>
         <xpCost>50</xpCost>
+        <originOnly>false</originOnly>
         <weight>2</weight>
         <skillPrereq>
             <skill>Gunnery/Mek::Regular</skill>
@@ -1075,6 +1169,7 @@ This SPA increases that maximum by 1, but does not increase the Attribute itself
     <ability>
         <lookupName>atow_combat_paralysis</lookupName>
         <xpCost>-400</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <desc><![CDATA[Unit Reputation is decreased by 1 if this character is the campaign commander.
 
@@ -1087,6 +1182,7 @@ If individual initiative is enabled, this penalty applies only to the pilot's un
     <ability>
         <lookupName>atow_combat_sense</lookupName>
         <xpCost>400</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <desc><![CDATA[Unit Reputation is increased by 1 if this character is the campaign commander.
 
@@ -1115,6 +1211,7 @@ If individual initiative is enabled, this bonus applies only to the pilot's unit
     <ability>
         <lookupName>tactical_genius</lookupName>
         <xpCost>150</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq>
             <skill>Gunnery/Mek::Veteran</skill>
@@ -1137,6 +1234,7 @@ If individual initiative is enabled, this bonus applies only to the pilot's unit
     <ability>
         <lookupName>allweather</lookupName>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>2</weight>
         <skillPrereq>
             <skill>Piloting/Aerospace::Regular</skill>
@@ -1151,6 +1249,7 @@ If individual initiative is enabled, this bonus applies only to the pilot's unit
     <ability>
         <lookupName>sensor_geek</lookupName>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>2</weight>
         <skillPrereq>
             <skill>Piloting/Aerospace::Green</skill>
@@ -1166,6 +1265,7 @@ If individual initiative is enabled, this bonus applies only to the pilot's unit
     <ability>
         <lookupName>weathered</lookupName>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>2</weight>
         <skillPrereq>
             <skill>Gunnery/Mek::Regular</skill>
@@ -1180,6 +1280,7 @@ If individual initiative is enabled, this bonus applies only to the pilot's unit
     <ability>
         <lookupName>blind_fighter</lookupName>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>2</weight>
         <skillPrereq>
             <skill>Gunnery/Mek::Regular</skill>
@@ -1194,6 +1295,7 @@ If individual initiative is enabled, this bonus applies only to the pilot's unit
         <displayName>Iron Man (Unofficial)</displayName>
         <lookupName>iron_man</lookupName>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
     </ability>
 
@@ -1201,6 +1303,7 @@ If individual initiative is enabled, this bonus applies only to the pilot's unit
     <ability>
         <lookupName>foot_cav</lookupName>
         <xpCost>50</xpCost>
+        <originOnly>false</originOnly>
         <weight>3</weight>
         <skillPrereq>
             <skill>Small Arms::Regular</skill>
@@ -1209,6 +1312,7 @@ If individual initiative is enabled, this bonus applies only to the pilot's unit
     <ability>
         <lookupName>urban_guerrilla</lookupName>
         <xpCost>50</xpCost>
+        <originOnly>false</originOnly>
         <weight>3</weight>
         <skillPrereq>
             <skill>Small Arms::Regular</skill>
@@ -1222,6 +1326,7 @@ If individual initiative is enabled, this bonus applies only to the pilot's unit
         <displayName>Tech Specialist, Weapon (Unofficial)</displayName>
         <desc><![CDATA[-1 to repair and maintenance checks when working with weapons.]]></desc>
         <xpCost>50</xpCost>
+        <originOnly>false</originOnly>
         <weight>2</weight>
         <skillPrereq>
             <skill>Tech/Vessel::Regular</skill>
@@ -1236,6 +1341,7 @@ If individual initiative is enabled, this bonus applies only to the pilot's unit
         <displayName>Tech Specialist, Armor (Unofficial)</displayName>
         <desc><![CDATA[-1 to repair and maintenance checks when working with armor.]]></desc>
         <xpCost>50</xpCost>
+        <originOnly>false</originOnly>
         <weight>2</weight>
         <skillPrereq>
             <skill>Tech/Vessel::Regular</skill>
@@ -1250,6 +1356,7 @@ If individual initiative is enabled, this bonus applies only to the pilot's unit
         <displayName>Tech Specialist, Internal (Unofficial)</displayName>
         <desc><![CDATA[-1 to repair and maintenance checks when working with internal systems]]></desc>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>2</weight>
         <skillPrereq>
             <skill>Tech/Vessel::Regular</skill>
@@ -1264,6 +1371,7 @@ If individual initiative is enabled, this bonus applies only to the pilot's unit
         <displayName>Engineer (Unofficial)</displayName>
         <desc><![CDATA[-2 on refit rolls.]]></desc>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>2</weight>
         <skillPrereq>
             <skill>Tech/Vessel::Veteran</skill>
@@ -1278,6 +1386,7 @@ If individual initiative is enabled, this bonus applies only to the pilot's unit
         <displayName>Mr/Ms Fix-it (Unofficial)</displayName>
         <desc><![CDATA[Ignore the first point of penalty for repair and maintenance on low quality equipment.]]></desc>
         <xpCost>50</xpCost>
+        <originOnly>false</originOnly>
         <weight>2</weight>
         <skillPrereq>
             <skill>Tech/Vessel::Regular</skill>
@@ -1292,6 +1401,7 @@ If individual initiative is enabled, this bonus applies only to the pilot's unit
         <displayName>Maintainer (Unofficial)</displayName>
         <desc><![CDATA[The tech is slow and methodical at their work. They take a +1 penalty to their repair rolls, but are better at maintaining units than most, with a -1 bonus.]]></desc>
         <xpCost>100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq>
             <skill>Tech/Vessel::Regular</skill>
@@ -1310,6 +1420,7 @@ This SPA represents ATOW compulsions such as arrogance and pride.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -1320,6 +1431,7 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -1330,6 +1442,7 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -1342,6 +1455,7 @@ This SPA reflects the ATOW compulsion 'Religious' and has been renamed so as not
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -1354,6 +1468,7 @@ This SPA reflects the ATOW compulsion 'Trauma'.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -1364,6 +1479,7 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -1372,6 +1488,7 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <displayName>Trivial Compulsion - Dislikes Other Factions (ATOW)</displayName>
         <desc><![CDATA[Roleplay only (for now)]]></desc>
         <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -1380,6 +1497,7 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <displayName>Trivial Compulsion - Dislikes Own Faction (ATOW)</displayName>
         <desc><![CDATA[Roleplay only (for now)]]></desc>
         <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -1388,6 +1506,7 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <displayName>Significant Compulsion - Hates the Inner Sphere (ATOW)</displayName>
         <desc><![CDATA[Roleplay only (for now)]]></desc>
         <xpCost>-200</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -1398,6 +1517,7 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
 
 If taken by an Inner Sphere character prior to the Clan Invasion, this SPA represents a fear of a mysterious threat from beyond the Periphery.]]></desc>
         <xpCost>-200</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -1408,6 +1528,7 @@ If taken by an Inner Sphere character prior to the Clan Invasion, this SPA repre
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -1418,6 +1539,7 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -1428,6 +1550,7 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-200</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -1436,6 +1559,7 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <displayName>Significant Compulsion - Hates Other Factions (ATOW)</displayName>
         <desc><![CDATA[Roleplay only (for now)]]></desc>
         <xpCost>-200</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -1444,6 +1568,7 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <displayName>Significant Compulsion - Hates Mercenaries (ATOW)</displayName>
         <desc><![CDATA[Roleplay only (for now)]]></desc>
         <xpCost>-200</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -1452,6 +1577,7 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <displayName>Significant Compulsion - Hates Pirates (ATOW)</displayName>
         <desc><![CDATA[Roleplay only (for now)]]></desc>
         <xpCost>-200</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -1460,6 +1586,7 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <displayName>Significant Compulsion - Hates Own Faction (ATOW)</displayName>
         <desc><![CDATA[Roleplay only (for now)]]></desc>
         <xpCost>-200</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -1468,6 +1595,7 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <displayName>Significant Compulsion - Hates Bionics (ATOW)</displayName>
         <desc><![CDATA[Roleplay only (for now)]]></desc>
         <xpCost>-200</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -1478,6 +1606,7 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-200</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -1488,6 +1617,7 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-200</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -1500,6 +1630,7 @@ If Advanced Medical is disabled, the character suffers a single Hit, instead of 
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-200</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -1512,6 +1643,7 @@ If Advanced Medical is disabled, the character suffers a single Hit, instead of 
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-300</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -1524,6 +1656,7 @@ If Advanced Medical is disabled, the character suffers a single Hit instead of t
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-300</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -1536,6 +1669,7 @@ Each week the character must pass a Willpower check (with a -4 penalty) or tempo
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-300</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -1548,18 +1682,20 @@ While the character's personality has switched, they temporarily lose all levels
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-300</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
     <ability>
         <lookupName>madness_catatonia</lookupName>
-        <displayName>Clinical Insanity- Catatonia (ATOW)</displayName>
+        <displayName>Clinical Insanity - Catatonia (ATOW)</displayName>
         <desc><![CDATA[Each week the character must pass a Willpower check (with a -10 penalty) or gain the Catatonia Injury (-20 Piloting, -20 Gunnery).
 
 If Advanced Medical is disabled the character gains a single Hit, instead of the Injury.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-500</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -1572,6 +1708,7 @@ If Advanced Medical is disabled the character suffers 1 Hit, instead of the Inju
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-400</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -1586,6 +1723,7 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-400</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -1598,6 +1736,7 @@ If Advanced Medical is disabled 1-2 Hits are inflicted, instead of Injuries.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-500</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -1612,6 +1751,7 @@ Once the characters' Dark Secret has been revealed, they permanently reduce thei
 
 A trivial Dark Secret represents a personal lapse or dishonorable act that could harm the character's reputation if revealed.]]></desc>
         <xpCost>-100</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <invalidAbilities>dark_secret_significant::dark_secret_major::dark_secret_severe::dark_secret_extreme</invalidAbilities>
         <skillPrereq />
@@ -1627,6 +1767,7 @@ Once the characters' Dark Secret has been revealed, they permanently reduce thei
 
 A significant Dark Secret represents a concealed wrongdoing that would damage key relationships or the character's career.]]></desc>
         <xpCost>-200</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <invalidAbilities>dark_secret_trivial::dark_secret_major::dark_secret_severe::dark_secret_extreme</invalidAbilities>
         <skillPrereq />
@@ -1642,6 +1783,7 @@ Once the characters' Dark Secret has been revealed, they permanently reduce thei
 
 A major Dark Secret represents a serious violation of law, duty, or trust that could lead to legal or social consequences.]]></desc>
         <xpCost>-300</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <invalidAbilities>dark_secret_trivial::dark_secret_significant::dark_secret_severe::dark_secret_extreme</invalidAbilities>
         <skillPrereq />
@@ -1657,6 +1799,7 @@ Once the characters' Dark Secret has been revealed, they permanently reduce thei
 
 A severe Dark Secret represents a morally or ethically damning secret that would provoke outrage or condemnation.]]></desc>
         <xpCost>-400</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <invalidAbilities>dark_secret_trivial::dark_secret_significant::dark_secret_major::dark_secret_extreme</invalidAbilities>
         <skillPrereq />
@@ -1672,6 +1815,7 @@ Once the characters' Dark Secret has been revealed, they permanently reduce thei
 
 An extreme Dark Secret represents a grave betrayal or atrocity that should lead to exile, imprisonment, or execution if exposed (not modeled in MekHQ).]]></desc>
         <xpCost>-500</xpCost>
+        <originOnly>false</originOnly>
         <weight>1</weight>
         <invalidAbilities>dark_secret_trivial::dark_secret_significant::dark_secret_major::dark_secret_severe</invalidAbilities>
         <skillPrereq />
@@ -1683,6 +1827,7 @@ An extreme Dark Secret represents a grave betrayal or atrocity that should lead 
 
 This penalty is removed once the character acquires level 4 in the Language/Any skill. Literacy status is updated daily, so may lag behind actual skill changes.]]></desc>
         <xpCost>-100</xpCost>
+        <originOnly>true</originOnly>
         <weight>1</weight>
         <skillPrereq />
     </ability>
@@ -1691,11 +1836,13 @@ This penalty is removed once the character acquires level 4 in the Language/Any 
     <ability>
         <lookupName>pain_resistance</lookupName>
         <xpCost>50</xpCost>
+        <originOnly>false</originOnly>
         <weight>2</weight>
     </ability>
     <ability>
         <lookupName>small_pilot</lookupName>
-        <xpCost>-1</xpCost>
+        <xpCost>100</xpCost>
+        <originOnly>true</originOnly>
         <weight>1</weight>
     </ability>
     <ability>
@@ -1707,6 +1854,7 @@ This SPA is also known as 'Clan Pilot Training' in MegaMek.
 
 While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-100</xpCost>
+        <originOnly>true</originOnly>
         <weight>0</weight>
     </ability>
 
@@ -1739,6 +1887,7 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <lookupName>tetris_master</lookupName>
         <displayName>Tetris Master</displayName>
         <xpCost>4</xpCost>
+        <originOnly>false</originOnly>
         <weight>2</weight>
         <skillPrereq>
             <skill>Administration</skill>
