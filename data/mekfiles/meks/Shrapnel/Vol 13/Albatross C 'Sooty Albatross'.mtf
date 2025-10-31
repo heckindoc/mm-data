@@ -16,12 +16,12 @@
 # affiliated with Microsoft.
 
 chassis:Albatross
-model:C 'Sooty Albatross' 
+model:C 'Sooty Albatross'
 mul id:9508
 Config:Biped
 techbase:Mixed (IS Chassis)
 era:3148
-source:Shrapnel #13
+source:Shrap13
 rules level:2
 
 

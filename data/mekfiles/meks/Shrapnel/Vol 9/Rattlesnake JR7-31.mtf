@@ -15,13 +15,13 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-chassis:Rattlesnake 
+chassis:Rattlesnake
 model:JR7-31
 
 Config:Biped
 techbase:Inner Sphere
 era:3042
-source:Shrapnel #9
+source:Shrap09
 rules level:2
 role:Striker
 mul id:9238

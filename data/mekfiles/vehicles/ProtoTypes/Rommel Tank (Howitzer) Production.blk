@@ -122,7 +122,7 @@ The Rommel tank is a 65-ton armored combat vehicle, specializing in close range 
 </overview>
 
 <deployment>
-The 3087 production model of the Rommel Howitzer replaces the XL engine with a standard fusion engine to reduce costs. This reduces the tank's top speed to 54 km/h. This version also carries a half-ton less of the Heavy Ferro-Fibrous armor, but the weapons systems remain the same as the prototype's. 
+The 3087 production model of the Rommel Howitzer replaces the XL engine with a standard fusion engine to reduce costs. This reduces the tank's top speed to 54 km/h. This version also carries a half-ton less of the Heavy Ferro-Fibrous armor, but the weapons systems remain the same as the prototype's.
 </deployment>
 
 <history>
@@ -145,7 +145,7 @@ TARGETING:TharHes Mars5
 </systemManufacturers>
 
 <source>
-TRO: Prototypes
+TR:Proto
 </source>
 
 <quirks>

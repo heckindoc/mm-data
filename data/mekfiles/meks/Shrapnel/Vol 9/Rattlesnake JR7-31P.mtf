@@ -21,7 +21,7 @@ model:JR7-31P
 Config:Biped
 techbase:Inner Sphere
 era:3043
-source:Shrapnel #9
+source:Shrap09
 rules level:2
 role:Striker
 mul id:9239

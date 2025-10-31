@@ -21,7 +21,7 @@ model:JR7-31R (Gideon)
 Config:Biped
 techbase:Mixed (IS Chassis)
 era:3084
-source:Shrapnel #9
+source:Shrap09
 rules level:2
 role:Striker
 mul id:9240

@@ -116,7 +116,7 @@ ISArtemisIV
 </Turret Equipment>
 
 <source>
-Record Sheets: 3145 New Tech New Upgrades
+RS:3145-NTNU
 </source>
 
 <tonnage>
@@ -132,7 +132,7 @@ The Bulldog could be called a "Jack of all trades", featuring a classic layout o
 </overview>
 
 <deployment>
-Equipped with a fuel cell-powered motor, this Bulldog variant was introduced in the Dark Age. It removes all the standard weaponry and carries a Snub Nose PPC, Machine Gun, and a pair of MML-5 launchers with Artemis IV fire control systems. 
+Equipped with a fuel cell-powered motor, this Bulldog variant was introduced in the Dark Age. It removes all the standard weaponry and carries a Snub Nose PPC, Machine Gun, and a pair of MML-5 launchers with Artemis IV fire control systems.
 </deployment>
 
 <history>

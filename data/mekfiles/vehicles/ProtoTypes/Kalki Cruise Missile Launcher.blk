@@ -105,7 +105,7 @@ ISMagshotGR
 </Turret Equipment>
 
 <source>
-TRO: Prototypes
+TR:Proto
 </source>
 
 <tonnage>
@@ -121,7 +121,7 @@ The SturmFeur debuted in 3018. At that time, it was the largest combat vehicle d
 </overview>
 
 <deployment>
-The production version of the Kalki is a complete redesign of the experimental version. Many components from the SturmFeur are reused, but the chassis has been updated to 150 tons. The Kalki is now powered by a fuel cell-powered motor, which reduces cost. It also mounts a pair of Magshots for protection. The Cruise Missile 50 launcher still only has one reload, but engineers were able to upgrade the armor protection to seven tons. 
+The production version of the Kalki is a complete redesign of the experimental version. Many components from the SturmFeur are reused, but the chassis has been updated to 150 tons. The Kalki is now powered by a fuel cell-powered motor, which reduces cost. It also mounts a pair of Magshots for protection. The Cruise Missile 50 launcher still only has one reload, but engineers were able to upgrade the armor protection to seven tons.
 </deployment>
 
 <history>
