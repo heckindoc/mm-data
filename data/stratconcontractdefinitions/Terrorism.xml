@@ -53,11 +53,7 @@
                 <objectiveScenario>Convoy Interdiction.xml</objectiveScenario>
                 <objectiveScenario>Convoy Raid.xml</objectiveScenario>
                 <objectiveScenario>Frontier Assassination.xml</objectiveScenario>
-                <objectiveScenario>Heavy Recon Evasion.xml</objectiveScenario>
-                <objectiveScenario>Intercept Engagement.xml</objectiveScenario>
-                <objectiveScenario>Recon Evasion.xml</objectiveScenario>
                 <objectiveScenario>VIP Ambush.xml</objectiveScenario>
-                <objectiveScenario>Skirmish.xml</objectiveScenario>
             </objectiveScenarios>
         </objectiveParameter>
     </objectiveParameters>

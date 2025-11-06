@@ -18,7 +18,7 @@
 # affiliated with Microsoft.
 -->
 <ScenarioTemplate>
-    <contractTypeName>Planetary Assault</contractTypeName>
+    <contractTypeName>Sabotage</contractTypeName>
     <alliedFacilityCount>0</alliedFacilityCount>
     <briefing>Disrupt planetary operations.</briefing>
     <allowEarlyVictory>true</allowEarlyVictory>
