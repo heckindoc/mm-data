@@ -338,8 +338,14 @@ planet:
           value: 1031000000.0
       - date: '3070-01-01'
         population: 1033477372.0
+        hiringHall:
+          source: Merc Supplemental Update (Date Approximate)
+          value: NONE
       - date: '3080-01-01'
         population: 1045117381.0
+        hiringHall:
+          source: FM 3085 (Date Approximate)
+          value: STANDARD
       - date: '3090-11-07'
         population: 1062823669.0
         socioIndustrial: C-D-B-C-B

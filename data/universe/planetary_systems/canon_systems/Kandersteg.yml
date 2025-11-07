@@ -320,6 +320,9 @@ planet:
       - date: '3070-01-01'
         population: 494425450.0
       - date: '3080-01-01'
+        hiringHall:
+          source: Touring the Stars Kandersteg and Shrapnel 5
+          value: MINOR
         population: 497301450.0
       - date: '3090-01-01'
         population: 498695845.0

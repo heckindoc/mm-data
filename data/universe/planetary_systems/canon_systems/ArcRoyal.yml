@@ -407,6 +407,9 @@ planet:
           source: canon
           value:
             - CJF
+        hiringHall:
+          source: canon
+          value: NONE
       - date: '3151-01-01'
         faction:
           source: sucs
@@ -417,6 +420,9 @@ planet:
           source: canon
           value:
             - ARL
+        hiringHall:
+          source: Hotspots Hinterlands
+          value: MINOR
   - name: Harris
     type: ICE_GIANT
     orbitalDist: 2.8

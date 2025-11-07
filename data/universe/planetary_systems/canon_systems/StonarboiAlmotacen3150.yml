@@ -271,6 +271,9 @@ planet:
           source: canon
           value:
             - IND
+        hiringHall:
+          source: Hotspots Hinterlands
+          value: MINOR
       - date: '2108-12-05'
         name: Stonarboi
       - date: '3150-01-01'
