@@ -409,7 +409,7 @@ planet:
             - CJF
         hiringHall:
           source: canon
-          value: None
+          value: NONE
       - date: '3151-01-01'
         faction:
           source: sucs
