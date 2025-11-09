@@ -248,6 +248,7 @@
         <acquisitionPersonnelCategory>LOGISTICS</acquisitionPersonnelCategory>
         <techLevel>0</techLevel>
         <unitTransitTime>1</unitTransitTime>
+        <noDeliveriesInTransit>false</noDeliveriesInTransit>
         <usePlanetaryAcquisition>false</usePlanetaryAcquisition>
         <planetAcquisitionFactionLimit>NEUTRAL</planetAcquisitionFactionLimit>
         <planetAcquisitionNoClanCrossover>true</planetAcquisitionNoClanCrossover>

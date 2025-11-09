@@ -190,6 +190,7 @@
         <acquisitionPersonnelCategory>SUPPORT</acquisitionPersonnelCategory>
         <techLevel>3</techLevel>
         <unitTransitTime>2</unitTransitTime>
+        <noDeliveriesInTransit>false</noDeliveriesInTransit>
         <usePlanetaryAcquisition>false</usePlanetaryAcquisition>
         <planetAcquisitionFactionLimit>NEUTRAL</planetAcquisitionFactionLimit>
         <planetAcquisitionNoClanCrossover>true</planetAcquisitionNoClanCrossover>
