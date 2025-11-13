@@ -1677,7 +1677,7 @@ While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
     </ability>
     <ability>
         <lookupName>compulsion_addiction_painkillers</lookupName>
-        <displayName>Significant Compulsion - Painkiller Addiction (ATOW)</displayName>
+        <displayName>Significant Compulsion - Painkiller Reliance (ATOW)</displayName>
         <desc><![CDATA[Once per week, the company will be required to pay a small stipend of 42 C-Bills. If the character has any prosthetics, this stipend is multiplied by the number of prosthetics the character possesses.
 
 If the stipend cannot be paid, a Willpower check is made (with a -2 penalty). If failed, the character suffers the Discontinuation Syndrome Injury and gains two Fatigue (if Fatigue is enabled).
