@@ -186,5 +186,9 @@
             <key>41</key>
             <value>Engagement.xml</value>
         </entry>
+        <entry>
+            <key>42</key>
+            <value>Official Challenge.xml</value>
+        </entry>
     </scenarioFileNames>
 </scenarioManifest>
