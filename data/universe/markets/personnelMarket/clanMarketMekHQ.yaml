@@ -120,6 +120,13 @@
   extinctionYear: -1
   fallbackProfession: SOLDIER
 
+- weight: 370
+  profession: COMBAT_TECHNICIAN
+  count: 3
+  introductionYear: 2355
+  extinctionYear: -1
+  fallbackProfession: MECHANIC
+
 - weight: 943
   profession: VEHICLE_CREW_GROUND
   count: 4
