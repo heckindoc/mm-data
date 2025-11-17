@@ -37,4 +37,5 @@
         <deploymentTimes>3</deploymentTimes>
         <deploymentTimes>4</deploymentTimes>
     </deploymentTimes>
+    <objectiveParameters />
 </ScenarioTemplate>
