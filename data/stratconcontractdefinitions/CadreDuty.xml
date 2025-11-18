@@ -40,7 +40,7 @@
     </deploymentTimes>
     <objectiveParameters>
         <objectiveParameter>
-            <objectiveCount>-1</objectiveCount>
+            <objectiveCount>-2</objectiveCount>
             <objectiveType>AnyScenarioVictory</objectiveType>
             <objectiveScenarioModifiers>
                 <objectiveScenarioModifier>AlliedTraineesGround.xml</objectiveScenarioModifier>

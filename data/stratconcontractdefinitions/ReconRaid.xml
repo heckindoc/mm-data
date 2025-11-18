@@ -40,7 +40,7 @@
     <objectiveParameters>
         <objectiveParameter>
             <objectiveType>SpecificScenarioVictory</objectiveType>
-            <objectiveCount>-0.5</objectiveCount>
+            <objectiveCount>-1.0</objectiveCount>
             <objectiveScenarios>
                 <objectiveScenario>Hostile Facility.xml</objectiveScenario>
             </objectiveScenarios>
@@ -50,7 +50,7 @@
         </objectiveParameter>
         <objectiveParameter>
             <objectiveType>SpecificScenarioVictory</objectiveType>
-            <objectiveCount>-0.5</objectiveCount>
+            <objectiveCount>-1.0</objectiveCount>
             <objectiveScenarios>
                 <objectiveScenario>Recon Evasion.xml</objectiveScenario>
                 <objectiveScenario>Heavy Recon Evasion.xml</objectiveScenario>

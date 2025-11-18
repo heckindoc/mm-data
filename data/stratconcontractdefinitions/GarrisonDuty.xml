@@ -40,7 +40,7 @@
     <objectiveParameters>
         <objectiveParameter>
             <objectiveType>AlliedFacilityControl</objectiveType>
-            <objectiveCount>-1</objectiveCount>
+            <objectiveCount>-2</objectiveCount>
         </objectiveParameter>
     </objectiveParameters>
 </ScenarioTemplate>

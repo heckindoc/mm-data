@@ -40,10 +40,10 @@
     <objectiveParameters>
         <objectiveParameter>
             <objectiveType>AlliedFacilityControl</objectiveType>
-            <objectiveCount>-0.5</objectiveCount>
+            <objectiveCount>-1.0</objectiveCount>
         </objectiveParameter>
         <objectiveParameter>
-            <objectiveCount>-0.5</objectiveCount>
+            <objectiveCount>-1.0</objectiveCount>
             <objectiveType>SpecificScenarioVictory</objectiveType>
             <objectiveScenarios>
                 <objectiveScenario>Irregular Force Assault.xml</objectiveScenario>

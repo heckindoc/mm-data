@@ -43,7 +43,7 @@
             <objectiveCount>-1</objectiveCount>
         </objectiveParameter>
         <objectiveParameter>
-            <objectiveCount>-0.5</objectiveCount>
+            <objectiveCount>-1.0</objectiveCount>
             <objectiveType>SpecificScenarioVictory</objectiveType>
             <objectiveScenarios>
                 <objectiveScenario>Convoy Escort.xml</objectiveScenario>
