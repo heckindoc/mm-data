@@ -48,11 +48,11 @@
         </objectiveParameter>
         <objectiveParameter>
             <objectiveType>FacilityDestruction</objectiveType>
-            <objectiveCount>-1</objectiveCount>
+            <objectiveCount>-1.0</objectiveCount>
         </objectiveParameter>
         <objectiveParameter>
-            <objectiveCount>-0.5</objectiveCount>
-            <objectiveType>AnyScenarioVictory</objectiveType>
+            <objectiveCount>-1.0</objectiveCount>
+            <objectiveType>SpecificScenarioVictory</objectiveType>
             <objectiveScenarios>
                 <objectiveScenario>Deep Raid.xml</objectiveScenario>
                 <objectiveScenario>Deep Raid Defense.xml</objectiveScenario>

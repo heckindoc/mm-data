@@ -40,8 +40,8 @@
     </deploymentTimes>
     <objectiveParameters>
         <objectiveParameter>
-            <objectiveCount>-1.0</objectiveCount>
-            <objectiveType>AnyScenarioVictory</objectiveType>
+            <objectiveCount>-2.0</objectiveCount>
+            <objectiveType>SpecificScenarioVictory</objectiveType>
             <objectiveScenarios>
                 <objectiveScenario>Assassination.xml</objectiveScenario>
                 <objectiveScenario>Convoy Interdiction.xml</objectiveScenario>

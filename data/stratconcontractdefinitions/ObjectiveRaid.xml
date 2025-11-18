@@ -40,11 +40,11 @@
     <objectiveParameters>
         <objectiveParameter>
             <objectiveType>FacilityDestruction</objectiveType>
-            <objectiveCount>-0.5</objectiveCount>
+            <objectiveCount>-1.0</objectiveCount>
         </objectiveParameter>
         <objectiveParameter>
             <objectiveType>SpecificScenarioVictory</objectiveType>
-            <objectiveCount>-0.5</objectiveCount>
+            <objectiveCount>-1.0</objectiveCount>
             <objectiveScenarios>
                 <objectiveScenario>Frontier Assassination.xml</objectiveScenario>
                 <objectiveScenario>Assassination.xml</objectiveScenario>

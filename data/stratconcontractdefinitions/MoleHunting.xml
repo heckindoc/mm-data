@@ -39,7 +39,7 @@
     </deploymentTimes>
     <objectiveParameters>
         <objectiveParameter>
-            <objectiveCount>-1</objectiveCount>
+            <objectiveCount>-1.0</objectiveCount>
             <objectiveType>AnyScenarioVictory</objectiveType>
             <objectiveScenarioModifiers>
                 <objectiveScenarioModifier>OverwhelmingEnemyGroundReinforcements.xml</objectiveScenarioModifier>
@@ -48,7 +48,7 @@
         </objectiveParameter>
         <objectiveParameter>
             <objectiveType>SpecificScenarioVictory</objectiveType>
-            <objectiveCount>1.0</objectiveCount>
+            <objectiveCount>-2.0</objectiveCount>
             <objectiveScenarios>
                 <objectiveScenario>Frontier Assassination.xml</objectiveScenario>
                 <objectiveScenario>Assassination.xml</objectiveScenario>
