@@ -544,7 +544,9 @@
     <ability>
         <lookupName>flaw_in_for_life</lookupName>
         <displayName>In For Life (ATOW)</displayName>
-        <desc><![CDATA[Roleplay only (for now)]]></desc>
+        <desc><![CDATA[-1 Edge, -1 Connections. Will never change origin faction.
+
+While this SPA does exist in ATOW, these effects are unique to MekHQ.]]></desc>
         <xpCost>-300</xpCost>
         <originOnly>false</originOnly>
         <weight>1</weight>
