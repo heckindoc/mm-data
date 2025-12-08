@@ -1,0 +1,61 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+key: MERC.SI
+name: Snord's Irregulars
+nameChanges:
+  3009: Cranston Snord's Irregulars
+  3039: Rhonda Snord's Irregulars
+  3063: Snord's Irregulars
+yearsActive:
+  - start: 3007
+tags:
+  - MERC
+background: Mercenary.png
+camos: Mercs/Snord's Irregulars
+fallBackFactions:
+  - MERC
+factionLeaders:
+  - title: "Captain"
+    firstName: "Cranston"
+    surname: "Snord"
+    gender: "MALE"
+    startYear: 3007
+    endYear: 3034
+  - title: "Colonel"
+    firstName: "Rhonda"
+    surname: "Snord"
+    gender: "FEMALE"
+    startYear: 3034
+    endYear: 3063
+  - title: "Lieutenant-Colonel"
+    firstName: "Alexandria"
+    surname: "Snord"
+    gender: "FEMALE"
+    startYear: 3063
+    endYear: 3085
+  - title: "Colonel"
+    firstName: "Alexandria"
+    surname: "Snord"
+    gender: "FEMALE"
+    startYear: 3085
+    endYear: 3140
+  - title: "Colonel"
+    firstName: "Joshua"
+    surname: "Snord"
+    gender: "MALE"
+    startYear: 3140
