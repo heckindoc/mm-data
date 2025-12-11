@@ -35,6 +35,8 @@ No distractions. No delays. No mercy. Execute the raid, cripple their supply lin
         <heightScalingIncrement>5</heightScalingIncrement>
         <mapLocation>AllGroundTerrain</mapLocation>
         <useStandardAtBSizing>true</useStandardAtBSizing>
+        <additionalMapSheetTall>1</additionalMapSheetTall>
+        <additionalMapSheetWide>0</additionalMapSheetWide>
         <widthScalingIncrement>5</widthScalingIncrement>
     </mapParameters>
     <scenarioForces>
@@ -110,7 +112,7 @@ No distractions. No delays. No mercy. Execute the raid, cripple their supply lin
                 <contributesToUnitCount>false</contributesToUnitCount>
                 <deployOffboard>false</deployOffboard>
                 <deploymentZones>
-                    <deploymentZone>6</deploymentZone>
+                    <deploymentZone>2</deploymentZone>
                 </deploymentZones>
                 <destinationZone>6</destinationZone>
                 <fixedUnitCount>0</fixedUnitCount>

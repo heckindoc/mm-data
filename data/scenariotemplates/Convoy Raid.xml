@@ -35,6 +35,8 @@ The more convoy units that survive, the greater the spoils. Disabling transports
         <heightScalingIncrement>5</heightScalingIncrement>
         <mapLocation>AllGroundTerrain</mapLocation>
         <useStandardAtBSizing>true</useStandardAtBSizing>
+        <additionalMapSheetTall>1</additionalMapSheetTall>
+        <additionalMapSheetWide>0</additionalMapSheetWide>
         <widthScalingIncrement>5</widthScalingIncrement>
     </mapParameters>
     <scenarioForces>
@@ -110,7 +112,7 @@ The more convoy units that survive, the greater the spoils. Disabling transports
                 <contributesToUnitCount>false</contributesToUnitCount>
                 <deployOffboard>false</deployOffboard>
                 <deploymentZones>
-                    <deploymentZone>6</deploymentZone>
+                    <deploymentZone>2</deploymentZone>
                 </deploymentZones>
                 <destinationZone>6</destinationZone>
                 <fixedUnitCount>0</fixedUnitCount>

@@ -40,6 +40,8 @@ The victor will control the field when this is over. Ensure that it is us.]]></d
         <heightScalingIncrement>5</heightScalingIncrement>
         <mapLocation>SpecificGroundTerrain</mapLocation>
         <useStandardAtBSizing>true</useStandardAtBSizing>
+        <additionalMapSheetTall>1</additionalMapSheetTall>
+        <additionalMapSheetWide>0</additionalMapSheetWide>
         <widthScalingIncrement>5</widthScalingIncrement>
     </mapParameters>
     <scenarioForces>

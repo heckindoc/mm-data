@@ -39,6 +39,8 @@ Execute with precision. The enemy must leave empty-handed.]]></detailedBriefing>
         <heightScalingIncrement>5</heightScalingIncrement>
         <mapLocation>AllGroundTerrain</mapLocation>
         <useStandardAtBSizing>true</useStandardAtBSizing>
+        <additionalMapSheetTall>1</additionalMapSheetTall>
+        <additionalMapSheetWide>0</additionalMapSheetWide>
         <widthScalingIncrement>5</widthScalingIncrement>
     </mapParameters>
     <scenarioForces>
@@ -55,9 +57,9 @@ Execute with precision. The enemy must leave empty-handed.]]></detailedBriefing>
                 <contributesToUnitCount>true</contributesToUnitCount>
                 <deployOffboard>false</deployOffboard>
                 <deploymentZones>
-                    <deploymentZone>3</deploymentZone>
+                    <deploymentZone>6</deploymentZone>
                 </deploymentZones>
-                <destinationZone>4</destinationZone>
+                <destinationZone>6</destinationZone>
                 <fixedUnitCount>0</fixedUnitCount>
                 <forceAlignment>0</forceAlignment>
                 <forceMultiplier>1.0</forceMultiplier>
@@ -121,7 +123,7 @@ Execute with precision. The enemy must leave empty-handed.]]></detailedBriefing>
                 <deploymentZones>
                     <deploymentZone>10</deploymentZone>
                 </deploymentZones>
-                <destinationZone>7</destinationZone>
+                <destinationZone>6</destinationZone>
                 <fixedUnitCount>0</fixedUnitCount>
                 <forceAlignment>2</forceAlignment>
                 <forceMultiplier>1.0</forceMultiplier>

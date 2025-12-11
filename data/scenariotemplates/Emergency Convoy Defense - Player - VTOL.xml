@@ -37,7 +37,9 @@ We will control the battlefield at the conclusion of this engagement, ensuring t
         <heightScalingIncrement>0</heightScalingIncrement>
         <mapLocation>AllGroundTerrain</mapLocation>
         <useStandardAtBSizing>false</useStandardAtBSizing>
-        <widthScalingIncrement>1</widthScalingIncrement>
+        <useStandardAtBSizing>true</useStandardAtBSizing>
+        <additionalMapSheetTall>1</additionalMapSheetTall>
+        <additionalMapSheetWide>0</additionalMapSheetWide>
     </mapParameters>
     <scenarioForces>
         <entry>

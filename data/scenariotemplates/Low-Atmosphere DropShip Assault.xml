@@ -34,6 +34,8 @@ We will control the field at the end of the engagement, ensuring that any wrecka
         <heightScalingIncrement>5</heightScalingIncrement>
         <mapLocation>LowAtmosphere</mapLocation>
         <useStandardAtBSizing>true</useStandardAtBSizing>
+        <additionalMapSheetTall>2</additionalMapSheetTall>
+        <additionalMapSheetWide>2</additionalMapSheetWide>
         <widthScalingIncrement>5</widthScalingIncrement>
     </mapParameters>
     <scenarioForces>
@@ -80,7 +82,7 @@ We will control the field at the end of the engagement, ensuring that any wrecka
                 <contributesToUnitCount>false</contributesToUnitCount>
                 <deployOffboard>false</deployOffboard>
                 <deploymentZones>
-                    <deploymentZone>6</deploymentZone>
+                    <deploymentZone>2</deploymentZone>
                 </deploymentZones>
                 <destinationZone>6</destinationZone>
                 <fixedUnitCount>1</fixedUnitCount>

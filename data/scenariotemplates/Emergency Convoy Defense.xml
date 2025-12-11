@@ -36,7 +36,9 @@ We will control the battlefield at the end of this engagement, allowing us to re
         <baseWidth>17</baseWidth>
         <heightScalingIncrement>0</heightScalingIncrement>
         <mapLocation>AllGroundTerrain</mapLocation>
-        <useStandardAtBSizing>false</useStandardAtBSizing>
+        <useStandardAtBSizing>true</useStandardAtBSizing>
+        <additionalMapSheetTall>1</additionalMapSheetTall>
+        <additionalMapSheetWide>0</additionalMapSheetWide>
         <widthScalingIncrement>1</widthScalingIncrement>
     </mapParameters>
     <scenarioForces>
@@ -53,7 +55,7 @@ We will control the battlefield at the end of this engagement, allowing us to re
                 <contributesToUnitCount>true</contributesToUnitCount>
                 <deployOffboard>false</deployOffboard>
                 <deploymentZones>
-                    <deploymentZone>9</deploymentZone>
+                    <deploymentZone>2</deploymentZone>
                 </deploymentZones>
                 <destinationZone>5</destinationZone>
                 <fixedUnitCount>0</fixedUnitCount>
