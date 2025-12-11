@@ -92,7 +92,7 @@ We will control the battlefield at the conclusion of this engagement, ensuring t
                 <fixedUnitCount>0</fixedUnitCount>
                 <forceAlignment>2</forceAlignment>
                 <forceMultiplier>1.0</forceMultiplier>
-                <forceName>ANTI_AIRCRAFT</forceName>
+                <forceName>Anti-Aircraft OpFor</forceName>
                 <generationMethod>1</generationMethod>
                 <generationOrder>5</generationOrder>
                 <maxWeightClass>4</maxWeightClass>
@@ -102,6 +102,9 @@ We will control the battlefield at the conclusion of this engagement, ensuring t
                 <startingAltitude>0</startingAltitude>
                 <syncDeploymentType>None</syncDeploymentType>
                 <useArtillery>false</useArtillery>
+                <roleChoices>
+                    <forceRole>ANTI_AIRCRAFT</forceRole>
+                </roleChoices>
             </value>
         </entry>
         <entry>
