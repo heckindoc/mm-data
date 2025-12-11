@@ -33,7 +33,9 @@ The enemy will control the battlefield once the engagement concludes, preventing
         <baseWidth>17</baseWidth>
         <heightScalingIncrement>0</heightScalingIncrement>
         <mapLocation>AllGroundTerrain</mapLocation>
-        <useStandardAtBSizing>false</useStandardAtBSizing>
+        <useStandardAtBSizing>true</useStandardAtBSizing>
+        <additionalMapSheetTall>1</additionalMapSheetTall>
+        <additionalMapSheetWide>0</additionalMapSheetWide>
         <widthScalingIncrement>1</widthScalingIncrement>
     </mapParameters>
     <scenarioForces>

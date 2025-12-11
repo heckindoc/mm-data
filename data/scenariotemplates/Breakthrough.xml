@@ -33,7 +33,9 @@ Be advised: the enemy will control the field when this is over. Move fast, strik
         <baseWidth>17</baseWidth>
         <heightScalingIncrement>0</heightScalingIncrement>
         <mapLocation>AllGroundTerrain</mapLocation>
-        <useStandardAtBSizing>false</useStandardAtBSizing>
+        <useStandardAtBSizing>true</useStandardAtBSizing>
+        <additionalMapSheetTall>1</additionalMapSheetTall>
+        <additionalMapSheetWide>0</additionalMapSheetWide>
         <widthScalingIncrement>1</widthScalingIncrement>
     </mapParameters>
     <scenarioForces>

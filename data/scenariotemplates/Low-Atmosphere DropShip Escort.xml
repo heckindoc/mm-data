@@ -35,7 +35,9 @@ The victor will control the battlefield at the end of the engagement, ensuring w
         <baseWidth>50</baseWidth>
         <heightScalingIncrement>5</heightScalingIncrement>
         <mapLocation>LowAtmosphere</mapLocation>
-        <useStandardAtBSizing>false</useStandardAtBSizing>
+        <useStandardAtBSizing>true</useStandardAtBSizing>
+        <additionalMapSheetTall>1</additionalMapSheetTall>
+        <additionalMapSheetWide>2</additionalMapSheetWide>
         <widthScalingIncrement>5</widthScalingIncrement>
     </mapParameters>
     <scenarioForces>

@@ -33,7 +33,9 @@ As you will be pushing into enemy territory, we will be unable to secure the bat
         <baseWidth>17</baseWidth>
         <heightScalingIncrement>0</heightScalingIncrement>
         <mapLocation>AllGroundTerrain</mapLocation>
-        <useStandardAtBSizing>false</useStandardAtBSizing>
+        <useStandardAtBSizing>true</useStandardAtBSizing>
+        <additionalMapSheetTall>1</additionalMapSheetTall>
+        <additionalMapSheetWide>0</additionalMapSheetWide>
         <widthScalingIncrement>1</widthScalingIncrement>
     </mapParameters>
     <scenarioForces>
