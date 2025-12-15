@@ -26,7 +26,6 @@ Source:TR:3075
 Rules Level:2
 role:Skirmisher
 
-quirk:obsolete
 quirk:poor_target_long
 weaponquirk:mod_weapons:RA:3:ISStreakSRM6
 weaponquirk:mod_weapons:LA:3:ISStreakSRM6

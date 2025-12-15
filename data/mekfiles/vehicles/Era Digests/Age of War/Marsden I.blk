@@ -134,3 +134,8 @@ ED:AoW
 <fuelType>
 PETROCHEMICALS
 </fuelType>
+
+<quirks>
+easy_maintain
+obsolete:2470
+</quirks>

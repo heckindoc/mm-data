@@ -31,7 +31,7 @@ role:None
 quirk:easy_maintain
 quirk:bad_rep_clan
 quirk:bad_rep_is
-quirk:obsolete
+quirk:obsolete:2780
 weaponquirk:mod_weapons:HD:3:ISSmallPulseLaser
 weaponquirk:mod_weapons:CT:10:Medium Laser
 weaponquirk:mod_weapons:RT:3:Medium Laser

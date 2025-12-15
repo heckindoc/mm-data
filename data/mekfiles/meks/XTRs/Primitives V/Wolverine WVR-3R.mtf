@@ -35,7 +35,9 @@ quirk:pro_actuator
 quirk:ubiquitous_clan
 quirk:ubiquitous_is
 quirk:cramped_cockpit
+quirk:Obsolete:2500
 weaponquirk:jettison_capable:RA:3:Autocannon/5
+
 
 
 mass:55

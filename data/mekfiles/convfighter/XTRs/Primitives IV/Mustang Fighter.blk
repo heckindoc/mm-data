@@ -142,6 +142,6 @@ XTR:Primitives IV
 <quirks>
 atmo_flyer
 easy_maintain
-obsolete
+obsolete:2475
 </quirks>
 

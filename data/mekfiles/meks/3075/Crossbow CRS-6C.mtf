@@ -26,7 +26,6 @@ Source:TR:3075
 Rules Level:1
 role:Skirmisher
 
-quirk:obsolete
 quirk:poor_target_long
 
 

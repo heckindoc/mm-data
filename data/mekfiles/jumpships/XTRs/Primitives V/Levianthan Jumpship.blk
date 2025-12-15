@@ -191,5 +191,8 @@ XTR:Primitives III
 <quirks>
 easy_maintain
 bad_rep_is
+docking_arms
+fragile_fuel
+obsolete:2590
 </quirks>
 

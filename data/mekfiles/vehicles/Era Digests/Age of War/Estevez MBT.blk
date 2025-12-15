@@ -134,6 +134,6 @@ Tracked
 
 <quirks>
 gas_hog
-obsolete
+obsolete:2400
 </quirks>
 

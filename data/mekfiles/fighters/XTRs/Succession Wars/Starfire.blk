@@ -134,7 +134,7 @@ XTR:SW
 
 <quirks>
 atmo_flyer
-obsolete
+obsolete:3045
 </quirks>
 
 <weaponQuirks>

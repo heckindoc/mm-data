@@ -117,7 +117,7 @@ XTR:Primitives IV
 <quirks>
 distracting
 easy_maintain
-obsolete
+obsolete:2488
 variable_range_targeting
 </quirks>
 

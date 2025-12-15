@@ -33,7 +33,7 @@ quirk:prototype
 quirk:fast_reload
 quirk:multi_trac
 quirk:searchlight
-quirk:obsolete
+quirk:obsolete:2778
 
 
 Mass:90

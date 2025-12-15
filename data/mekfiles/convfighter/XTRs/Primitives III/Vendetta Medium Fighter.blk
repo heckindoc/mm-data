@@ -160,6 +160,6 @@ cramped_cockpit
 difficult_eject
 variable_range_short
 weak_undercarriage
-obsolete
+obsolete:2580
 </quirks>
 

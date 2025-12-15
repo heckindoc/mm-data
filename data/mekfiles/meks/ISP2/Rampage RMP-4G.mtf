@@ -1,68 +1,49 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
-# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
-#
-# NOTICE: The MegaMek organization is a non-profit group of volunteers
-# creating free software for the BattleTech community.
-#
-# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
-# of The Topps Company, Inc. All Rights Reserved.
-#
-# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
-# InMediaRes Productions, LLC.
-#
-# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
-# Microsoft's "Game Content Usage Rules"
-# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
-# affiliated with Microsoft.
-
+generator:MegaMek Suite 0.50.11 on 2025-12-12
 chassis:Rampage
 model:RMP-4G
 mul id:2636
-source:ISP2
 
 Config:Biped
-TechBase:Inner Sphere
-Era:2750
-Rules Level:2
+techbase:Inner Sphere
+era:2750
+source:ISP2
+rules level:2
 role:Sniper
 
-
-
-quirk:vestigial_hands_ra
-quirk:bad_rep_clan
 quirk:bad_rep_is
-quirk:obsolete
+quirk:obsolete:2780
+quirk:bad_rep_clan
+quirk:vestigial_hands_ra
 
+mass:85
+engine:340 XL Engine
+structure:IS Endo Steel
+myomer:Standard
 
-Mass:85
-Engine:340 XL Engine
-Structure:Endo Steel
-Myomer:MASC
+heat sinks:10 IS Double
+walk mp:4
+jump mp:0
 
-Heat Sinks:10 Double
-Walk MP:4
-Jump MP:0
-
-Armor:Standard
-LA Armor:26
-RA Armor:26
-LT Armor:26
-RT Armor:26
-CT Armor:40
-HD Armor:9
-LL Armor:32
-RL Armor:32
-RTL Armor:9
-RTR Armor:9
-RTC Armor:13
+armor:Standard(Inner Sphere)
+LA armor:26
+RA armor:26
+LT armor:26
+RT armor:26
+CT armor:40
+HD armor:9
+LL armor:32
+RL armor:32
+RTL armor:9
+RTR armor:9
+RTC armor:13
 
 Weapons:6
-1 ISLBXAC10, Right Arm, Ammo:20
-1 ISGaussRifle, Left Arm, Ammo:16
-1 ISMediumLaser, Right Torso
-1 ISAntiMissileSystem, Right Torso, Ammo:12
-1 ISFlamer, Left Torso
-1 ISLargePulseLaser, Center Torso
+Gauss Rifle, Left Arm
+LB 10-X AC, Right Arm
+Flamer, Left Torso
+Medium Laser, Right Torso
+Anti-Missile System, Right Torso
+Large Pulse Laser, Center Torso
 
 Left Arm:
 Shoulder
@@ -75,7 +56,7 @@ ISGaussRifle
 ISGaussRifle
 ISGaussRifle
 ISGaussRifle
-Endo Steel
+IS Endo Steel
 -Empty-
 
 Right Arm:
@@ -89,35 +70,35 @@ ISLBXAC10
 ISLBXAC10
 ISLBXAC10
 ISLBXAC10
-Endo Steel
-Endo Steel
+IS Endo Steel
+IS Endo Steel
 
 Left Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-ISGauss Ammo
-ISGauss Ammo
-ISFlamer
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
-Endo Steel
+IS Gauss Ammo
+IS Gauss Ammo
+Flamer
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
 
 Right Torso:
 Fusion Engine
 Fusion Engine
 Fusion Engine
-ISMediumLaser
+Medium Laser
 ISAntiMissileSystem
 ISMASC
 ISMASC
 ISMASC
 ISMASC
-ISLBXAC10 Ammo
-ISLBXAC10 Ammo
+IS LB 10-X AC Ammo
+IS LB 10-X AC Ammo
 ISAMS Ammo
 
 Center Torso:
@@ -138,7 +119,7 @@ Head:
 Life Support
 Sensors
 Cockpit
-Endo Steel
+IS Endo Steel
 Sensors
 Life Support
 -Empty-
@@ -153,8 +134,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Endo Steel
-Endo Steel
+IS Endo Steel
+IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -167,11 +148,25 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Endo Steel
-Endo Steel
+IS Endo Steel
+IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
 -Empty-
+
+overview:<p>The Rampage traces its origins to 2735 when Weigel Armory and Munitions introduced it as a standard assault 'Mech for the Rim Worlds Republic Army. For over three decades, the design served adequately as a heavy line unit, unremarkable among the Republic's military forces. Everything changed in 2767 following Stefan Amaris' coup against the Terran Hegemony. With access to Star League research facilities and advanced technology, Amaris ordered Hegemony engineers to transform the pedestrian Rampage into something far more dangerous. The resulting RMP-5G upgrade turned a forgettable assault 'Mech into a fast, hard-hitting platform that would plague Star League Defense Force units throughout the Amaris-Kerensky Civil War. The Rampage earned an infamous reputation during this conflict, becoming synonymous with the brutality of the Rim Worlds occupation.</p>
+capabilities:<p>The redesigned Rampage was built to be fast for its size. Though some designers pushed for a top speed in the eighty-kilometer-per-hour range, they debated whether to accomplish this by lightening the entire design or by employing an experimental extralight engine. As a more economical compromise, they opted for an XL engine augmented by a MASC system, enabling the Rampage to reach almost ninety kilometers per hour in short bursts. This unexpected mobility allows it to serve as a fast strike unit or provide heavy support for medium 'Mech formations. More than one opponent assumed they could use a heavy medium to outmaneuver the Rampage, only to find themselves facing its formidable firepower at close range.</p>
+
+<p>The weapons array emphasizes accurate firepower across multiple engagement ranges. An LB 10-X autocannon serves as the primary weapon, while an Artemis IV-enhanced LRM-10 provides guided long-range support. A trio of Streak SRM-2 launchers and a large pulse laser deliver heavy and accurate punch, complemented by paired medium lasers and a flamer—equipment that saw extensive use during civilian pacification operations. An anti-missile system provides defensive capability, while sixteen tons of armor offers substantial protection despite the vulnerability inherent in the extralight engine.</p>
+deployment:<p>Produced in limited numbers beginning in 2750, the 4G variant removed all of the 'Mech's missile systems, a medium laser, three heat sinks, and half a ton of armor—mostly from the legs—in exchange for a powerful Gauss rifle. This configuration provides devastating long-range striking power, allowing pilots to engage targets at extreme distances before closing to use the remaining LB 10-X autocannon and large pulse laser. The reduced armor protection demands more cautious piloting than the standard 5G.</p>
+history:<p>The Rampage's history is inextricably linked to the Rim Worlds Republic and its treacherous assault on the Star League. Weigel Armory and Munitions constructed the original design at a secret facility on Kwangjong-ni, built half a kilometer beneath the planet's Lost Sea to mask its heat signature and hidden from Star League oversight. The factory's tunnels connected directly to the planetary garrison in the Britton mountains, allowing newly manufactured 'Mechs to be quietly integrated into Republic units before deployment. This clandestine production supported the Republic's secret military buildup for decades before the coup.</p>
+
+<p>The RMP-2G served adequately as a standard assault 'Mech from its 2735 introduction, but it was the 2767 upgrade that transformed the Rampage into a feared combatant. With access to captured Star League research facilities following Amaris' coup, Hegemony engineers redesigned the chassis using advanced technologies previously unavailable to the Periphery nation. The resulting 5G gave SLDF commanders fits throughout the Amaris-Kerensky Civil War, its unexpected speed confounding tactical assumptions about assault 'Mech engagements.</p>
+
+<p>The Rampage's association with Republican atrocities during the occupation of Terra cemented its infamous reputation. The design saw particular use in civilian pacification operations, and its presence became a symbol of Republican brutality. When the SLDF finally liberated the Hegemony, few tears were shed for the design's destruction. Republic holdouts on Kwangjong-ni sabotaged the Weigel factory in 2767 during Operation ALMARIC rather than allow it to fall into Lyran hands, ending production entirely. The design was effectively extinct by 2780, its Bad Reputation ensuring no Successor State sought to revive it.</p>
+
+<p>The Rampage remained lost for nearly three centuries until lostech prospectors discovered Weigel's defunct factory in 3062. Defiance Industries purchased and restored the facility, though whether they intended to resume Rampage production or simply exploit the manufacturing infrastructure for other designs remains unclear. The discovery sparked renewed interest in this controversial assault 'Mech, though its historical associations continue to color perceptions of any unit bearing the Rampage name.</p>
+

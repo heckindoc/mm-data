@@ -119,7 +119,7 @@ cargobay:9:1
 
 <quirks>
 easy_maintain
-obsolete
+obsolete:2500
 </quirks>
 
 <weaponQuirks>

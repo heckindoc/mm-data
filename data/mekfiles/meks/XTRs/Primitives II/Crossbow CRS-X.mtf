@@ -26,7 +26,7 @@ source:XTR:Primitives II
 rules level:4
 role:Missile Boat
 
-quirk:obsolete
+quirk:obsolete:2490
 quirk:poor_target_long
 quirk:prototype
 weaponquirk:poor_cooling:RT:0:Large Laser

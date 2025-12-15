@@ -132,5 +132,7 @@ PETROCHEMICALS
 <quirks>
 imp_com
 difficult_maintain
+gas_hog
+obsolete:2650
 </quirks>
 

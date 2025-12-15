@@ -134,5 +134,7 @@ PETROCHEMICALS
 <quirks>
 easy_maintain
 gas_hog
+fragile_fuel
+obsolete:2550
 </quirks>
 

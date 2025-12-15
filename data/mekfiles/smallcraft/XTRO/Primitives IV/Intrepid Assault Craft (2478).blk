@@ -215,7 +215,7 @@ XTR:Primitives IV
 
 <quirks>
 atmo_instability
-obsolete
+obsolete:2455
 </quirks>
 
 <weaponQuirks>

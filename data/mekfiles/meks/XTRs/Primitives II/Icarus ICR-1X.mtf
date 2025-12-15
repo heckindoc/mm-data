@@ -32,7 +32,7 @@ quirk:difficult_maintain
 quirk:ext_twist
 quirk:poor_performance
 quirk:prototype
-quirk:obsolete
+quirk:obsolete:2470
 
 
 mass:40

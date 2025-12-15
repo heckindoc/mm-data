@@ -30,6 +30,7 @@ role:Brawler
 
 quirk:easy_maintain
 weaponquirk:ammo_feed_problems:RT:0:Autocannon/10 Primitive
+quirk:obsolete:2525
 
 
 Mass:75

@@ -35,7 +35,7 @@ quirk:searchlight
 quirk:ubiquitous_is
 quirk:cramped_cockpit
 quirk:no_arms
-quirk:obsolete
+quirk:obsolete:2506
 quirk:weak_legs
 
 

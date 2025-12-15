@@ -29,7 +29,7 @@ role:Missile Boat
 
 
 quirk:easy_maintain
-quirk:obsolete
+quirk:obsolete:2520
 
 
 mass:55

@@ -30,7 +30,7 @@ role:Brawler
 
 quirk:searchlight
 quirk:bad_rep_is
-quirk:obsolete
+quirk:obsolete:2482
 quirk:poor_work
 weaponquirk:accurate:LT:0:Autocannon/5
 

@@ -154,7 +154,7 @@ TARGETING:BANDAR 9
 
 <quirks>
 atmo_flyer
-obsolete
+obsolete:2475
 poor_life_support
 weak_undercarriage
 </quirks>

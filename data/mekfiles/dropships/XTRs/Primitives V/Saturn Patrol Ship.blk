@@ -219,5 +219,6 @@ XTR:Primitives V
 <quirks>
 imp_com
 atmo_instability
+obsolete:2300
 </quirks>
 

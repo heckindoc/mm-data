@@ -31,7 +31,7 @@ role:Brawler
 quirk:easy_maintain
 quirk:bad_rep_clan
 quirk:bad_rep_is
-quirk:obsolete
+quirk:obsolete:2780
 weaponquirk:mod_weapons:RA:2:ISLBXAC10
 weaponquirk:mod_weapons:LA:2:ISPlasmaRifle
 weaponquirk:mod_weapons:LA:4:ISMediumXPulseLaser

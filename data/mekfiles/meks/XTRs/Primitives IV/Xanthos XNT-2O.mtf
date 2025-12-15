@@ -30,7 +30,7 @@ role:Juggernaut
 
 quirk:pro_actuator
 quirk:bad_rep_is
-quirk:obsolete
+quirk:obsolete:2565
 quirk:poor_performance
 quirk:prototype
 quirk:unbalanced

@@ -31,7 +31,7 @@ role:Brawler
 quirk:rugged_1
 quirk:bad_rep_is
 quirk:non_standard
-quirk:obsolete
+quirk:obsolete:2776
 
 
 Mass:80

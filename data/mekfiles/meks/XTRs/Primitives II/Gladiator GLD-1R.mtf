@@ -30,7 +30,7 @@ quirk:bad_rep_is
 quirk:poor_sealing
 quirk:cowl
 quirk:unbalanced
-quirk:obsolete
+quirk:obsolete:2488
 quirk:poor_work
 
 mass:55

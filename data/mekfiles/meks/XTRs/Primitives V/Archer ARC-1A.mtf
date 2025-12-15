@@ -37,6 +37,7 @@ quirk:ubiquitous_is
 quirk:easy_maintain
 quirk:ext_twist
 quirk:difficult_eject
+quirk:obsolete:2485
 
 
 Mass:70

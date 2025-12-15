@@ -32,7 +32,7 @@ role:Brawler
 quirk:cowl
 quirk:prototype
 quirk:unbalanced
-quirk:obsolete
+quirk:obsolete:2456
 weaponquirk:em_interference:RA:3:ISLargeLaser
 weaponquirk:em_interference:RA:5:ISLargeLaser
 

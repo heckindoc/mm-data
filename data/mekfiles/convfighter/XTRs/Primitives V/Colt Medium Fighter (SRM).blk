@@ -148,5 +148,7 @@ XTR:Primitives IV
 <quirks>
 atmo_flyer
 difficult_eject
+low_profile
+obsolete:2530
 </quirks>
 

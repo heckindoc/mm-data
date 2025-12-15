@@ -31,7 +31,7 @@ role:Sniper
 
 quirk:distracting
 quirk:hard_pilot
-quirk:obsolete
+quirk:obsolete:3105
 quirk:poor_performance
 quirk:prototype
 

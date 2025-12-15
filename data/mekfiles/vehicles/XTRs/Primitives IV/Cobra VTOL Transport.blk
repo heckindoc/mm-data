@@ -124,7 +124,7 @@ XTR:Primitives IV
 
 <quirks>
 non_standard
-obsolete
+obsolete:2470
 vtol_rotor_dual
 </quirks>
 

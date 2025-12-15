@@ -1,14 +1,14 @@
 generator:MegaMek Suite 0.50.11 on 2025-12-12
 chassis:Rampage
-model:RMP-2G
-mul id:2635
+model:RMP-4G (Benboudaoud)
+mul id:6974
 
 Config:Biped
 techbase:Inner Sphere
-era:2735
-source:ISP2
-rules level:1
-role:Juggernaut
+era:2766
+source:HTP:New Dallas
+rules level:2
+role:Brawler
 
 quirk:bad_rep_is
 quirk:obsolete:2780
@@ -16,48 +16,49 @@ quirk:bad_rep_clan
 quirk:vestigial_hands_ra
 
 mass:85
-engine:255 Fusion Engine
-structure:IS Standard
+engine:340 XL Engine
+structure:IS Endo Steel
 myomer:Standard
 
-heat sinks:23 Single
-walk mp:3
+heat sinks:13 IS Double
+walk mp:4
 jump mp:0
 
 armor:Standard(Inner Sphere)
-LA armor:24
-RA armor:24
-LT armor:23
-RT armor:23
-CT armor:32
+LA armor:28
+RA armor:28
+LT armor:27
+RT armor:27
+CT armor:41
 HD armor:9
-LL armor:31
-RL armor:31
-RTL armor:8
-RTR armor:8
-RTC armor:11
+LL armor:36
+RL armor:36
+RTL armor:9
+RTR armor:9
+RTC armor:13
 
-Weapons:7
-LRM 10, Left Arm
-AC/10, Right Arm
+Weapons:8
+LRM 20, Left Arm
+SRM 4, Left Arm
+LB 10-X AC, Right Arm
 Medium Laser, Left Torso
 Flamer, Left Torso
-Machine Gun, Right Torso
 Medium Laser, Right Torso
-Large Laser, Center Torso
+Anti-Missile System, Right Torso
+Large Pulse Laser, Center Torso
 
 Left Arm:
 Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
-LRM 10
-LRM 10
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
--Empty-
+LRM 20
+LRM 20
+LRM 20
+LRM 20
+LRM 20
+SRM 4
+IS Endo Steel
+IS Endo Steel
 -Empty-
 
 Right Arm:
@@ -65,42 +66,42 @@ Shoulder
 Upper Arm Actuator
 Lower Arm Actuator
 Hand Actuator
-Autocannon/10
-Autocannon/10
-Autocannon/10
-Autocannon/10
-Autocannon/10
-Autocannon/10
-Autocannon/10
+ISLBXAC10
+ISLBXAC10
+ISLBXAC10
+ISLBXAC10
+ISLBXAC10
+ISLBXAC10
+IS Endo Steel
 -Empty-
 
 Left Torso:
+Fusion Engine
+Fusion Engine
+Fusion Engine
 Medium Laser
 Flamer
-IS Ammo LRM-10
-IS Ammo LRM-10
-Heat Sink
-Heat Sink
-Heat Sink
-Heat Sink
-Heat Sink
--Empty-
--Empty-
--Empty-
+IS Ammo LRM-20
+IS Ammo LRM-20
+IS Ammo SRM-4
+ISCASE
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
 
 Right Torso:
-Machine Gun
+Fusion Engine
+Fusion Engine
+Fusion Engine
 Medium Laser
-IS Ammo AC/10
-IS Ammo AC/10
-IS Ammo MG - Full
-Heat Sink
-Heat Sink
-Heat Sink
-Heat Sink
--Empty-
--Empty-
--Empty-
+ISAntiMissileSystem
+ISAMS Ammo
+IS LB 10-X AC Ammo
+IS LB 10-X Cluster Ammo
+ISCASE
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -113,14 +114,14 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
-Large Laser
-Large Laser
+ISLargePulseLaser
+ISLargePulseLaser
 
 Head:
 Life Support
 Sensors
 Cockpit
--Empty-
+IS Endo Steel
 Sensors
 Life Support
 -Empty-
@@ -135,8 +136,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Heat Sink
-Heat Sink
+IS Endo Steel
+IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -149,8 +150,8 @@ Hip
 Upper Leg Actuator
 Lower Leg Actuator
 Foot Actuator
-Heat Sink
-Heat Sink
+IS Endo Steel
+IS Endo Steel
 -Empty-
 -Empty-
 -Empty-
@@ -162,7 +163,7 @@ overview:<p>The Rampage traces its origins to 2735 when Weigel Armory and Muniti
 capabilities:<p>The redesigned Rampage was built to be fast for its size. Though some designers pushed for a top speed in the eighty-kilometer-per-hour range, they debated whether to accomplish this by lightening the entire design or by employing an experimental extralight engine. As a more economical compromise, they opted for an XL engine augmented by a MASC system, enabling the Rampage to reach almost ninety kilometers per hour in short bursts. This unexpected mobility allows it to serve as a fast strike unit or provide heavy support for medium 'Mech formations. More than one opponent assumed they could use a heavy medium to outmaneuver the Rampage, only to find themselves facing its formidable firepower at close range.</p>
 
 <p>The weapons array emphasizes accurate firepower across multiple engagement ranges. An LB 10-X autocannon serves as the primary weapon, while an Artemis IV-enhanced LRM-10 provides guided long-range support. A trio of Streak SRM-2 launchers and a large pulse laser deliver heavy and accurate punch, complemented by paired medium lasers and a flamer—equipment that saw extensive use during civilian pacification operations. An anti-missile system provides defensive capability, while sixteen tons of armor offers substantial protection despite the vulnerability inherent in the extralight engine.</p>
-deployment:<p>The original Rampage variant produced for decades in the Rim Worlds Republic was twenty-five percent slower than the 5G. The 2G lacked the Streak launchers and Artemis IV fire control systems of its successor, instead mounting an autocannon/10 with two tons of ammunition, an LRM-10 also with two tons of ammunition, a large laser, two medium lasers, and a flamer. Instead of the 5G's anti-missile system, the 2G mounted a single machine gun with a full ton of ammunition for anti-infantry work. Though this older model boasted ten more heat sinks than the 5G, these standard sinks lacked the efficiency of the 5G's double heat sink system, relegating the variant to garrison duties once superior models entered production.</p>
+deployment:<p>A custom configuration based on the 5G chassis, this variant replaces the standard missile systems and MASC with an SRM-4 and an LRM-20 launcher. The modification sacrifices the signature burst speed capability for substantially increased missile firepower while retaining the autocannon, pulse laser, and medium laser armament of the base design.</p>
 history:<p>The Rampage's history is inextricably linked to the Rim Worlds Republic and its treacherous assault on the Star League. Weigel Armory and Munitions constructed the original design at a secret facility on Kwangjong-ni, built half a kilometer beneath the planet's Lost Sea to mask its heat signature and hidden from Star League oversight. The factory's tunnels connected directly to the planetary garrison in the Britton mountains, allowing newly manufactured 'Mechs to be quietly integrated into Republic units before deployment. This clandestine production supported the Republic's secret military buildup for decades before the coup.</p>
 
 <p>The RMP-2G served adequately as a standard assault 'Mech from its 2735 introduction, but it was the 2767 upgrade that transformed the Rampage into a feared combatant. With access to captured Star League research facilities following Amaris' coup, Hegemony engineers redesigned the chassis using advanced technologies previously unavailable to the Periphery nation. The resulting 5G gave SLDF commanders fits throughout the Amaris-Kerensky Civil War, its unexpected speed confounding tactical assumptions about assault 'Mech engagements.</p>
@@ -170,11 +171,4 @@ history:<p>The Rampage's history is inextricably linked to the Rim Worlds Republ
 <p>The Rampage's association with Republican atrocities during the occupation of Terra cemented its infamous reputation. The design saw particular use in civilian pacification operations, and its presence became a symbol of Republican brutality. When the SLDF finally liberated the Hegemony, few tears were shed for the design's destruction. Republic holdouts on Kwangjong-ni sabotaged the Weigel factory in 2767 during Operation ALMARIC rather than allow it to fall into Lyran hands, ending production entirely. The design was effectively extinct by 2780, its Bad Reputation ensuring no Successor State sought to revive it.</p>
 
 <p>The Rampage remained lost for nearly three centuries until lostech prospectors discovered Weigel's defunct factory in 3062. Defiance Industries purchased and restored the facility, though whether they intended to resume Rampage production or simply exploit the manufacturing infrastructure for other designs remains unclear. The discovery sparked renewed interest in this controversial assault 'Mech, though its historical associations continue to color perceptions of any unit bearing the Rampage name.</p>
-manufacturer:Weigel Armory and Munitions
-primaryfactory:Kwangjong-ni
-systemmanufacturer:CHASSIS:Stanwhich 850
-systemmanufacturer:ENGINE:AMC 340 XL
-systemmanufacturer:ARMOR:PanzerSlab Type 9
-systemmanufacturer:COMMUNICATIONS:Transcom Alpha
-systemmanufacturer:TARGETING:KBC Starsight Model 3
 

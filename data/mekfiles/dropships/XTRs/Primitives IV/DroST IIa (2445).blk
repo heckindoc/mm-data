@@ -240,6 +240,6 @@ Cargo Transport
 atmo_instability
 docking_arms
 easy_maintain
-obsolete
+obsolete:2470
 </quirks>
 

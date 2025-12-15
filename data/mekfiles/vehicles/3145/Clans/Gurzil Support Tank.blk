@@ -1,30 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
-# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
-#
-# NOTICE: The MegaMek organization is a non-profit group of volunteers
-# creating free software for the BattleTech community.
-#
-# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
-# of The Topps Company, Inc. All Rights Reserved.
-#
-# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
-# InMediaRes Productions, LLC.
-#
-# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
-# Microsoft's "Game Content Usage Rules"
-# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
-# affiliated with Microsoft.
-
-#building block data file
-<BlockVersion>
-1
-</BlockVersion>
-
-# Write the version number just in case...
-<Version>
-MAM0
-</Version>
-
+#Saved from version 0.50.11 on 2025-12-11
 <UnitType>
 Tank
 </UnitType>
@@ -33,9 +7,9 @@ Tank
 Gurzil Support Tank
 </Name>
 
-<model>
+<Model>
 
-</model>
+</Model>
 
 <mul id:>
 6251
@@ -45,13 +19,21 @@ Gurzil Support Tank
 3126
 </year>
 
+<originalBuildYear>
+3126
+</originalBuildYear>
+
 <type>
-Clan Level 4
+Clan Level 3
 </type>
 
 <role>
 Missile Boat
 </role>
+
+<quirks>
+variable_range_targeting
+</quirks>
 
 <motion_type>
 Tracked
@@ -69,9 +51,13 @@ Tracked
 16
 </armor_type>
 
-<armor_tech>
+<armor_tech_rating>
+0
+</armor_tech_rating>
+
+<armor_tech_level>
 8
-</armor_tech>
+</armor_tech_level>
 
 <armor>
 41
@@ -114,6 +100,43 @@ CLMediumPulseLaser
 CLMediumPulseLaser
 </Turret Equipment>
 
+<capabilities>
+<p>The Gurzil's most distinctive feature is its Series VI targeting and tracking system, acquired from Clan Sea Fox at considerable expense. This advanced system offers three preconfigured firing solutions optimized for different range brackets. When a firing solution is selected, the Series VI triples telemetry data sampling for targets within that bracket, dramatically improving accuracy. However, this enhancement comes at a cost: targets outside the selected range bracket receive significantly reduced tracking priority, creating potential blind spots during rapidly evolving engagements.</p>
+
+<p>The tank's primary armament consists of twin Type XV Culverin Streak LRM-15 launchers and Series 14a Medium Pulse Lasers mounted in the turret. The Streak systems provide reliable direct fire support with minimal ammunition waste, while the pulse lasers offer capability against battle armor and hardened targets. Complementing the turret weapons are two Type VIII Mech Mortar/8 systems in forward-facing hull mounts, allowing indirect fire support from concealed positions. Twelve and a half tons of Ferro-Lamellor armor provide substantial protection, though the Gorvachs 320 XL fusion engine represents a potential vulnerability if that armor is breached. The 64 km/h top speed allows the Gurzil to maintain pace with medium formations while repositioning between engagements.</p>
+</capabilities>
+
+<overview>
+<p>The Gurzil entered service with Clan Jade Falcon in 3126 as the Clan's answer to the ubiquitous JES II missile carrier. Manufactured by Wakazashi Enterprises, this 80-ton tracked support tank was designed to combine direct missile fire support with indirect mortar bombardment capabilities. This dual-role philosophy aimed to provide Falcon commanders with a single platform capable of adapting to varied tactical situations. In practice, the Gurzil's reception has been decidedly mixed. Commanders who understand and exploit its unique capabilities praise its performance, but many warriors consider the design a poor compromise that excels at neither role. Critics frequently advocate for dedicated single-role alternatives such as the JES II or Carnivore Support Tank, viewing the Gurzil's versatility as a liability rather than an asset.</p>
+</overview>
+
+<deployment>
+<p>No factory variants of the Gurzil are currently produced.</p>
+</deployment>
+
+<history>
+<p>Since its introduction in 3126, the Gurzil has seen service primarily within Clan Jade Falcon's second-line and garrison forces, where its fire support capabilities complement frontline OmniMech formations. The tank found its niche in defensive operations and siege warfare, where commanders could position Gurzils to maximize their range-optimized targeting system's effectiveness.</p>
+
+<p>The Dark Age conflicts provided numerous opportunities for the Gurzil to demonstrate its capabilities. In 3140, during defensive operations on Chahar, Falcon forces employed Gurzils in urban warfare scenarios with notable success. Working in coordination with Elemental spotters, tank crews leveraged the mortars' indirect fire capability to strike targets concealed behind buildings while using the Streak launchers against enemies in direct line of sight. This combined-arms approach proved effective during a weeklong siege, repelling multiple Lyran Commonwealth Armed Forces sorties.</p>
+
+<p>The 3142 invasion of Arcturus by Peregrine Galaxy showcased the Gurzil in a more conventional role. During the Battle of Warnemünde, two Points of Gurzils were deployed to hold the Stein Garten bridge against the Fifteenth Arcturan Guards. Positioned in reserve across the river from the main Falcon line, the tanks remained outside the initial engagement. When Lyran forces pushed across the bridgehead, they found themselves squarely within the Gurzils' optimal engagement envelope. Concentrated volleys of LRM and mortar fire halted the Lyran advance within minutes. Subsequent attempts to flank the position or ford the river met similar fates, with the Gurzils' overlapping fields of fire proving devastating against the already-damaged Guard 'Mechs. The engagement demonstrated that while the Gurzil may struggle in fluid, maneuver-based combat, it excels when employed in prepared defensive positions where its range-optimized systems can be fully exploited.</p>
+</history>
+
+<manufacturer>
+Sudeten
+</manufacturer>
+
+<primaryFactory>
+Trellshire Heavy Industries
+</primaryFactory>
+
+<systemManufacturers>
+ENGINE:Gorvachs 230 Fusion XL
+ARMOR:Composite Alpha-V1 Ferro-Lamellor
+COMMUNICATIONS:TJ6 “Bell” Integrated
+TARGETING:Series VI TTS
+</systemManufacturers>
+
 <source>
 TR:3145:C
 </source>
@@ -122,7 +145,4 @@ TR:3145:C
 80.0
 </tonnage>
 
-<quirks>
-variable_range_targeting
-</quirks>
 

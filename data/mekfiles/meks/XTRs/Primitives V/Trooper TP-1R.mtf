@@ -36,6 +36,7 @@ quirk:exp_actuator
 quirk:no_arms
 quirk:no_eject
 quirk:weak_legs
+quirk:obsolete:2405
 weaponquirk:mod_weapons:CT:10:Flamer
 weaponquirk:mod_weapons:RA:2:Machine Gun
 weaponquirk:mod_weapons:LA:2:Small Laser

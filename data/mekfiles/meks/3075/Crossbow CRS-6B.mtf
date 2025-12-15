@@ -26,7 +26,6 @@ source:TR:3075
 rules level:1
 role:Missile Boat
 
-quirk:obsolete
 quirk:poor_target_long
 weaponquirk:mod_weapons:RA:3:LRM 10
 weaponquirk:mod_weapons:LA:3:LRM 10

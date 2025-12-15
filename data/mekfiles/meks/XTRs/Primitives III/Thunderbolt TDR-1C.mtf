@@ -28,7 +28,7 @@ rules level:4
 role:Missile Boat
 
 quirk:difficult_maintain
-quirk:obsolete
+quirk:obsolete:2509
 quirk:multi_trac
 quirk:poor_work
 

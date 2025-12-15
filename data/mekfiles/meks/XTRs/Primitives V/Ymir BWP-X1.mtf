@@ -27,10 +27,8 @@ Rules Level:4
 role:Missile Boat
 
 
-
-
 quirk:stable
-
+quirk:obsolete:2480
 
 Mass:90
 Engine:325 Fusion Engine(IS)
