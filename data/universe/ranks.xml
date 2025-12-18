@@ -25,9 +25,9 @@ Description: The display description for the system.
 useROMDesignation: The system uses ROM branch designations.
 useManeiDomini: The system uses Manei Domini Class and Rank designations.
 Rank:
-    Rank Names: An array of names or alternatives for the rank based on the individual professions.
-    Officer: Whether the rank is considered to be an officer.
-    Pay Multiplier: The pay bonus paid to those of this rank.
+	Rank Names: An array of names or alternatives for the rank based on the individual professions.
+	Officer: Whether the rank is considered to be an officer.
+	Pay Multiplier: The pay bonus paid to those of this rank.
 -->
 <rankSystems version="0.49.0">
     <rankSystem>
