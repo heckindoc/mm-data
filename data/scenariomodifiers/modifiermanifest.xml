@@ -210,12 +210,12 @@
         <!--modifier>
             EnemyAceMekPXH1D.xml
         </modifier-->
-        <modifier>
+        <!--modifier>
             EnemyAirCav.xml
-        </modifier>
-        <modifier>
+        </modifier-->
+        <!--modifier>
             EnemyAirMobileInf.xml
-        </modifier>
+        </modifier-->
         <!--modifier>
         These have been disabled as they are not era agnostic
             EnemyMercFireSupport.xml
@@ -233,7 +233,6 @@
             AlliedCavLance.xml
         </modifier-->
         <!--modifier>
-            These have been disabled as they are not era agnostic
             AlliedMekAceCRD.xml
         </modifier-->
         <!--modifier>
