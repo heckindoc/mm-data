@@ -15,16 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#building block data file
-<BlockVersion>
-1
-</BlockVersion>
-
-# Write the version number just in case...
-<Version>
-MAM0
-</Version>
-
+#Saved from version 0.50.10 on 2025-12-26
 <UnitType>
 Jumpship
 </UnitType>
@@ -62,12 +53,12 @@ Aerodyne
 </motion_type>
 
 <transporters>
-smallcraftbay:1.0:1:1
-cargobay:518.0:1:2
+smallcraftbay:1.0:1:1::-1:0
+cargobay:518.0:1:2::-1:0
 dockingcollar
-1stclassquarters:20.0:0
-crewquarters:112.0:0
-cargobay:519.5:1:5
+1stclassquarters:20.0:0:-1::-1:0
+crewquarters:112.0:0:-1::-1:0
+cargobay:519.5:1:6::-1:0
 </transporters>
 
 <SafeThrust>
@@ -94,9 +85,13 @@ cargobay:519.5:1:5
 41
 </armor_type>
 
-<armor_tech>
+<armor_tech_rating>
+0
+</armor_tech_rating>
+
+<armor_tech_level>
 1
-</armor_tech>
+</armor_tech_level>
 
 <armor>
 6
@@ -132,6 +127,38 @@ cargobay:519.5:1:5
 1
 </structural_integrity>
 
+<capabilities>
+Scout-class JumpShips are equipped with a large and modern bridge, and an extensive computer network for complex navigational calculations. Its shortened Kearny-Fuchida drive allows for 80% shorter charging, while its small size additionally means its damage resistant jump sail unfolds more rapidly than is the case in other JumpShips. The reduced drive and its comperatively small mass of 87000 tons allows the Scout-class a difficult to detect jump signature. As the design prioritises independent operation, its 18 strong crew has access to extensive recreation facilities, as well as a highly equipped medbay for up to four emergency cases and life support systems featuring backup generators. A necessary concession due to its size does mean the Scout-class lacks a grav deck, being limited to gravity maneuvring to sustain the crew its health. This is rounded out by 1037,5 tons of storage and a single small craft bay. A final strength of the design is that due to its reinforced docking collar the vessel has the rare ability to accelerate with a DropShip attached.
+</capabilities>
+
+<overview>
+Developed for independent operations, the Scout-class JumpShip is a specialized, military-grade vessel that prioritizes speed and stealth over raw transport capacity. It is the smallest JumpShip found travelling the stars, with a low mass, single docking collar, and negligible jump signature, while sporting extensive facilities for its small crew.
+</overview>
+
+<history>
+The most famous modification is the Capellan Quetzalcoatl, named after the namesake vessel its docking collar was damaged during a boarding action. This variant removes the docking collar entirely and replaces it with a specialized fighter bay capable of launching and recovering up to 20 heavy AeroSpace Fighters, effectively turning the tiny Scout into a pocket carrier.
+</history>
+
+<manufacturer>
+Alliance Aerospace Group, Irian Technologies, Ioto Galactic Enterprises, Dharma HyperSpace
+</manufacturer>
+
+<systemManufacturers>
+CHASSIS:Unknown
+ENGINE:Unknown
+ARMOR:Unknown
+COMMUNICATIONS:Unknown
+TARGETING:Unknown
+</systemManufacturers>
+
+<use>
+Exploration/Transport
+</use>
+
+<length>
+273
+</length>
+
 <source>
 TR:3057r
 </source>
@@ -143,6 +170,10 @@ TR:3057r
 <sail>
 1
 </sail>
+
+<designtype>
+0
+</designtype>
 
 <crew>
 23
@@ -175,3 +206,5 @@ TR:3057r
 <escape_pod>
 4
 </escape_pod>
+
+
