@@ -1,0 +1,157 @@
+generator:MegaMek Suite 0.50.07 on 2025-10-07
+chassis:Phoenix Hawk 'Hammer Hawk'
+model:PXH-1S
+
+Config:Biped
+techbase:Inner Sphere
+era:3150
+source:Shrapnel: Gothic
+rules level:5
+role:Skirmisher
+
+quirk:command_mech
+quirk:ubiquitous_clan
+quirk:ubiquitous_is
+quirk:imp_com
+weaponquirk:jettison_capable:RA:5:Large Laser
+
+mass:45
+engine:225 Fusion Engine(IS)
+structure:IS Standard
+myomer:Standard
+
+heat sinks:11 Single
+walk mp:5
+jump mp:5
+
+armor:Standard(Inner Sphere)
+LA armor:10
+RA armor:10
+LT armor:18
+RT armor:18
+CT armor:23
+HD armor:6
+LL armor:15
+RL armor:15
+RTL armor:4
+RTR armor:4
+RTC armor:5
+
+Weapons:3
+Light Blazer, Left Arm
+Large Laser, Right Arm
+Light Blazer, Right Arm
+
+Left Arm:
+Shoulder
+Upper Arm Actuator
+Lower Arm Actuator
+Hand Actuator
+Heat Sink
+Light Blazer
+Light Blazer
+Mace
+Mace
+Mace
+Mace
+Mace
+
+Right Arm:
+Shoulder
+Upper Arm Actuator
+Lower Arm Actuator
+Hand Actuator
+Heat Sink
+Large Laser
+Large Laser
+Light Blazer
+Light Blazer
+-Empty-
+-Empty-
+-Empty-
+
+Left Torso:
+Jump Jet
+Jump Jet
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Right Torso:
+Jump Jet
+Jump Jet
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Center Torso:
+Fusion Engine
+Fusion Engine
+Fusion Engine
+Gyro
+Gyro
+Gyro
+Gyro
+Fusion Engine
+Fusion Engine
+Fusion Engine
+Jump Jet
+-Empty-
+
+Head:
+Life Support
+Sensors
+Cockpit
+-Empty-
+Sensors
+Life Support
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Left Leg:
+Hip
+Upper Leg Actuator
+Lower Leg Actuator
+Foot Actuator
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Right Leg:
+Hip
+Upper Leg Actuator
+Lower Leg Actuator
+Foot Actuator
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+

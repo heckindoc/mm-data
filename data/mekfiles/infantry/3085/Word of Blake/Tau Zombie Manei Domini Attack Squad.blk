@@ -1,30 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
-# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
-#
-# NOTICE: The MegaMek organization is a non-profit group of volunteers
-# creating free software for the BattleTech community.
-#
-# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
-# of The Topps Company, Inc. All Rights Reserved.
-#
-# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
-# InMediaRes Productions, LLC.
-#
-# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
-# Microsoft's "Game Content Usage Rules"
-# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
-# affiliated with Microsoft.
-
-#building block data file
-<BlockVersion>
-1
-</BlockVersion>
-
-# Write the version number just in case...
-<Version>
-MAM0
-</Version>
-
+#Saved from version 0.50.11 on 2025-12-28
 <UnitType>
 Infantry
 </UnitType>
@@ -45,6 +19,10 @@ Manei Domini Attack Squad
 3065
 </year>
 
+<originalBuildYear>
+3065
+</originalBuildYear>
+
 <type>
 IS Level 4
 </type>
@@ -57,8 +35,66 @@ Ambusher
 Leg
 </motion_type>
 
+<Troopers Equipment>
+Word of Blake Infantry Kit
+AntiMekGear
+</Troopers Equipment>
+
 <Field Guns Equipment>
 </Field Guns Equipment>
+
+<capabilities>
+<div style="max-width: 900px; margin: 0 auto; font-family: Arial, sans-serif; line-height: 1.5;">
+
+  <p><strong>Notes:</strong> Cybernetically enhanced infantry with the following features:</p>
+
+  <ul>
+    <li>
+      <strong>Pain Shunt:</strong>
+      Reduces damage from fire and fire-based attacks by half (round down).
+    </li>
+
+    <li>
+      <strong>Enhanced Prosthetic Arms:</strong>
+      Improved prosthetics equipped with TK Enforcer and Magnet accessories.
+      <ul>
+        <li>TK Enforcers add +0.02 damage per trooper at Range 0.</li>
+        <li>Magnets provide a –2 Target Number modifier for Anti-’Mech Swarm and Leg Attacks.</li>
+      </ul>
+    </li>
+
+    <li>
+      <strong>Multi-Modal Cybernetic Eyes:</strong>
+      IR and Laser Targeting systems.
+      <ul>
+        <li>IR provides Active Probe capabilities at a 2-hex range.</li>
+        <li>Laser Targeting provides a –1 to-hit modifier.</li>
+      </ul>
+    </li>
+
+    <li>
+      <strong>Full-Body Dermal Armor &amp; Triple-Strength Myomer Implants:</strong>
+      Combined effects include:
+      <ul>
+        <li>+1 Damage Divisor.</li>
+        <li>No double-damage effects when attacked in open terrain.</li>
+        <li>All Burst-Fire damage reduced by 1D6 (minimum of 1 point).</li>
+        <li>+0.14 damage per trooper versus other conventional infantry at Range 0.</li>
+        <li>+2 maximum Support Weapons per squad.</li>
+        <li>–2 crew required per Support Weapon (minimum of 1).</li>
+        <li>Movement Points are not reduced by Support Weapons.</li>
+        <li>Support Weapons are not considered Encumbering.</li>
+      </ul>
+    </li>
+
+    <li>
+      <strong>Suicide Implants:</strong>
+      Delivers 0.57 damage per trooper killed by combat damage to all hostile units in the same hex.
+    </li>
+  </ul>
+
+</div>
+</capabilities>
 
 <source>
 TR:3085
@@ -84,21 +120,30 @@ Laser Rifle (Mauser 1200 LSS)
 Support Laser (Heavy)
 </Secondary>
 
-<antimek>
-5
-</antimek>
-
-<armorKit>
-WobKit
-</armorKit>
-
 <augmentation>
 artificial_pain_shunt
-#prosthetic_arm_weapon(InfantryTKEnforcerAutopistol)
-#prosthetic_arm_magnet
-cyber_imp_audio
+cyber_imp_visual
 cyber_imp_laser
 dermal_armor
 tsm_implant
-#explosive_suicide
+pl_ienhanced
+suicide_implants
 </augmentation>
+
+<prostheticEnhancement1>
+Ballistic
+</prostheticEnhancement1>
+
+<prostheticEnhancement1Count>
+2
+</prostheticEnhancement1Count>
+
+<prostheticEnhancement2>
+Grappler
+</prostheticEnhancement2>
+
+<prostheticEnhancement2Count>
+2
+</prostheticEnhancement2Count>
+
+

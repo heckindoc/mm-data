@@ -1,30 +1,4 @@
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
-# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
-#
-# NOTICE: The MegaMek organization is a non-profit group of volunteers
-# creating free software for the BattleTech community.
-#
-# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
-# of The Topps Company, Inc. All Rights Reserved.
-#
-# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
-# InMediaRes Productions, LLC.
-#
-# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
-# Microsoft's "Game Content Usage Rules"
-# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
-# affiliated with Microsoft.
-
-#building block data file
-<BlockVersion>
-1
-</BlockVersion>
-
-# Write the version number just in case...
-<Version>
-MAM0
-</Version>
-
+#Saved from version 0.50.11 on 2025-12-28
 <UnitType>
 Infantry
 </UnitType>
@@ -45,6 +19,10 @@ Ebon Magistrate Shock Troops
 3060
 </year>
 
+<originalBuildYear>
+3060
+</originalBuildYear>
+
 <type>
 IS Level 4
 </type>
@@ -57,8 +35,46 @@ Ambusher
 Leg
 </motion_type>
 
+<Troopers Equipment>
+Magistracy of Canopus Infantry Kit
+</Troopers Equipment>
+
 <Field Guns Equipment>
 </Field Guns Equipment>
+
+<capabilities>
+<div style="max-width: 900px; margin: 0 auto; font-family: Arial, sans-serif; line-height: 1.5;">
+
+  <p><strong>Notes:</strong> Cybernetically enhanced infantry with the following features:</p>
+
+  <ul>
+    <li>
+      <strong>Multi-Modal Cybernetic Eyes:</strong>
+      IR and Laser Targeting systems.
+      <ul>
+        <li>IR provides Active Probe capabilities at a 2-hex range.</li>
+        <li>Laser Targeting provides a –1 to-hit modifier.</li>
+      </ul>
+    </li>
+
+    <li>
+      <strong>Full-Body Dermal Armor:</strong>
+      <ul>
+        <li>+1 Damage Divisor.</li>
+        <li>All Burst-Fire damage reduced by 1D6 (minimum of 1 point).</li>
+        <li>+1 maximum Support Weapon per squad.</li>
+        <li>–1 crew required per Support Weapon (minimum of 1).</li>
+      </ul>
+    </li>
+
+    <li>
+      <strong>Flame-Based Weapon:</strong>
+      May inflict both damage and heat to heat-tracking units.
+    </li>
+  </ul>
+
+</div>
+</capabilities>
 
 <source>
 TR:3085
@@ -84,16 +100,10 @@ Laser Rifle (Ebony Assault)
 Plasma Rifle (Man-Portable)
 </Secondary>
 
-<antimek>
-8
-</antimek>
-
-<armorKit>
-Magistracy of Canopus Infantry Kit
-</armorKit>
-
 <augmentation>
 cyber_imp_visual
 cyber_imp_laser
 dermal_armor
 </augmentation>
+
+
