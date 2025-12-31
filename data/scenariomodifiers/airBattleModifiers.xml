@@ -64,12 +64,14 @@
             Need "special duel flag".
             Duel.xml
         </modifier-->
-        <modifier>
+        <!--modifier>
+            Disabled until Princess can better manage Hidden units
             EnemyAmbush.xml
-        </modifier>
-        <modifier>
+        </modifier-->
+        <!--modifier>
+            Disabled until Princess can better manage Hidden units
             PlayerAmbush.xml
-        </modifier>
+        </modifier-->
         <modifier>
             AlliedAirSupport.xml
         </modifier>

@@ -107,12 +107,14 @@
             Need "special duel flag".
             Duel.xml
         </modifier-->
-        <modifier>
+        <!--modifier>
+            Disabled until Princess can better manage Hidden units
             EnemyAmbush.xml
-        </modifier>
-        <modifier>
+        </modifier-->
+        <!--modifier>
+            Disabled until Princess can better manage Hidden units
             PlayerAmbush.xml
-        </modifier>
+        </modifier-->
         <modifier>
             AlliedAirSupport.xml
         </modifier>
@@ -180,60 +182,62 @@
             EnemyMekPatrol.xml
         </modifier>
         <!--modifier>
+        These have been disabled as they are not era agnostic
             EnemyAceMekARC2R.xml
-        </modifier>
-        <modifier>
+        </modifier-->
+        <!--modifier>
             EnemyAceMekAWS8Q.xml
-        </modifier>
-        <modifier>
+        </modifier-->
+        <!--modifier>
             EnemyAceMekFS9M.xml
-        </modifier>
-        <modifier>
+        </modifier-->
+        <!--modifier>
             EnemyAceMekGHR5N.xml
-        </modifier>
-        <modifier>
+        </modifier-->
+        <!--modifier>
             EnemyAceMekHGN733P.xml
-        </modifier>
-        <modifier>
+        </modifier-->
+        <!--modifier>
             EnemyAceMekMAD3D.xml
-        </modifier>
-        <modifier>
+        </modifier-->
+        <!--modifier>
             EnemyAceMekPXH1D.xml
         </modifier-->
-        <modifier>
-            EnemyAirCav.xml
-        </modifier>
-        <modifier>
-            EnemyAirMobileInf.xml
-        </modifier>
         <!--modifier>
+            EnemyAirCav.xml
+        </modifier-->
+        <!--modifier>
+            EnemyAirMobileInf.xml
+        </modifier-->
+        <!--modifier>
+        These have been disabled as they are not era agnostic
             EnemyMercFireSupport.xml
-        </modifier>
-        <-modifier>
+        </modifier-->
+        <!--modifier>
             EnemyMercBrawl.xml
-        </modifier>
-        <modifier>
+        </modifier-->
+        <!--modifier>
             EnemyMercSkirmish.xml
-        </modifier>
-        <modifier>
+        </modifier-->
+        <!--modifier>
             EnemyMercScouts.xml
-        </modifier>
-        <modifier>
+        </modifier-->
+        <!--modifier>
             AlliedCavLance.xml
-        </modifier>
-        <modifier>
+        </modifier-->
+        <!--modifier>
             AlliedMekAceCRD.xml
-        </modifier>
-        <modifier>
+        </modifier-->
+        <!--modifier>
             AlliedMekAceGLT.xml
-        </modifier>
-        <modifier>
+        </modifier-->
+        <!--modifier>
             AlliedMekAceGOL.xml
-        </modifier>
-        <modifier>
+        </modifier-->
+        <!--modifier>
             AlliedMekAceOTT.xml
-        </modifier>
-        <modifier>
+        </modifier-->
+        <!--modifier>
             AlliedMekAceTBT.xml
         </modifier-->
         <modifier>
