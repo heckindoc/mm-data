@@ -1,0 +1,81 @@
+#Saved from version 0.50.10 on 2025-11-09
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Foot Platoon (AFFS)
+</Name>
+
+<Model>
+(Laser Marine 3067+)
+</Model>
+
+<year>
+3067
+</year>
+
+<originalBuildYear>
+3067
+</originalBuildYear>
+
+<type>
+IS Level 3
+</type>
+
+<role>
+Ambusher
+</role>
+
+<motion_type>
+Leg
+</motion_type>
+
+<Troopers Equipment>
+Environment Suit, Marine
+</Troopers Equipment>
+
+<Field Guns Equipment>
+</Field Guns Equipment>
+
+<capabilities>
+AFFS marines see to the security of the naval assets that survived the FedCom Civil War and subsequent fight against the Word of Blake, from the small but growing numbers of pocket WarShips to the precious few full size ones.  Older models of laser weapons were replaced with the Federated-Barrett M61A; the grenade launcher is rarely used while on board and is reserved for protecting against boarding actions when ships are grounded.
+</capabilities>
+
+<overview>
+Marines are trained and equipped to engage targets in space and low-gravity environments such as during boarding operations against DropShips and space stations. They may also be deployed in situations where their sealed suits provide some measure of protection, such as toxic atmospheres.
+</overview>
+
+<notes>
+Intro date based on post-Civil War restoration of AFFS
+</notes>
+
+<squad_size>
+7
+</squad_size>
+
+<squadn>
+4
+</squadn>
+
+<secondn>
+1
+</secondn>
+
+<Primary>
+InfantryFederatedBarrettM61A
+</Primary>
+
+<Secondary>
+Needler Pistol
+</Secondary>
+
+<spacesuit>
+true
+</spacesuit>
+
+<specialization>
+64
+</specialization>
+
+

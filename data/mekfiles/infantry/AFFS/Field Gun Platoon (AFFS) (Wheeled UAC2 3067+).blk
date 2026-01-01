@@ -1,0 +1,75 @@
+#Saved from version 0.50.10 on 2025-11-09
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Field Gun Platoon (AFFS)
+</Name>
+
+<Model>
+(Wheeled UAC2 3067+)
+</Model>
+
+<year>
+3067
+</year>
+
+<originalBuildYear>
+3067
+</originalBuildYear>
+
+<type>
+IS Level 3
+</type>
+
+<role>
+Sniper
+</role>
+
+<motion_type>
+Wheeled
+</motion_type>
+
+<Troopers Equipment>
+Fed Suns Infantry Kit (3067+)
+</Troopers Equipment>
+
+<Field Guns Equipment>
+ISUltraAC2
+IS Ultra AC/2 Ammo
+ISUltraAC2
+IS Ultra AC/2 Ammo
+ISUltraAC2
+IS Ultra AC/2 Ammo
+</Field Guns Equipment>
+
+<capabilities>
+Given the strong preference for autocannon among the AFFS the large presence of field guns should not be a surprise.  Ultra-class field guns have longer range and a higher rate of fire than standard or LBX autocannon, but the lack of specialty ammunition compared to standard models and the raw damage capability of newer rotary models make them less popular.
+</capabilities>
+
+<overview>
+Conventional infantry has long had a place of pride in the Federated Suns and later Federated Commonwealth.  Much of the combined arms structure of the AFFC was based on the older AFFS, and following the separation of the Lyran Alliance the remaining AFFC forces reverted to Davion standards in fact if not in name.  By the end of the Fed Com Civil War there were few changes to make aside from rolling out minor technology updates and changing formation names.  One of the most widespread changes was formally adopting a standard set of modular body armor, developed on an ad-hoc basis by field personnel, under the PAB-27 designation.
+</overview>
+
+<notes>
+Intro date based on production date of AFFS 3067+ advanced infantry kit.  Federated Long Rifle is the classic long arm of the AFFS.
+</notes>
+
+<squad_size>
+6
+</squad_size>
+
+<squadn>
+4
+</squadn>
+
+<Primary>
+Rifle (Federated Long)
+</Primary>
+
+<encumberingarmor>
+true
+</encumberingarmor>
+
+

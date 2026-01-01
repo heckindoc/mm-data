@@ -7084,7 +7084,7 @@
             </model>
         </chassis>
         <chassis name='Field Artillery' unitType='Infantry'>
-            <availability>IS:3,LA:0,DC:0,FWL:0,DA:0,OP:0,DTA:0,MSC:0,RF:0,RCM:0,Periphery:3,MH:0</availability>
+            <availability>IS:3,FS:0,LA:0,DC:0,FWL:0,DA:0,OP:0,DTA:0,MSC:0,RF:0,RCM:0,Periphery:3,MH:0</availability>
             <model name='(Arrow IV)'>
                 <roles>missile_artillery</roles>
                 <availability>CC:5,MOC:3,RA.OA:2,PIR:2,IS:4</availability>
@@ -7151,6 +7151,65 @@
             <model name='(Wheeled Thumper Cannon)'>
                 <roles>fire_support,urban</roles>
                 <availability>MH:4+</availability>
+            </model>
+        </chassis>
+        <chassis name='Field Artillery Platoon (AFFS)' unitType='Infantry'>
+            <availability>FS!A:3!B:3!C:2!D:1</availability>
+            <model name='(Motorized Sniper 3067+)'>
+                <roles>mixed_artillery,paratrooper</roles>
+                <availability>FS!D:4</availability>
+            </model>
+            <model name='(Motorized Sniper Cannon 3079+)'>
+                <roles>field_gun,fire_support,paratrooper</roles>
+                <availability>FS!C:4!D:2</availability>
+            </model>
+            <model name='(Motorized Thumper 3067+)'>
+                <roles>mixed_artillery,paratrooper</roles>
+                <availability>FS!D:4</availability>
+            </model>
+            <model name='(Motorized Thumper Cannon 3079+)'>
+                <roles>field_gun,fire_support,paratrooper</roles>
+                <availability>FS!C:4!D:2</availability>
+            </model>
+            <model name='(Tracked Arrow IV 3067+)'>
+                <roles>mixed_artillery</roles>
+                <availability>FS!A:4!B:3!C:1</availability>
+            </model>
+            <model name='(Tracked Sniper 3067+)'>
+                <roles>mixed_artillery</roles>
+                <availability>FS!A:7!B:7!C:7!D:6</availability>
+            </model>
+            <model name='(Tracked Sniper Cannon 3079+)'>
+                <roles>field_gun,fire_support</roles>
+                <availability>FS!A:4!B:2!C:1</availability>
+            </model>
+            <model name='(Tracked Thumper 3067+)'>
+                <roles>mixed_artillery</roles>
+                <availability>FS!A:8!B:8!C:8!D:6</availability>
+            </model>
+            <model name='(Tracked Thumper Cannon 3079+)'>
+                <roles>field_gun,fire_support</roles>
+                <availability>FS!A:4!B:2!C:1</availability>
+            </model>
+            <model name='(Wheeled Arrow IV 3067+)'>
+                <roles>mixed_artillery</roles>
+                <availability>FS!A:4!B:3!C:1</availability>
+            </model>
+            <model name='(Wheeled Sniper 3067+)'>
+                <roles>mixed_artillery</roles>
+                <availability>FS!A:7!B:7!C:7!D:6</availability>
+            </model>
+            <model name='(Wheeled Sniper Cannon 3079+)'>
+                <roles>field_gun,fire_support</roles>
+                <availability>FS:3+</availability>
+            </model>
+            <model name='(Wheeled Thumper 3067+)'>
+                <roles>mixed_artillery</roles>
+                <availability>FS!A:8!B:8!C:8!D:6</availability>
+            </model>
+            <model name='(Wheeled Thumper Cannon 3079+)'>
+                <roles>field_gun,fire_support</roles>
+                <availability>FS:3+</availability>
             </model>
         </chassis>
         <chassis name='Field Artillery Platoon (DCMS)' unitType='Infantry'>
@@ -7403,6 +7462,137 @@
             <model name='(Wheeled AC5 3049+)'>
                 <roles>anti_aircraft,field_gun,fire_support,urban</roles>
                 <availability>MH!A:5!B:3</availability>
+            </model>
+        </chassis>
+        <chassis name='Field Gun Platoon (AFFS)' unitType='Infantry'>
+            <availability>FS:5+</availability>
+            <model name='(Motorized AC10 3067+)'>
+                <roles>field_gun,paratrooper</roles>
+                <availability>FS!C:1!D:2!F:1</availability>
+            </model>
+            <model name='(Motorized AC2 3067+)'>
+                <roles>anti_aircraft,field_gun,paratrooper</roles>
+                <availability>FS!D:1!F:1</availability>
+            </model>
+            <model name='(Motorized AC20 3067+)'>
+                <roles>field_gun,paratrooper</roles>
+                <availability>FS!B:1!D:1</availability>
+            </model>
+            <model name='(Motorized AC5 3067+)'>
+                <roles>anti_aircraft,field_gun,fire_support,paratrooper</roles>
+                <availability>FS!A:4!B:3!C:2!D:3!F:4</availability>
+            </model>
+            <model name='(Motorized LAC2 3067+)'>
+                <roles>anti_aircraft,field_gun,fire_support,paratrooper</roles>
+                <availability>FS!A:3!B:3!C:3!D:4!F:5</availability>
+            </model>
+            <model name='(Motorized LAC5 3067+)'>
+                <roles>anti_aircraft,field_gun,fire_support,paratrooper</roles>
+                <availability>FS!A:5!B:4!C:3!D:4!F:6</availability>
+            </model>
+            <model name='(Motorized LBX10 3067+)'>
+                <roles>anti_aircraft,field_gun,paratrooper</roles>
+                <availability>FS!A:5!B:5!C:3!D:1</availability>
+            </model>
+            <model name='(Motorized LBX5 3067+)'>
+                <roles>anti_aircraft,field_gun,paratrooper</roles>
+                <availability>FS!A:6!B:5!C:1</availability>
+            </model>
+            <model name='(Motorized RAC2 3067+)'>
+                <roles>field_gun,fire_support,paratrooper</roles>
+                <availability>FS:3+</availability>
+            </model>
+            <model name='(Motorized RAC5 3067+)'>
+                <roles>field_gun,fire_support,paratrooper</roles>
+                <availability>FS:3+</availability>
+            </model>
+            <model name='(Tracked AC10 3067+)'>
+                <roles>field_gun</roles>
+                <availability>FS!C:1!D:1</availability>
+            </model>
+            <model name='(Tracked AC20 3067+)'>
+                <roles>field_gun,urban</roles>
+                <availability>FS!B:1</availability>
+            </model>
+            <model name='(Tracked AC5 3067+)'>
+                <roles>anti_aircraft,field_gun,fire_support</roles>
+                <availability>FS!C:1!D:1</availability>
+            </model>
+            <model name='(Tracked LBX10 3067+)'>
+                <roles>anti_aircraft,field_gun</roles>
+                <availability>FS!A:8!B:8!C:5!D:1</availability>
+            </model>
+            <model name='(Tracked LBX20 3067+)'>
+                <roles>field_gun</roles>
+                <availability>FS!A:1!B:1</availability>
+            </model>
+            <model name='(Tracked LBX5 3067+)'>
+                <roles>anti_aircraft,field_gun,fire_support</roles>
+                <availability>FS!A:7!B:6!C:3</availability>
+            </model>
+            <model name='(Tracked RAC2 3067+)'>
+                <roles>field_gun,fire_support</roles>
+                <availability>FS!A:4!B:2!C:1</availability>
+            </model>
+            <model name='(Tracked RAC5 3067+)'>
+                <roles>field_gun,fire_support</roles>
+                <availability>FS!A:4!B:2!C:1</availability>
+            </model>
+            <model name='(Tracked UAC10 3067+)'>
+                <roles>field_gun</roles>
+                <availability>FS!C:1</availability>
+            </model>
+            <model name='(Tracked UAC5 3067+)'>
+                <roles>field_gun,fire_support</roles>
+                <availability>FS!C:1</availability>
+            </model>
+            <model name='(Wheeled AC10 3067+)'>
+                <roles>field_gun,urban</roles>
+                <availability>FS!C:1!D:1!F:1</availability>
+            </model>
+            <model name='(Wheeled AC2 3067+)'>
+                <roles>anti_aircraft,field_gun,fire_support,urban</roles>
+                <availability>FS!D:1!F:2</availability>
+            </model>
+            <model name='(Wheeled AC20 3067+)'>
+                <roles>field_gun,urban</roles>
+                <availability>FS!B:1!C:1</availability>
+            </model>
+            <model name='(Wheeled AC5 3067+)'>
+                <roles>anti_aircraft,field_gun,fire_support,urban</roles>
+                <availability>FS!C:1!D:2!F:2</availability>
+            </model>
+            <model name='(Wheeled LAC2 3067+)'>
+                <roles>anti_aircraft,field_gun,fire_support,urban</roles>
+                <availability>FS!D:3!F:5</availability>
+            </model>
+            <model name='(Wheeled LAC5 3067+)'>
+                <roles>anti_aircraft,field_gun,fire_support,urban</roles>
+                <availability>FS!D:4!F:5</availability>
+            </model>
+            <model name='(Wheeled LBX10 3067+)'>
+                <roles>anti_aircraft,field_gun,urban</roles>
+                <availability>FS!A:8!B:8!C:6!D:1</availability>
+            </model>
+            <model name='(Wheeled LBX5 3067+)'>
+                <roles>anti_aircraft,field_gun,fire_support,urban</roles>
+                <availability>FS!A:7!B:6!C:4</availability>
+            </model>
+            <model name='(Wheeled RAC2 3067+)'>
+                <roles>field_gun,fire_support,urban</roles>
+                <availability>FS!A:5!B:4!C:2</availability>
+            </model>
+            <model name='(Wheeled RAC5 3067+)'>
+                <roles>field_gun,fire_support,urban</roles>
+                <availability>FS!A:5!B:4!C:2</availability>
+            </model>
+            <model name='(Wheeled UAC10 3067+)'>
+                <roles>field_gun,urban</roles>
+                <availability>FS!C:1</availability>
+            </model>
+            <model name='(Wheeled UAC5 3067+)'>
+                <roles>field_gun,fire_support,urban</roles>
+                <availability>FS!C:2</availability>
             </model>
         </chassis>
         <chassis name='Field Gun Platoon (DCMS)' unitType='Infantry'>
@@ -7739,7 +7929,7 @@
             </model>
         </chassis>
         <chassis name='Field Gunners' unitType='Infantry'>
-            <availability>IS:4,LA:0,DC:0,FWL:0,DA:0,OP:0,DTA:0,MSC:0,RF:0,RCM:0,Periphery:2,MH:0</availability>
+            <availability>IS:4,FS:0,LA:0,DC:0,FWL:0,DA:0,OP:0,DTA:0,MSC:0,RF:0,RCM:0,Periphery:2,MH:0</availability>
             <model name='(AC10)'>
                 <roles>field_gun</roles>
                 <availability>General:8-</availability>
@@ -8081,7 +8271,7 @@
             </model>
         </chassis>
         <chassis name='Foot Platoon' unitType='Infantry'>
-            <availability>IS:10,LA!D:3!F:8,DC:0,FWL!D:3!F:8,DA!D:3!F:8,OP!D:3!F:8,DTA!D:3!F:8,MSC!D:3!F:8,RF!D:3!F:8,RCM!D:3!F:8,Periphery:10,TC:3-,MH:0,CDP:4-,CEI!Solahma:10!Provisional Garrison:10,HL:10,Periphery.Deep:10</availability>
+            <availability>IS:10,FS:0,LA!D:3!F:8,DC:0,FWL!D:3!F:8,DA!D:3!F:8,OP!D:3!F:8,DTA!D:3!F:8,MSC!D:3!F:8,RF!D:3!F:8,RCM!D:3!F:8,Periphery:10,TC:3-,MH:0,CDP:4-,CEI!Solahma:10!Provisional Garrison:10,HL:10,Periphery.Deep:10</availability>
             <model name='(Flamer)'>
                 <roles>urban</roles>
                 <availability>IS:8,LA:3-,FWL:3-,DA:3-,OP:3-,DTA:3-,MSC:3-,RF:3-,RCM:3-,Periphery:8,TC:6-,CDP:6-,HL:8,Periphery.Deep:8</availability>
@@ -8145,6 +8335,74 @@
             </model>
             <model name='(SRM)'>
                 <availability>IS:5,LA!D:1,FWL:0,DA:0,OP:0,DTA:0,MSC:0,RF:0,RCM:0,Periphery:5,TC:3+,CDP:3+,HL:5+,Periphery.Deep:5+</availability>
+            </model>
+        </chassis>
+        <chassis name='Foot Platoon (AFFS)' unitType='Infantry'>
+            <availability>FS!A:4!B:5!C:5!D:5!F:8</availability>
+            <model name='(Flamer 3067+)'>
+                <roles>urban</roles>
+                <availability>FS!D:1!F:3</availability>
+            </model>
+            <model name='(Gauss 3067+)'>
+                <availability>FS:2+</availability>
+            </model>
+            <model name='(Laser 3067+)'>
+                <availability>FS!C:1!D:1!F:1</availability>
+            </model>
+            <model name='(Laser Heavy 3067+)'>
+                <availability>FS:3+</availability>
+            </model>
+            <model name='(Laser Marine 3067+)'>
+                <roles>marine</roles>
+                <availability>FS!A:1!B:1</availability>
+            </model>
+            <model name='(Laser Paratrooper 3067+)'>
+                <roles>paratrooper</roles>
+                <availability>FS!C:3!D:1</availability>
+            </model>
+            <model name='(Laser XCT 3067+)'>
+                <roles>xct</roles>
+                <availability>FS!A:1!B:1!C:1</availability>
+            </model>
+            <model name='(LRM 3067+)'>
+                <roles>fire_support</roles>
+                <availability>FS!A:1!B:1!C:1</availability>
+            </model>
+            <model name='(MG 3067+)'>
+                <roles>anti_infantry</roles>
+                <availability>FS!C:1!D:3!F:6</availability>
+            </model>
+            <model name='(Recoilless 3067+)'>
+                <availability>FS!C:1!D:3!F:4</availability>
+            </model>
+            <model name='(Rifle 3067+)'>
+                <availability>FS!C:1!D:6!F:8</availability>
+            </model>
+            <model name='(Rifle AA 3067+)'>
+                <roles>anti_aircraft</roles>
+                <availability>FS!A:1!B:1!C:1</availability>
+            </model>
+            <model name='(Rifle Heavy 3067+)'>
+                <availability>FS!A:5!B:4!C:2</availability>
+            </model>
+            <model name='(Riot Police 3067+)'>
+                <roles>civilian</roles>
+                <availability>FS:8</availability>
+            </model>
+            <model name='(Sappers 2315+)'>
+                <roles>engineer,minesweeper</roles>
+                <availability>FS!A:2!B:1!C:1!D:1</availability>
+            </model>
+            <model name='(Sniper Detachment 2505+)'>
+                <roles>specops</roles>
+                <availability>FS!A:1!B:1</availability>
+            </model>
+            <model name='(SpecOps Fireteam 3067+)'>
+                <roles>paratrooper,recon,specops</roles>
+                <availability>FS!A:3!B:2</availability>
+            </model>
+            <model name='(SRM 3067+)'>
+                <availability>FS:3+</availability>
             </model>
         </chassis>
         <chassis name='Foot Platoon (DCMS)' unitType='Infantry'>
@@ -8343,14 +8601,14 @@
             </model>
         </chassis>
         <chassis name='Foot Stealth Platoon' unitType='Infantry'>
-            <availability>IS:2+,LA:0,DC:0,FWL:0,DA:0,OP:0,DTA:0,MSC:0,RF:0,RCM:0,Periphery:1,MH:0</availability>
+            <availability>IS:2+,FS:0,LA:0,DC:0,FWL:0,DA:0,OP:0,DTA:0,MSC:0,RF:0,RCM:0,Periphery:1,MH:0</availability>
             <model name='(Rifle Paratrooper)'>
                 <roles>recon,specops,paratrooper</roles>
                 <availability>General:8</availability>
             </model>
         </chassis>
         <chassis name='Foot Stealth Squad' unitType='Infantry'>
-            <availability>IS:2+,LA:0,DC:0,FWL:0,DA:0,OP:0,DTA:0,MSC:0,RF:0,RCM:0,Periphery:1+,MH:0</availability>
+            <availability>IS:2+,FS:0,LA:0,DC:0,FWL:0,DA:0,OP:0,DTA:0,MSC:0,RF:0,RCM:0,Periphery:1+,MH:0</availability>
             <model name='(Sniper Paratrooper)'>
                 <roles>recon,specops,paratrooper</roles>
                 <availability>General:8</availability>
@@ -11595,7 +11853,7 @@
             </model>
         </chassis>
         <chassis name='Jump Platoon' unitType='Infantry'>
-            <availability>IS:8,LA:1-,DC:0,FWL:1-,DA:1-,OP:1-,DTA:1-,MSC:1-,RF:1-,RCM:0,Periphery:7,TC:2-,MH:0,CDP:2-,CEI!Second Line:4!Solahma:3!Provisional Garrison:2,HL:7,Periphery.Deep:5+</availability>
+            <availability>IS:8,FS:0,LA:1-,DC:0,FWL:1-,DA:1-,OP:1-,DTA:1-,MSC:1-,RF:1-,RCM:0,Periphery:7,TC:2-,MH:0,CDP:2-,CEI!Second Line:4!Solahma:3!Provisional Garrison:2,HL:7,Periphery.Deep:5+</availability>
             <model name='(Flamer)'>
                 <roles>urban</roles>
                 <availability>IS:8,LA:0,FWL:0,DA:0,OP:0,DTA:0,MSC:0,RF:0,Periphery:8,TC:3-,CDP:3-,HL:8,Periphery.Deep:8</availability>
@@ -11625,6 +11883,40 @@
             </model>
             <model name='(SRM)'>
                 <availability>IS:5,LA:1,FWL:0,DA:0,OP:0,DTA:0,MSC:0,RF:0,Periphery:5,TC:4+,CDP:4+,HL:4+,Periphery.Deep:4+</availability>
+            </model>
+        </chassis>
+        <chassis name='Jump Platoon (AFFS)' unitType='Infantry'>
+            <availability>FS!A:6!B:3!C:1</availability>
+            <model name='(Flamer 3067+)'>
+                <roles>urban</roles>
+                <availability>FS!C:1</availability>
+            </model>
+            <model name='(Gauss 3067+)'>
+                <availability>FS:2+</availability>
+            </model>
+            <model name='(Laser 3067+)'>
+                <availability>FS!A:3!B:3!C:2</availability>
+            </model>
+            <model name='(Laser Anti-Mek 3067+)'>
+                <roles>anti_mek</roles>
+                <availability>FS!A:1!B:1</availability>
+            </model>
+            <model name='(LRM 3067+)'>
+                <roles>fire_support</roles>
+                <availability>FS!A:1!B:1</availability>
+            </model>
+            <model name='(MG 3067+)'>
+                <roles>anti_infantry</roles>
+                <availability>FS!C:1</availability>
+            </model>
+            <model name='(Rifle 3067+)'>
+                <availability>FS!C:1</availability>
+            </model>
+            <model name='(Rifle Heavy 3067+)'>
+                <availability>FS!A:5!B:4!C:2</availability>
+            </model>
+            <model name='(SRM 3067+)'>
+                <availability>FS!A:1!B:1!C:1</availability>
             </model>
         </chassis>
         <chassis name='Jump Platoon (DCMS)' unitType='Infantry'>
@@ -11749,7 +12041,7 @@
             </model>
         </chassis>
         <chassis name='Jump Stealth Platoon' unitType='Infantry'>
-            <availability>IS:2,LA:0,DC:0,FWL:0,DA:0,OP:0,DTA:0,MSC:0,RF:0,RCM:0</availability>
+            <availability>IS:2,FS:0,LA:0,DC:0,FWL:0,DA:0,OP:0,DTA:0,MSC:0,RF:0,RCM:0</availability>
             <model name='(Laser)'>
                 <roles>specops</roles>
                 <availability>IS:5,DC:7</availability>
@@ -14084,7 +14376,7 @@
             </model>
         </chassis>
         <chassis name='Mechanized Hover Platoon' unitType='Infantry'>
-            <availability>IS:5,LA:0,DC:0,FWL:0,DA:0,OP:0,DTA:0,MSC:0,RF:0,RCM:0,Periphery:5,TC:1-,MH:0,CDP:1-,CEI!Second Line:2!Solahma:1,HL:5,Periphery.Deep:4+</availability>
+            <availability>IS:5,FS:0,LA:0,DC:0,FWL:0,DA:0,OP:0,DTA:0,MSC:0,RF:0,RCM:0,Periphery:5,TC:1-,MH:0,CDP:1-,CEI!Second Line:2!Solahma:1,HL:5,Periphery.Deep:4+</availability>
             <model name='(Demolition)'>
                 <roles>recon,engineer</roles>
                 <availability>General:3</availability>
@@ -14113,6 +14405,40 @@
             </model>
             <model name='(SRM)'>
                 <availability>IS:5,Periphery:5,TC:4+,CDP:4+,HL:5+,Periphery.Deep:5+</availability>
+            </model>
+        </chassis>
+        <chassis name='Mechanized Hover Platoon (AFFS)' unitType='Infantry'>
+            <availability>FS!A:4!B:4!C:1</availability>
+            <model name='(Flamer 3067+)'>
+                <roles>urban</roles>
+                <availability>FS!C:1</availability>
+            </model>
+            <model name='(Gauss 3067+)'>
+                <roles>recon</roles>
+                <availability>FS!A:1!B:1</availability>
+            </model>
+            <model name='(Laser 3067+)'>
+                <roles>recon</roles>
+                <availability>FS!B:1!C:2</availability>
+            </model>
+            <model name='(Laser Heavy 3067+)'>
+                <roles>recon</roles>
+                <availability>FS:3+</availability>
+            </model>
+            <model name='(LRM 3067+)'>
+                <roles>fire_support</roles>
+                <availability>FS!A:1!B:1!C:1</availability>
+            </model>
+            <model name='(MG 3067+)'>
+                <roles>anti_infantry</roles>
+                <availability>FS!C:1</availability>
+            </model>
+            <model name='(Rifle 3067+)'>
+                <roles>recon</roles>
+                <availability>FS!C:1</availability>
+            </model>
+            <model name='(SRM 3067+)'>
+                <availability>FS!A:1!B:1!C:1</availability>
             </model>
         </chassis>
         <chassis name='Mechanized Hover Platoon (DCMS)' unitType='Infantry'>
@@ -14269,7 +14595,7 @@
             </model>
         </chassis>
         <chassis name='Mechanized Tracked Platoon' unitType='Infantry'>
-            <availability>IS:7,LA:0,DC:0,FWL:0,DA:0,OP:0,DTA:0,MSC:0,RF:0,RCM:0,Periphery:7,TC:3-,MH:0,CDP:4-,CEI!Second Line:4!Solahma:3!Provisional Garrison:2,HL:7,Periphery.Deep:6+</availability>
+            <availability>IS:7,FS:0,LA:0,DC:0,FWL:0,DA:0,OP:0,DTA:0,MSC:0,RF:0,RCM:0,Periphery:7,TC:3-,MH:0,CDP:4-,CEI!Second Line:4!Solahma:3!Provisional Garrison:2,HL:7,Periphery.Deep:6+</availability>
             <model name='(Bridging)'>
                 <roles>engineer</roles>
                 <availability>IS:2,Periphery:1,Periphery.Deep:0</availability>
@@ -14298,6 +14624,48 @@
             </model>
             <model name='(SRM)'>
                 <availability>IS:5,Periphery:5,TC:4+,CDP:4+,HL:4+,Periphery.Deep:4+</availability>
+            </model>
+        </chassis>
+        <chassis name='Mechanized Tracked Platoon (AFFS)' unitType='Infantry'>
+            <availability>FS!A:6!B:6!C:4!D:1</availability>
+            <model name='(Combat Engineers 3067+)'>
+                <roles>engineer</roles>
+                <availability>FS!A:2!B:2!C:1</availability>
+            </model>
+            <model name='(Flamer 3067+)'>
+                <roles>urban</roles>
+                <availability>FS!D:1</availability>
+            </model>
+            <model name='(Gauss 3067+)'>
+                <availability>FS!A:3!Front Line:2</availability>
+            </model>
+            <model name='(Laser 3067+)'>
+                <availability>FS!A:3!B:3!C:2!D:1</availability>
+            </model>
+            <model name='(LRM 3067+)'>
+                <roles>fire_support</roles>
+                <availability>FS!A:1!B:1!C:1</availability>
+            </model>
+            <model name='(MG 3067+)'>
+                <roles>anti_infantry</roles>
+                <availability>FS!C:1!D:3</availability>
+            </model>
+            <model name='(Rifle 3067+)'>
+                <availability>FS!C:1!D:4</availability>
+            </model>
+            <model name='(Rifle AA 3067+)'>
+                <roles>anti_aircraft</roles>
+                <availability>FS!A:1!B:1!C:1!D:1</availability>
+            </model>
+            <model name='(Rifle Heavy 3067+)'>
+                <availability>FS!A:5!B:4!C:2</availability>
+            </model>
+            <model name='(Sappers 2315+)'>
+                <roles>engineer,minesweeper</roles>
+                <availability>FS!A:1!B:1!C:1!D:1</availability>
+            </model>
+            <model name='(SRM 3067+)'>
+                <availability>FS:3+</availability>
             </model>
         </chassis>
         <chassis name='Mechanized Tracked Platoon (DCMS)' unitType='Infantry'>
@@ -14500,7 +14868,7 @@
             </model>
         </chassis>
         <chassis name='Mechanized Wheeled Platoon' unitType='Infantry'>
-            <availability>IS:7,LA:1-,DC:0,FWL:1-,DA:1-,OP:1-,DTA:1-,MSC:-1,RF:1-,RCM:1-,Periphery:7,TC:2-,MH:0,CDP:3-,CEI!Solahma:5!Provisional Garrison:4,HL:7,Periphery.Deep:8+</availability>
+            <availability>IS:7,FS:0,LA:1-,DC:0,FWL:1-,DA:1-,OP:1-,DTA:1-,MSC:-1,RF:1-,RCM:1-,Periphery:7,TC:2-,MH:0,CDP:3-,CEI!Solahma:5!Provisional Garrison:4,HL:7,Periphery.Deep:8+</availability>
             <model name='(Flamer)'>
                 <roles>urban</roles>
                 <availability>IS:8,LA:0,FWL:0,DA:0,OP:0,DTA:0,MSC:0,RF:0,RCM:0,Periphery:8,TC:4-,CDP:4-,HL:8,Periphery.Deep:8</availability>
@@ -14532,6 +14900,57 @@
             <model name='(SRM)'>
                 <roles>urban</roles>
                 <availability>IS:5,LA!F:3,FWL!F:3,DA!F:3,OP!F:8,DTA!F:3,MSC!F:3,RF!F:3,RCM!F:3,Periphery:5,TC:4+,CDP:4+,HL:4+,Periphery.Deep:4+</availability>
+            </model>
+        </chassis>
+        <chassis name='Mechanized Wheeled Platoon (AFFS)' unitType='Infantry'>
+            <availability>FS!A:7!B:7!C:6!D:3!F:1</availability>
+            <model name='(Combat Engineers 3067+)'>
+                <roles>engineer,urban</roles>
+                <availability>FS!A:1!B:1!C:1!D:1</availability>
+            </model>
+            <model name='(Flamer 3067+)'>
+                <roles>urban</roles>
+                <availability>FS:2-</availability>
+            </model>
+            <model name='(Gauss 3067+)'>
+                <roles>urban</roles>
+                <availability>FS:2+</availability>
+            </model>
+            <model name='(Laser 3067+)'>
+                <roles>urban</roles>
+                <availability>FS!A:1!B:1!C:1!D:2!F:2</availability>
+            </model>
+            <model name='(Laser XCT 3067+)'>
+                <roles>xct</roles>
+                <availability>FS!A:1!B:1</availability>
+            </model>
+            <model name='(LRM 3067+)'>
+                <roles>fire_support</roles>
+                <availability>FS!A:1!B:1!C:1</availability>
+            </model>
+            <model name='(MG 3067+)'>
+                <roles>anti_infantry,urban</roles>
+                <availability>FS!C:1!D:3!F:6</availability>
+            </model>
+            <model name='(Recoilless 3067+)'>
+                <roles>urban</roles>
+                <availability>FS!C:1!D:3!F:6</availability>
+            </model>
+            <model name='(Rifle 3067+)'>
+                <roles>urban</roles>
+                <availability>FS!C:1!D:5!F:7</availability>
+            </model>
+            <model name='(Rifle AA 3067+)'>
+                <roles>anti_aircraft,urban</roles>
+                <availability>FS!A:1!B:1!C:1!D:1</availability>
+            </model>
+            <model name='(Rifle Heavy 3067+)'>
+                <roles>urban</roles>
+                <availability>FS!A:5!B:4!C:2</availability>
+            </model>
+            <model name='(SRM 3067+)'>
+                <roles>urban</roles>
+                <availability>FS:3+</availability>
             </model>
         </chassis>
         <chassis name='Mechanized Wheeled Platoon (DCMS)' unitType='Infantry'>
@@ -15180,7 +15599,7 @@
             </model>
         </chassis>
         <chassis name='Motorized Platoon' unitType='Infantry'>
-            <availability>IS:9,LA!D:2!F:4,DC:0,FWL!D:2!F:4,DA!D:2!F:4,OP!D:2!F:4,DTA!D:2!F:4,MSC!D:2!F:4,RF!D:2!F:4,RCM!D:2!F:4,Periphery:9,TC:3-,MH:0,CDP:4-,CEI!Solahma:8!Provisional Garrison:8,HL:8,Periphery.Deep:8</availability>
+            <availability>IS:9,FS:0,LA!D:2!F:4,DC:0,FWL!D:2!F:4,DA!D:2!F:4,OP!D:2!F:4,DTA!D:2!F:4,MSC!D:2!F:4,RF!D:2!F:4,RCM!D:2!F:4,Periphery:9,TC:3-,MH:0,CDP:4-,CEI!Solahma:8!Provisional Garrison:8,HL:8,Periphery.Deep:8</availability>
             <model name='(Fieldworks)'>
                 <roles>engineer</roles>
                 <availability>IS:4,LA:0,FWL:0,DA:0,OP:0,DTA:0,MSC:0,RF:0,RCM:0,Periphery:2</availability>
@@ -15238,6 +15657,63 @@
             </model>
             <model name='(SRM)'>
                 <availability>IS:5,LA:0,FWL:0,DA:0,OP:0,DTA:0,MSC:0,RF:0,RCM:0,Periphery:5,TC:4+,CDP:4+,HL:5+,Periphery.Deep:5+</availability>
+            </model>
+        </chassis>
+        <chassis name='Motorized Platoon (AFFS)' unitType='Infantry'>
+            <availability>FS!A:1!B:1!C:3!D:4!F:6</availability>
+            <model name='(Combat Engineers 3067+)'>
+                <roles>engineer</roles>
+                <availability>FS!A:2!B:2!C:1!D:1</availability>
+            </model>
+            <model name='(Flamer 3067+)'>
+                <roles>urban</roles>
+                <availability>FS!D:1!F:3</availability>
+            </model>
+            <model name='(Gauss 3067+)'>
+                <availability>FS:2+</availability>
+            </model>
+            <model name='(Laser 3067+)'>
+                <availability>FS!A:3!B:2!C:1!D:1!F:1</availability>
+            </model>
+            <model name='(Laser Anti-Mek 3067+)'>
+                <roles>anti_mek</roles>
+                <availability>FS!A:1!B:1</availability>
+            </model>
+            <model name='(Laser XCT 3067+)'>
+                <roles>xct</roles>
+                <availability>FS!A:1!B:1!C:1</availability>
+            </model>
+            <model name='(LRM 3067+)'>
+                <roles>fire_support</roles>
+                <availability>FS!A:1!B:1!C:1</availability>
+            </model>
+            <model name='(MG 3067+)'>
+                <roles>anti_infantry</roles>
+                <availability>FS!C:1!D:3!F:5</availability>
+            </model>
+            <model name='(Recoilless 3067+)'>
+                <availability>FS!C:1!B:2!D:4</availability>
+            </model>
+            <model name='(Rifle 3067+)'>
+                <availability>FS!C:1!D:5!F:7</availability>
+            </model>
+            <model name='(Rifle AA 3067+)'>
+                <roles>anti_aircraft</roles>
+                <availability>FS!A:1!B:1!C:1</availability>
+            </model>
+            <model name='(Rifle Heavy 3067+)'>
+                <availability>FS!A:5!B:4!C:2</availability>
+            </model>
+            <model name='(Riot Police 3067+)'>
+                <roles>civilian</roles>
+                <availability>FS:8</availability>
+            </model>
+            <model name='(Sappers 2315+)'>
+                <roles>engineer,minesweeper</roles>
+                <availability>FS!A:1!B:1!C:1</availability>
+            </model>
+            <model name='(SRM 3067+)'>
+                <availability>FS:3+</availability>
             </model>
         </chassis>
         <chassis name='Motorized Platoon (DCMS)' unitType='Infantry'>
@@ -15411,7 +15887,7 @@
             </model>
         </chassis>
         <chassis name='Motorized Sub Platoon' unitType='Infantry'>
-            <availability>IS:1,FS:3,LA:0,DC:0,FWL:0,DA:0,OP:0,DTA:0,MSC:0,RF:0,RCM:0,Periphery:1,MH:0</availability>
+            <availability>IS:1,FS:0,LA:0,DC:0,FWL:0,DA:0,OP:0,DTA:0,MSC:0,RF:0,RCM:0,Periphery:1,MH:0</availability>
             <model name='(Laser SCUBA)'>
                 <roles>specops</roles>
                 <availability>IS:9</availability>
