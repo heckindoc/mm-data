@@ -1,0 +1,73 @@
+#Saved from version 0.50.11 on 2025-12-30
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Mechanized Wheeled Platoon (CCAF)
+</Name>
+
+<Model>
+(Gauss 3063+)
+</Model>
+
+<year>
+3063
+</year>
+
+<originalBuildYear>
+3063
+</originalBuildYear>
+
+<type>
+IS Level 3
+</type>
+
+<role>
+Ambusher
+</role>
+
+<motion_type>
+Wheeled
+</motion_type>
+
+<Troopers Equipment>
+Capellan Confederation Armor Kit (3050)
+</Troopers Equipment>
+
+<Field Guns Equipment>
+</Field Guns Equipment>
+
+<capabilities>
+Even with the industrial revolution spurred on by the Xin Sheng program, the CCAF lacks sufficient production to equip most of it's conventional forces with the bulk of the output slated for equipping battle armor suits.
+</capabilities>
+
+<overview>
+After a decade of effort to recover following the distastrous outcome of the Fourth Succession War, the Capellan Confederation finally started fielding upgraded infantry armor in the late 3040s.  Continuing the existing focus on basic but sturdy and reliable material the armor eventually included minor changes in appearance in line with the new Chancellor's Xin Sheng program.
+</overview>
+
+<notes>
+Intro date based on production date of David Light Gauss Rifle. Striker Carbine is standard CCAF long arm.
+</notes>
+
+<squad_size>
+6
+</squad_size>
+
+<squadn>
+4
+</squadn>
+
+<secondn>
+2
+</secondn>
+
+<Primary>
+Rifle (Striker Carbine)
+</Primary>
+
+<Secondary>
+Gauss Rifle, Light (David)
+</Secondary>
+
+

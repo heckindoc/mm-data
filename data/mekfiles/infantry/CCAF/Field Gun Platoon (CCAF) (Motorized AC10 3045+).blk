@@ -1,0 +1,69 @@
+#Saved from version 0.50.12 on 2026-01-02
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Field Gun Platoon (CCAF)
+</Name>
+
+<Model>
+(Motorized AC10 3045+)
+</Model>
+
+<year>
+3045
+</year>
+
+<originalBuildYear>
+3045
+</originalBuildYear>
+
+<type>
+IS Level 3
+</type>
+
+<role>
+Ambusher
+</role>
+
+<motion_type>
+Motorized
+</motion_type>
+
+<Troopers Equipment>
+Capellan Confederation Armor Kit (3050)
+</Troopers Equipment>
+
+<Field Guns Equipment>
+Autocannon/10
+IS Ammo AC/10
+Autocannon/10
+IS Ammo AC/10
+</Field Guns Equipment>
+
+<capabilities>
+Motorized field guns are light and nimble, making them ideal for supporting air mobile forces such as jump infantry regiments which are otherwise light on firepower. Although outclassed by many later versions, older autocannon are still in common use as field guns due to lower operational costs plus a wide range of specialized ammunition.
+</capabilities>
+
+<overview>
+Conventional infantry have always been the defensive backbone of the CCAF.  Equipped with reliable and sturdy gear they depend more on the dedication of individual soldiers than technological superiority to hold the line against invading forces.
+</overview>
+
+<notes>
+Intro date based oncommon production date of AC10
+</notes>
+
+<squad_size>
+7
+</squad_size>
+
+<squadn>
+4
+</squadn>
+
+<Primary>
+InfantryAssaultRifle
+</Primary>
+
+

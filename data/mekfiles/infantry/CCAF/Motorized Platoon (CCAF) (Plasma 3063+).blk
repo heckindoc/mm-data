@@ -1,0 +1,73 @@
+#Saved from version 0.50.11 on 2025-12-31
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Motorized Platoon (CCAF)
+</Name>
+
+<Model>
+(Plasma 3063+)
+</Model>
+
+<year>
+3063
+</year>
+
+<originalBuildYear>
+3063
+</originalBuildYear>
+
+<type>
+IS Level 3
+</type>
+
+<role>
+Ambusher
+</role>
+
+<motion_type>
+Motorized
+</motion_type>
+
+<Troopers Equipment>
+Capellan Confederation Armor Kit (3050)
+</Troopers Equipment>
+
+<Field Guns Equipment>
+</Field Guns Equipment>
+
+<capabilities>
+Adapted from battle armor models, plasma rifles (the 'man portable' qualifier is a subject of quiet debate among the lower ranks) affords CCAF infantry significant firepower to counter the advanced Gauss and laser weapons fielded by other states.  These are most commonly found among mechanized forces which allows the weapon to be repositioned to suit changing battlefield conditions.
+</capabilities>
+
+<overview>
+After a decade of effort to recover following the distastrous outcome of the Fourth Succession War, the Capellan Confederation finally started fielding upgraded infantry armor in the late 3040s.  Continuing the existing focus on basic but sturdy and reliable material the armor eventually included minor changes in appearance in line with the new Chancellor's Xin Sheng program.
+</overview>
+
+<notes>
+Intro date based on prototype date of Plasma Rifle (Man Portable) weapon
+</notes>
+
+<squad_size>
+7
+</squad_size>
+
+<squadn>
+4
+</squadn>
+
+<secondn>
+2
+</secondn>
+
+<Primary>
+Rifle (Striker Carbine)
+</Primary>
+
+<Secondary>
+Plasma Rifle (Man-Portable)
+</Secondary>
+
+

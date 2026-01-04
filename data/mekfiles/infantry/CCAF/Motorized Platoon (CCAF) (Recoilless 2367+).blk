@@ -1,0 +1,73 @@
+#Saved from version 0.50.12 on 2026-01-01
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Motorized Platoon (CCAF)
+</Name>
+
+<Model>
+(Recoilless 2367+)
+</Model>
+
+<year>
+2367
+</year>
+
+<originalBuildYear>
+2367
+</originalBuildYear>
+
+<type>
+IS Level 3
+</type>
+
+<role>
+Ambusher
+</role>
+
+<motion_type>
+Motorized
+</motion_type>
+
+<Troopers Equipment>
+Generic Infantry Kit
+</Troopers Equipment>
+
+<Field Guns Equipment>
+</Field Guns Equipment>
+
+<capabilities>
+Recoilless rifles combine range, stopping power, ammunition selection, and low cost making them a staple of infantry weapon teams.  Eventually they were phased out and replaced with simple short range guided missile systems which offered better performance against modern targets at the cost of flexibility.
+</capabilities>
+
+<overview>
+Conventional infantry have always been the defensive backbone of the CCAF.  Equipped with reliable and sturdy gear they depend more on the dedication of individual soldiers than technological superiority to hold the line against invading forces.
+</overview>
+
+<notes>
+Intro date based on start date of Capellan Confederation faction
+</notes>
+
+<squad_size>
+7
+</squad_size>
+
+<squadn>
+4
+</squadn>
+
+<secondn>
+2
+</secondn>
+
+<Primary>
+InfantryAssaultRifle
+</Primary>
+
+<Secondary>
+InfantryMRR
+</Secondary>
+
+

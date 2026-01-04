@@ -1,0 +1,67 @@
+#Saved from version 0.50.12 on 2026-01-02
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Field Gun Platoon (CCAF)
+</Name>
+
+<Model>
+(Wheeled AC20 3045+)
+</Model>
+
+<year>
+3045
+</year>
+
+<originalBuildYear>
+3045
+</originalBuildYear>
+
+<type>
+IS Level 3
+</type>
+
+<role>
+Ambusher
+</role>
+
+<motion_type>
+Wheeled
+</motion_type>
+
+<Troopers Equipment>
+Capellan Confederation Armor Kit (3050)
+</Troopers Equipment>
+
+<Field Guns Equipment>
+Autocannon/20
+IS Ammo AC/20
+</Field Guns Equipment>
+
+<capabilities>
+Although outclassed by many later versions, older autocannon are still in common use as field guns due to lower operational costs plus a wide range of specialized ammunition.
+</capabilities>
+
+<overview>
+Conventional infantry have always been the defensive backbone of the CCAF.  Equipped with reliable and sturdy gear they depend more on the dedication of individual soldiers than technological superiority to hold the line against invading forces.
+</overview>
+
+<notes>
+Intro date based on prototype date of CCAF advanced armor kit
+</notes>
+
+<squad_size>
+6
+</squad_size>
+
+<squadn>
+4
+</squadn>
+
+<Primary>
+InfantryAssaultRifle
+</Primary>
+
+

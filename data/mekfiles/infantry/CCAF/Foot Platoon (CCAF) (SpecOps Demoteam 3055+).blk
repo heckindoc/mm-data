@@ -1,0 +1,82 @@
+#Saved from version 0.50.11 on 2025-12-30
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Foot Platoon (CCAF)
+</Name>
+
+<Model>
+(SpecOps Demoteam 3055+)
+</Model>
+
+<year>
+3055
+</year>
+
+<originalBuildYear>
+3055
+</originalBuildYear>
+
+<type>
+IS Level 3
+</type>
+
+<role>
+Ambusher
+</role>
+
+<motion_type>
+Leg
+</motion_type>
+
+<Troopers Equipment>
+Demolition Charge
+Sneak Suit (Camo/IR/ECM)
+</Troopers Equipment>
+
+<Field Guns Equipment>
+</Field Guns Equipment>
+
+<capabilities>
+The massive assault of the newly formed Federated Commonwealth into Capellan space forced many assymetrical responses by the CCAF.  One of these was the extensive use of special operations soldiers to attack critical infrastructure supporting the invasion.  Capable of infiltrating heavily guarded facilities these teams would destroy key headquarters buildings, supply dumps, and bridges in an attempt to buy additional time to shore up defenses.  The teams were updated as more advanced technology became available, eventually seeing use supporting the Zhanzheng de Guang guerrillas.
+</capabilities>
+
+<overview>
+Special operations forces, or SpecOps, are sometimes called on to take key parts of important assault operations. Too expensive to field in large numbers these veteran operators are used to assist with planning, training, and leading larger groups of more conventionally trained infantry.
+</overview>
+
+<notes>
+Intro date based on prototype availability for Striker Carbine
+</notes>
+
+<squad_size>
+8
+</squad_size>
+
+<squadn>
+2
+</squadn>
+
+<Primary>
+Rifle (Striker Carbine)
+</Primary>
+
+<sneakcamo>
+true
+</sneakcamo>
+
+<sneakir>
+true
+</sneakir>
+
+<sneakecm>
+true
+</sneakecm>
+
+<specialization>
+514
+</specialization>
+
+

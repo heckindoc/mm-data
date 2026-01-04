@@ -1,0 +1,75 @@
+#Saved from version 0.50.12 on 2026-01-02
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Field Artillery Platoon (CCAF)
+</Name>
+
+<Model>
+(Tracked Thumper Cannon 3079+)
+</Model>
+
+<year>
+3079
+</year>
+
+<originalBuildYear>
+3079
+</originalBuildYear>
+
+<type>
+IS Level 3
+</type>
+
+<role>
+Missile Boat
+</role>
+
+<motion_type>
+Tracked
+</motion_type>
+
+<Troopers Equipment>
+Capellan Confederation Armor Kit (3050)
+</Troopers Equipment>
+
+<Field Guns Equipment>
+ISThumperCannon
+ISThumperCannonAmmo
+</Field Guns Equipment>
+
+<capabilities>
+Artillery cannons bridge the gap between heavy mortars and dedicated tube artillery, and are frequently used as siege weapons to destroy pillboxes and other static emplacements.
+</capabilities>
+
+<overview>
+Conventional infantry have always been the defensive backbone of the CCAF.  Equipped with reliable and sturdy gear they depend more on the dedication of individual soldiers than technological superiority to hold the line against invading forces.
+</overview>
+
+<notes>
+Intro date based on production date of artillery cannons
+</notes>
+
+<squad_size>
+7
+</squad_size>
+
+<squadn>
+4
+</squadn>
+
+<secondn>
+1
+</secondn>
+
+<Primary>
+Submachine Gun
+</Primary>
+
+<Secondary>
+Rifle (Striker Carbine)
+</Secondary>
+
+

@@ -1,0 +1,69 @@
+#Saved from version 0.50.12 on 2026-01-02
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Field Gun Platoon (CCAF)
+</Name>
+
+<Model>
+(Tracked LBX20 3060+)
+</Model>
+
+<year>
+3060
+</year>
+
+<originalBuildYear>
+3060
+</originalBuildYear>
+
+<type>
+IS Level 3
+</type>
+
+<role>
+Ambusher
+</role>
+
+<motion_type>
+Tracked
+</motion_type>
+
+<Troopers Equipment>
+Capellan Confederation Armor Kit (3050)
+</Troopers Equipment>
+
+<Field Guns Equipment>
+ISLBXAC20
+IS LB 20-X Cluster Ammo
+ISLBXAC20
+IS LB 20-X Cluster Ammo
+</Field Guns Equipment>
+
+<capabilities>
+LBX-class field guns are frequently deployed in the anti-aircraft and anti-vehicle roles due to their improved range and ability to fire cluster munitions. The higher costs compared to conventional autocannon is one of the few things preventing them from becoming the defacto standard.
+</capabilities>
+
+<overview>
+Conventional infantry have always been the defensive backbone of the CCAF.  Equipped with reliable and sturdy gear they depend more on the dedication of individual soldiers than technological superiority to hold the line against invading forces.
+</overview>
+
+<notes>
+Intro date based on common production date of LBX autocannon
+</notes>
+
+<squad_size>
+7
+</squad_size>
+
+<squadn>
+4
+</squadn>
+
+<Primary>
+Rifle (Striker Carbine)
+</Primary>
+
+

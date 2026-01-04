@@ -1,0 +1,69 @@
+#Saved from version 0.50.12 on 2026-01-01
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Jump Platoon (CCAF)
+</Name>
+
+<Model>
+(Flamer 3045+)
+</Model>
+
+<year>
+3045
+</year>
+
+<originalBuildYear>
+3045
+</originalBuildYear>
+
+<type>
+IS Level 3
+</type>
+
+<role>
+Ambusher
+</role>
+
+<motion_type>
+Jump
+</motion_type>
+
+<Troopers Equipment>
+Capellan Confederation Armor Kit (3050)
+</Troopers Equipment>
+
+<Field Guns Equipment>
+</Field Guns Equipment>
+
+<overview>
+After a decade of effort to recover following the distastrous outcome of the Fourth Succession War, the Capellan Confederation finally started fielding upgraded infantry armor in the late 3040s.  Continuing the existing focus on basic but sturdy and reliable material the new armor eventually included minor changes in appearance in line with the new Chancellor's Xin Sheng program.
+</overview>
+
+<notes>
+Intro date based on prototype date of CCAF advanced armor kit
+</notes>
+
+<squad_size>
+7
+</squad_size>
+
+<squadn>
+4
+</squadn>
+
+<secondn>
+2
+</secondn>
+
+<Primary>
+InfantryAssaultRifle
+</Primary>
+
+<Secondary>
+Flamer (Man-Portable)
+</Secondary>
+
+

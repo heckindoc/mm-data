@@ -1,0 +1,70 @@
+#Saved from version 0.50.11 on 2025-12-30
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Jump Platoon (CCAF)
+</Name>
+
+<Model>
+(LRM 3057+)
+</Model>
+
+<year>
+3057
+</year>
+
+<originalBuildYear>
+3057
+</originalBuildYear>
+
+<type>
+IS Level 3
+</type>
+
+<role>
+Ambusher
+</role>
+
+<motion_type>
+Jump
+</motion_type>
+
+<Troopers Equipment>
+Capellan Confederation Armor Kit (3050)
+AntiMekGear
+</Troopers Equipment>
+
+<Field Guns Equipment>
+</Field Guns Equipment>
+
+<overview>
+After a decade of effort to recover following the distastrous outcome of the Fourth Succession War, the Capellan Confederation finally started fielding upgraded infantry armor in the late 3040s.  Continuing the existing focus on basic but sturdy and reliable material the armor eventually included minor changes in appearance in line with the new Chancellor's Xin Sheng program.
+</overview>
+
+<notes>
+Intro date based on production date of Corean Farshot LRM. Ceres Striker Carbine is standard CCAF long arm.
+</notes>
+
+<squad_size>
+7
+</squad_size>
+
+<squadn>
+4
+</squadn>
+
+<secondn>
+2
+</secondn>
+
+<Primary>
+Rifle (Striker Carbine)
+</Primary>
+
+<Secondary>
+InfantryLRM
+</Secondary>
+
+

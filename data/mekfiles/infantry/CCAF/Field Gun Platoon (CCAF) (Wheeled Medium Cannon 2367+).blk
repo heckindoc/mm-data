@@ -1,0 +1,75 @@
+#Saved from version 0.50.12 on 2026-01-02
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Field Gun Platoon (CCAF)
+</Name>
+
+<Model>
+(Wheeled Medium Cannon 2367+)
+</Model>
+
+<year>
+2367
+</year>
+
+<originalBuildYear>
+2367
+</originalBuildYear>
+
+<type>
+IS Level 3
+</type>
+
+<role>
+Sniper
+</role>
+
+<motion_type>
+Wheeled
+</motion_type>
+
+<Troopers Equipment>
+Generic Infantry Kit
+</Troopers Equipment>
+
+<Field Guns Equipment>
+Rifle (Cannon, Medium)
+IS Ammo Medium Rifle
+Rifle (Cannon, Medium)
+IS Ammo Medium Rifle
+Rifle (Cannon, Medium)
+IS Ammo Medium Rifle
+Rifle (Cannon, Medium)
+IS Ammo Medium Rifle
+Rifle (Cannon, Medium)
+IS Ammo Medium Rifle
+</Field Guns Equipment>
+
+<capabilities>
+As more capable autocannons were developed, lower rated garrison forces would have to wait to replace their rifled cannons.  Still capable against lighter opponents these older weapons soldiered on for years in backwater garrisons until finally replaced.
+</capabilities>
+
+<overview>
+Conventional infantry have always been the defensive backbone of the CCAF.  Equipped with reliable and sturdy gear they depend more on the dedication of individual soldiers than technological superiority to hold the line against invading forces.
+</overview>
+
+<notes>
+Intro date based on start date of Capellan Confederation faction
+</notes>
+
+<squad_size>
+6
+</squad_size>
+
+<squadn>
+4
+</squadn>
+
+<Primary>
+InfantryAssaultRifle
+</Primary>
+
+

@@ -1,0 +1,85 @@
+#Saved from version 0.50.12 on 2026-01-03
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Mechanized Wheeled Platoon (CCAF)
+</Name>
+
+<Model>
+(Laser XCT 2380+)
+</Model>
+
+<year>
+2380
+</year>
+
+<originalBuildYear>
+2380
+</originalBuildYear>
+
+<type>
+IS Level 3
+</type>
+
+<role>
+Ambusher
+</role>
+
+<motion_type>
+Wheeled
+</motion_type>
+
+<Troopers Equipment>
+Environment Suit, Hostile
+</Troopers Equipment>
+
+<Field Guns Equipment>
+</Field Guns Equipment>
+
+<capabilities>
+Platoons specifically trained to operate in hostile environments are rare and typically operate as pure light infantry with no dedicated heavy support or weapons platoons. To compensate for this they are more heavily armed than standard infantry platoons.
+</capabilities>
+
+<overview>
+XCT infantry platoons are trained and equipped to face combat in any environmental comdition - hot, cold, toxic atmosphere, no atmosphere, it doesn't matter. The additional costs as well as the preference for settling more habitable areas makes them a rare sight outside of places of significant strategic importance.
+</overview>
+
+<notes>
+Intro date based on production date for Support Laser
+</notes>
+
+<squad_size>
+6
+</squad_size>
+
+<squadn>
+4
+</squadn>
+
+<secondn>
+1
+</secondn>
+
+<Primary>
+Laser Rifle
+</Primary>
+
+<Secondary>
+Support Laser
+</Secondary>
+
+<encumberingarmor>
+true
+</encumberingarmor>
+
+<spacesuit>
+true
+</spacesuit>
+
+<specialization>
+2048
+</specialization>
+
+
