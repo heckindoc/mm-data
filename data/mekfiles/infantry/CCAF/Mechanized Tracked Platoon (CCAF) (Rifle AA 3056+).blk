@@ -1,0 +1,73 @@
+#Saved from version 0.50.11 on 2025-12-30
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Mechanized Tracked Platoon (CCAF)
+</Name>
+
+<Model>
+(Rifle AA 3056+)
+</Model>
+
+<year>
+3056
+</year>
+
+<originalBuildYear>
+3056
+</originalBuildYear>
+
+<type>
+IS Level 3
+</type>
+
+<role>
+Ambusher
+</role>
+
+<motion_type>
+Tracked
+</motion_type>
+
+<Troopers Equipment>
+Capellan Confederation Armor Kit (3050)
+</Troopers Equipment>
+
+<Field Guns Equipment>
+</Field Guns Equipment>
+
+<capabilities>
+The return of effective man-portable air defense weapons and increasing presence of air support has lead to wider deployment of air defense platoons. Taking advantage of the carrying capacity of mechanized transports these platoons are equipped with heavier, more capable air defense systems to support expeditionary forces.
+</capabilities>
+
+<overview>
+After a decade of effort to recover following the distastrous outcome of the Fourth Succession War, the Capellan Confederation finally started fielding upgraded infantry armor in the late 3040s.  Continuing the existing focus on basic but sturdy and reliable material the armor eventually included minor changes in appearance in line with the new Chancellor's Xin Sheng program.
+</overview>
+
+<notes>
+Intro date based on re-introduction date of infantry AA Weapon. Ceres Striker Carbine is standard CCAF long arm.
+</notes>
+
+<squad_size>
+7
+</squad_size>
+
+<squadn>
+4
+</squadn>
+
+<secondn>
+2
+</secondn>
+
+<Primary>
+Rifle (Striker Carbine)
+</Primary>
+
+<Secondary>
+AA Weapon (Mk. 2, Man-Portable)
+</Secondary>
+
+

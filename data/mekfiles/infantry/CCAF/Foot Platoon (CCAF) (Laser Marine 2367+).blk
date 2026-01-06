@@ -1,0 +1,77 @@
+#Saved from version 0.50.11 on 2025-12-30
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Foot Platoon (CCAF)
+</Name>
+
+<Model>
+(Laser Marine 2367+)
+</Model>
+
+<year>
+2367
+</year>
+
+<originalBuildYear>
+2367
+</originalBuildYear>
+
+<type>
+IS Level 3
+</type>
+
+<role>
+Ambusher
+</role>
+
+<motion_type>
+Leg
+</motion_type>
+
+<Troopers Equipment>
+Environment Suit, Marine
+</Troopers Equipment>
+
+<Field Guns Equipment>
+</Field Guns Equipment>
+
+<capabilities>
+Like the rest of the major powers of the Inner Sphere the Lyran Navy maintains a modest number of marines in order to secure its conventional fleet and conduct boarding actions, mostly against smugglers and pirate ships. The lack of Confederation WarShips means these are primarily stationed on DropShips and system patrol craft.
+</capabilities>
+
+<overview>
+Marines are trained and equipped to engage targets in space and low-gravity environments such as during boarding operations against DropShips and space stations. They may also be deployed in situations where their sealed suits provide some measure of protection, such as toxic atmospheres.
+</overview>
+
+<notes>
+Intro date based on Capellan faction start date
+</notes>
+
+<squad_size>
+7
+</squad_size>
+
+<squadn>
+4
+</squadn>
+
+<secondn>
+1
+</secondn>
+
+<Primary>
+Laser Rifle
+</Primary>
+
+<Secondary>
+Needler Pistol
+</Secondary>
+
+<specialization>
+64
+</specialization>
+
+

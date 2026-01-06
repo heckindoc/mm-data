@@ -1,0 +1,69 @@
+#Saved from version 0.50.12 on 2026-01-02
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Field Gun Platoon (CCAF)
+</Name>
+
+<Model>
+(Tracked HVAC5 3059+)
+</Model>
+
+<year>
+3059
+</year>
+
+<originalBuildYear>
+3059
+</originalBuildYear>
+
+<type>
+IS Level 3
+</type>
+
+<role>
+Sniper
+</role>
+
+<motion_type>
+Tracked
+</motion_type>
+
+<Troopers Equipment>
+Capellan Confederation Armor Kit (3050)
+</Troopers Equipment>
+
+<Field Guns Equipment>
+Hyper Velocity Auto Cannon/5
+IS Ammo HVAC/5
+Hyper Velocity Auto Cannon/5
+IS Ammo HVAC/5
+</Field Guns Equipment>
+
+<capabilities>
+Hyper-velocity autocannons use a unique, if difficult to manage, system of propellant to acheive extraordinary ranges compared to standard models.  The lack of specialized ammunition and increased burden on logistics makes the CCAF wary of wide deployment.
+</capabilities>
+
+<overview>
+Conventional infantry have always been the defensive backbone of the CCAF.  Equipped with reliable and sturdy gear they depend more on the dedication of individual soldiers than technological superiority to hold the line against invading forces.
+</overview>
+
+<notes>
+Intro date based on prototype date of HVAC-class autocannon
+</notes>
+
+<squad_size>
+7
+</squad_size>
+
+<squadn>
+4
+</squadn>
+
+<Primary>
+Rifle (Striker Carbine)
+</Primary>
+
+

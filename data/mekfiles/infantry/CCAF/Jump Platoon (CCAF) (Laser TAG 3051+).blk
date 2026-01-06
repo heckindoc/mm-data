@@ -1,0 +1,78 @@
+#Saved from version 0.50.12 on 2026-01-02
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Jump Platoon (CCAF)
+</Name>
+
+<Model>
+(Laser TAG 3051+)
+</Model>
+
+<year>
+3051
+</year>
+
+<originalBuildYear>
+3051
+</originalBuildYear>
+
+<type>
+IS Level 3
+</type>
+
+<role>
+Sniper
+</role>
+
+<motion_type>
+Jump
+</motion_type>
+
+<Troopers Equipment>
+AntiMekGear
+Capellan Confederation Armor Kit (3050)
+</Troopers Equipment>
+
+<Field Guns Equipment>
+</Field Guns Equipment>
+
+<capabilities>
+As an early adopter of the recovered Arrow IV artillery system, the CCAF put a high priority on TAG designator system required with the guided missiles. Initially limited to the best equipped commands these platoons ensure a deadly accurate rain of heavy support from Catapults and ground support aircraft.
+</capabilities>
+
+<overview>
+After a decade of effort to recover following the distastrous outcome of the Fourth Succession War, the Capellan Confederation finally started fielding upgraded infantry armor in the late 3040s.  Continuing the existing focus on basic but sturdy and reliable material the new armor eventually included minor changes in appearance in line with the new Chancellor's Xin Sheng program.
+</overview>
+
+<notes>
+Intro date based on re-introduction date of man-portable TAG weapon
+</notes>
+
+<squad_size>
+7
+</squad_size>
+
+<squadn>
+4
+</squadn>
+
+<secondn>
+2
+</secondn>
+
+<Primary>
+Laser Rifle (Intek)
+</Primary>
+
+<Secondary>
+InfantryTAG
+</Secondary>
+
+<specialization>
+1024
+</specialization>
+
+

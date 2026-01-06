@@ -1,0 +1,75 @@
+#Saved from version 0.50.12 on 2026-01-02
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Field Artillery Platoon (CCAF)
+</Name>
+
+<Model>
+(Motorized Arrow IV 3045+)
+</Model>
+
+<year>
+3045
+</year>
+
+<originalBuildYear>
+3045
+</originalBuildYear>
+
+<type>
+IS Level 3
+</type>
+
+<role>
+Missile Boat
+</role>
+
+<motion_type>
+Motorized
+</motion_type>
+
+<Troopers Equipment>
+Capellan Confederation Armor Kit (3050)
+</Troopers Equipment>
+
+<Field Guns Equipment>
+ISArrowIV
+ISArrowIVAmmo
+</Field Guns Equipment>
+
+<capabilities>
+The low ammunition capacity of the towed Arrow IV launcher makes it rare outside of providing fire support to elite assault formations via precision TAG-guided missiles.  CCAF formations supplement this with Air Defense Arrow missiles when available. The motorized version is built light enough to be moved by common VTOLs enabling them to keep pace with air mobile forces.
+</capabilities>
+
+<overview>
+Conventional infantry have always been the defensive backbone of the CCAF.  Equipped with reliable and sturdy gear they depend more on the dedication of individual soldiers than technological superiority to hold the line against invading forces.
+</overview>
+
+<notes>
+Intro date based on prototype date of CCAF advanced armor kit, which is only one year later than Arrow IV re-introduction
+</notes>
+
+<squad_size>
+7
+</squad_size>
+
+<squadn>
+4
+</squadn>
+
+<secondn>
+1
+</secondn>
+
+<Primary>
+Submachine Gun
+</Primary>
+
+<Secondary>
+InfantryAssaultRifle
+</Secondary>
+
+

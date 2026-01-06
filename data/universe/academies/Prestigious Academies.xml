@@ -5693,6 +5693,8 @@
         <curriculum>Tech/Aero, Administration</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
         <qualification>Armored Infantry Technician</qualification>
+        <curriculum>Tech/BattleArmor, Administration</curriculum>
+        <qualificationStartYear>3058</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
     <academy>
@@ -5741,6 +5743,9 @@
         <qualification>Senior Aerospace Technician</qualification>
         <curriculum>Tech/Aero, Administration, Leadership</curriculum>
         <qualificationStartYear>2490</qualificationStartYear>
+        <qualification>Senior Armored Infantry Technician</qualification>
+        <curriculum>Tech/BattleArmor, Administration, Leadership</curriculum>
+        <qualificationStartYear>3058</qualificationStartYear>
         <baseAcademicSkillLevel>0</baseAcademicSkillLevel>
     </academy>
     <academy>

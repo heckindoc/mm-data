@@ -1,0 +1,71 @@
+#Saved from version 0.50.11 on 2025-12-31
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Motorized Platoon (CCAF)
+</Name>
+
+<Model>
+(Combat Engineers 3045+)
+</Model>
+
+<year>
+3045
+</year>
+
+<originalBuildYear>
+3045
+</originalBuildYear>
+
+<type>
+IS Level 3
+</type>
+
+<role>
+None
+</role>
+
+<motion_type>
+Motorized
+</motion_type>
+
+<Troopers Equipment>
+Vibro-Shovel
+Vibro-Shovel
+Capellan Confederation Armor Kit (3050)
+</Troopers Equipment>
+
+<Field Guns Equipment>
+</Field Guns Equipment>
+
+<capabilities>
+Using a combination of bridging equipment and light earthmoving vehicles these troops assist conventional forces in crossing minor obstacles and improving defensive fighting positions. This lightweight version is primarly used to assist air mobile forces such as jump infantry formations.
+</capabilities>
+
+<overview>
+Combat engineers are support troops used to improve the mobility and protection of combat forces.  They can also be found in non-combat situations such as natural disaster response, helping government assistance reach those in need and constructing temporary camps for evacuees.
+</overview>
+
+<notes>
+Intro date based on prototype date of CCAF advanced armor kit
+</notes>
+
+<squad_size>
+7
+</squad_size>
+
+<squadn>
+2
+</squadn>
+
+<Primary>
+Submachine Gun
+</Primary>
+
+<specialization>
+33
+</specialization>
+
+

@@ -1,0 +1,79 @@
+#Saved from version 0.50.12 on 2026-01-02
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Field Gun Platoon (CCAF)
+</Name>
+
+<Model>
+(Motorized LAC2 3070+)
+</Model>
+
+<year>
+3070
+</year>
+
+<originalBuildYear>
+3070
+</originalBuildYear>
+
+<type>
+IS Level 3
+</type>
+
+<role>
+Sniper
+</role>
+
+<motion_type>
+Motorized
+</motion_type>
+
+<Troopers Equipment>
+Capellan Confederation Armor Kit (3050)
+</Troopers Equipment>
+
+<Field Guns Equipment>
+Light Auto Cannon/2
+IS Ammo LAC/2
+Light Auto Cannon/2
+IS Ammo LAC/2
+Light Auto Cannon/2
+IS Ammo LAC/2
+Light Auto Cannon/2
+IS Ammo LAC/2
+Light Auto Cannon/2
+IS Ammo LAC/2
+Light Auto Cannon/2
+IS Ammo LAC/2
+Light Auto Cannon/2
+IS Ammo LAC/2
+</Field Guns Equipment>
+
+<capabilities>
+Motorized field guns are light and nimble, making them ideal for supporting air mobile forces such as jump infantry regiments which are otherwise light on firepower. Advanced lightweight autocannon options offer higher volume of fire while retaining access to the ammunition selection of standard versions.
+</capabilities>
+
+<overview>
+Conventional infantry have always been the defensive backbone of the CCAF.  Equipped with reliable and sturdy gear they depend more on the dedication of individual soldiers than technological superiority to hold the line against invading forces.
+</overview>
+
+<notes>
+Intro date based on common production date of light autocannon
+</notes>
+
+<squad_size>
+7
+</squad_size>
+
+<squadn>
+4
+</squadn>
+
+<Primary>
+Rifle (Striker Carbine)
+</Primary>
+
+
