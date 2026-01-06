@@ -1,0 +1,33 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+DirectFire Gun Emplacements 3057
+#Sniper Gun Emplacements
+Light Sniper Gun Emplacement (2300) (Fusion), 44
+Medium Sniper Gun Emplacement (2300) (Fusion), 20
+Heavy Sniper Gun Emplacement (3039) (Fusion), 12
+Assault Sniper Gun Emplacement (3039) (Fusion), 4
+#Laser Gun Emplacements
+Light Laser Gun Emplacement (2300) (Fusion), 44
+Medium Laser Gun Emplacement (3039) (Fusion), 20
+Heavy Laser Gun Emplacement (3039) (Fusion), 12
+Assault Laser Gun Emplacement (3039) (Fusion), 4
+#Shredder Gun Emplacements
+Light Shredder Gun Emplacement (3057) (Fusion), 44
+Medium Shredder Gun Emplacement (3057) (Fusion), 20
+Heavy Shredder Gun Emplacement (3057) (Fusion), 12
+Assault Shredder Gun Emplacement (3057) (Fusion), 4
