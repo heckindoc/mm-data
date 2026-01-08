@@ -363,7 +363,10 @@ planet:
       - date: '3145-01-01'
         population: 164190046.0
       - date: '2108-12-05'
+        name: Treeline
       - date: '2863-01-01'
+        name: Winfield
+        message: Treeline renamed to Winfield
   - name: Honey Creek
     type: ICE_GIANT
     orbitalDist: 5.2
