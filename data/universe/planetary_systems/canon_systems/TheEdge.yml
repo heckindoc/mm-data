@@ -73,7 +73,7 @@ planet:
     smallMoons: 6
     landmass:
       - name: Gerrish
-        capital: Nugenttown
+        capital: Bono
       - name: New Greenhills
     event:
       - date: '2448-07-12'

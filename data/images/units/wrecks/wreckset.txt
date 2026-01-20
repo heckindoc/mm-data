@@ -69,6 +69,9 @@ exact "default_fighter_squadron" "default_naval_wreck.png"
 
 # put custom pictures here:
 
+# Combat Vehicle Escape Pod (CVEP) - displays as crashed pod wreckage
+chassis "Life Boat" "small_boom.png"
+
 # Vehicles
 #chassis "AC-2 Carrier" " .png"
 #chassis "Aikuchi" " .png"
