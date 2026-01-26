@@ -91,6 +91,9 @@ tasks.register<Copy>("stageMMLFiles") {
     description = "Stages files for MML"
     group = "build"
 
+    mustRunAfter("ratZip")
+    mustRunAfter("unitFilesZip")
+    dependsOn("ratZip")
     dependsOn("unitFilesZip")
 
     from("data") {
