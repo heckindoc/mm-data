@@ -67,7 +67,7 @@ planet:
     water: 26
     lifeForm: INSECT
     desc: Mirfak is an arid planet with a small population, mostly consisting of miners
-      working the sveral small germanium and other rare material mines on the planet.
+      working the several small germanium and other rare material mines on the planet.
     landmass:
       - name: Baudry's Delight
         capital: Humud

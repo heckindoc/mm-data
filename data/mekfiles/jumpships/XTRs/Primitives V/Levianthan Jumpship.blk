@@ -15,16 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#building block data file
-<BlockVersion>
-1
-</BlockVersion>
-
-# Write the version number just in case...
-<Version>
-MAM0
-</Version>
-
+#Saved from version 0.50.11 on 2026-01-12
 <UnitType>
 Jumpship
 </UnitType>
@@ -33,9 +24,9 @@ Jumpship
 Leviathan Jumpship
 </Name>
 
-<model>
+<Model>
 
-</model>
+</Model>
 
 <mul id:>
 4502
@@ -57,16 +48,24 @@ IS Level 4
 None
 </role>
 
+<quirks>
+bad_rep_is
+docking_arms
+easy_maintain
+fragile_fuel
+obsolete:2590
+</quirks>
+
 <motion_type>
 Aerodyne
 </motion_type>
 
 <transporters>
-smallcraftbay:4.0:2:1
-cargobay:1235.0:2:2
-crewquarters:154.0:0
-1stclassquarters:110.0:0
-steeragequarters:55.0:0
+smallcraftbay:4.0:2:1::-1:0
+cargobay:1235.0:2:2::-1:0
+crewquarters:154.0:0:-1::-1:0
+1stclassquarters:110.0:0:-1::-1:0
+steeragequarters:55.0:0:-1::-1:0
 dockingcollar
 dockingcollar
 dockingcollar
@@ -101,9 +100,13 @@ dockingcollar
 41
 </armor_type>
 
-<armor_tech>
+<armor_tech_rating>
+0
+</armor_tech_rating>
+
+<armor_tech_level>
 7
-</armor_tech>
+</armor_tech_level>
 
 <armor>
 13
@@ -139,6 +142,34 @@ dockingcollar
 1
 </structural_integrity>
 
+<capabilities>
+The Leviathan doubled the DropShip capacity of the Liberty class while also offering more than twice the internal cargo space and shuttle bays, all for only a 33% increase in price. Lockheed prioritized the well-being of both the crew and their "clients." The ship featured two separate grav decks: a 90-meter deck specifically for the passengers of docked DropShips and a second deck reserved for the JumpShip’s own crew. To lower operating costs, the ship was built with large access panels and roomy maintenance tunnels. This ensured that repairs were fast and required less specialized labor. The ship’s greatest strengths were also its weaknesses. The external maintenance panels made the vessel "embarrassingly easy" to board and commandeer, while its exposed fuel bunkers made it easy for attackers to disable the ship with minimal effort.
+</capabilities>
+
+<overview>
+The Leviathan was an ambitious "super-transport" designed by Lockheed Galactic to capitalize on the revolutionary docking collar technology pioneered by Blue Nose Interstellar. Aimed at the high-end commercial market, it was built to be more efficient and much larger than its contemporaries. While it was a masterpiece of logistics and crew comfort, its design eventually became a liability due to significant security flaws that made it a prime target for hijackers. Regardless, the design was an examplary of its class for a century of spacefaring.
+</overview>
+
+<history>
+Launched shortly after the Liberty-class, the Leviathan was the cornerstone of Lockheed Galactic’s industrial expansion. It was an immediate success, particularly with large transport conglomerates that used its massive capacity to haul both their own fleets and "tramp" vessels for extra profit. However, by the late 25th century, the ship’s reputation soured as it became known as "easy pickings" for pirates. The very features that made it easy to maintain also made it easy to board. While military and corporate models were later retrofitted with better security and marine detachments, the Leviathan was eventually phased out in favor of the Star Lord and other designs better suited for the high-intensity warfare of the Star League era.
+</history>
+
+<manufacturer>
+Lockheed Galactic
+</manufacturer>
+
+<primaryFactory>
+Thorin
+</primaryFactory>
+
+<use>
+Transport
+</use>
+
+<length>
+760m
+</length>
+
 <source>
 XTR:Primitives III
 </source>
@@ -155,6 +186,10 @@ XTR:Primitives III
 90
 90
 </grav_decks>
+
+<designtype>
+0
+</designtype>
 
 <crew>
 47
@@ -188,11 +223,4 @@ XTR:Primitives III
 5
 </escape_pod>
 
-<quirks>
-easy_maintain
-bad_rep_is
-docking_arms
-fragile_fuel
-obsolete:2590
-</quirks>
 

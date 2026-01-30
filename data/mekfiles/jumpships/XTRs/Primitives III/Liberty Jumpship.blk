@@ -15,16 +15,7 @@
 # <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
 # affiliated with Microsoft.
 
-#building block data file
-<BlockVersion>
-1
-</BlockVersion>
-
-# Write the version number just in case...
-<Version>
-MAM0
-</Version>
-
+#Saved from version 0.50.11 on 2026-01-12
 <UnitType>
 Jumpship
 </UnitType>
@@ -33,9 +24,9 @@ Jumpship
 Liberty Jumpship
 </Name>
 
-<model>
+<Model>
 
-</model>
+</Model>
 
 <mul id:>
 5627
@@ -57,17 +48,23 @@ IS Level 4
 None
 </role>
 
+<quirks>
+docking_arms
+difficult_maintain
+obsolete:2570
+</quirks>
+
 <motion_type>
 Aerodyne
 </motion_type>
 
 <transporters>
-smallcraftbay:2.0:2:1
-cargobay:566.5:1:2
-1stclassquarters:0.0:0
-crewquarters:49.0:0
-2ndclassquarters:0.0:0
-steeragequarters:300.0:0
+smallcraftbay:2.0:2:1::-1:0
+cargobay:566.5:1:2::-1:0
+1stclassquarters:0.0:0:-1::-1:0
+crewquarters:49.0:0:-1::-1:0
+2ndclassquarters:0.0:0:-1::-1:0
+steeragequarters:300.0:0:-1::-1:0
 dockingcollar
 dockingcollar
 dockingcollar
@@ -98,9 +95,13 @@ dockingcollar
 41
 </armor_type>
 
-<armor_tech>
+<armor_tech_rating>
+0
+</armor_tech_rating>
+
+<armor_tech_level>
 7
-</armor_tech>
+</armor_tech_level>
 
 <armor>
 6
@@ -136,6 +137,30 @@ dockingcollar
 1
 </structural_integrity>
 
+<capabilities>
+The K-F Boom: The Liberty's primary innovation was the ability to extend its Kearny-Fuchida jump field to encompass externally docked vessels. This allowed the ship to be built with a thin, efficient hull rather than a massive, fragile internal bay. Docking Infrastructure: Blue Nose became the industry standard for the docking collars and K-F booms required for this new era of transport, licensing the technology to eighteen other manufacturers. Redesigned Habitation: While the original model had a grav deck that was too small for its 70-person crew, subsequent redesigns added essential long-term travel amenities that are now industry standards, such as expanded quarters and small hydroponic gardens. Automation: Throughout its hundred-year production run, advancements in technology allowed for a significant reduction in the required crew size and an increase in the quality of living spaces.
+</capabilities>
+
+<overview>
+The Liberty is perhaps the most significant vessel in naval history, serving as the prototype for the "modern" JumpShip. Developed by Blue Nose Interstellar Technologies, it moved away from the "hollowed-out cylinder" designs of the early 25th century, which carried ships internally. Instead, the Liberty introduced the needle-like hull and external docking collars we recognize today. This breakthrough made interstellar travel significantly cheaper, more resilient, and easier to maintain.
+</overview>
+
+<history>
+Before the Liberty, jump physics were limited; researchers could not figure out how to extend a jump field beyond a ship's hull. In 2458, the BNS Olympus successfully jumped with an externally coupled DropShip, proving the theory of the K-F boom. Following this success, the first twelve Liberty-class ships debuted in 2469. They were an overnight sensation, selling out ten years of production in a single month. The success of the Liberty allowed Blue Nose to expand into "Blue Nose Clipperships," becoming the exclusive supplier for the Terran Hegemony. The design remained in production for nearly a century, with the final vessel delivered in 2550. Over its life cycle, it underwent over two dozen major upgrades, eventually becoming the template for all subsequent JumpShip classes.
+</history>
+
+<manufacturer>
+Blue Nose Interstellar Technologies
+</manufacturer>
+
+<primaryFactory>
+Blue Nose Martian shipyard
+</primaryFactory>
+
+<use>
+Transport
+</use>
+
 <source>
 XTR:Primitives III
 </source>
@@ -151,6 +176,10 @@ XTR:Primitives III
 <grav_decks>
 45
 </grav_decks>
+
+<designtype>
+0
+</designtype>
 
 <crew>
 55
@@ -184,9 +213,4 @@ XTR:Primitives III
 4
 </escape_pod>
 
-<quirks>
-difficult_maintain
-docking_arms
-obsolete:2570
-</quirks>
 
